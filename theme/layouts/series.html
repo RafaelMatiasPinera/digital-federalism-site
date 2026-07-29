@@ -25,7 +25,7 @@
       <li class="chapter-list__item">
         <a href="{{ a.url }}" class="chapter-list__link">
           <span class="chapter-list__num">{{ '%02d' | format(loop.index) }}</span>
-          <span class="chapter-list__title">{{ a.slug | replace('-', ' ') | title }}</span>
+          <span class="chapter-list__title">{{ a.title }}</span>
         </a>
       </li>
       {% endfor %}

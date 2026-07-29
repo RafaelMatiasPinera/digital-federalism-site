@@ -32,7 +32,8 @@
     <div class="inv-grid">
       {% for inv in investigations %}
       <a href="{{ inv.url }}" class="inv-card">
-        <h3 class="inv-card__title">{{ inv.slug | replace('-', ' ') | title }}</h3>
+        <h3 class="inv-card__title">{{ inv.title }}</h3>
+        {% if inv.summary %}<p class="inv-card__summary">{{ inv.summary }}</p>{% endif %}
       </a>
       {% endfor %}
     </div>
@@ -48,7 +49,19 @@
     <div class="index-grid">
       {% for a in articles %}
       <a href="{{ a.url }}" class="index-card">
-        <h3 class="index-card__title">{{ a.slug | replace('-', ' ') | title }}</h3>
+        {% if a.cover_image %}
+        <div class="index-card__cover">
+          <img src="{{ a.cover_image }}" alt="{{ a.title }}" loading="lazy">
+        </div>
+        {% endif %}
+        <div class="index-card__body">
+          <h3 class="index-card__title">{{ a.title }}</h3>
+          {% if a.summary %}<p class="index-card__summary">{{ a.summary }}</p>{% endif %}
+          <div class="index-card__meta">
+            {% if a.published_at %}<time>{{ a.published_at | truncate(10, True, '') }}</time>{% endif %}
+            {% if a.reading_minutes %}<span>· {{ a.reading_minutes }} min</span>{% endif %}
+          </div>
+        </div>
       </a>
       {% endfor %}
     </div>

@@ -19,7 +19,7 @@
       </a>
       {% endif %}
       <div class="hero__content">
-        <a href="{{ hero.url }}" class="hero__category">{{ hero.category or '' }}</a>
+        <a href="{{ hero.category_url or '#' }}" class="hero__category">{{ hero.category_name or hero.category or '' }}</a>
         <h1 class="hero__title"><a href="{{ hero.url }}">{{ hero.title }}</a></h1>
         {% if hero.summary %}
         <p class="hero__summary">{{ hero.summary }}</p>
@@ -58,7 +58,7 @@
           </a>
           {% endif %}
           <div class="latest-list__body">
-            <span class="latest-list__category">{{ card.category or '' }}</span>
+            <span class="latest-list__category">{{ card.category_name or card.category or '' }}</span>
             <h3 class="latest-list__title"><a href="{{ card.url }}">{{ card.title }}</a></h3>
             <div class="latest-list__meta">
               {% if card.published_at %}<time>{{ card.published_at | truncate(10, True, '') }}</time>{% endif %}

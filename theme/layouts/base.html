@@ -66,8 +66,8 @@
 <style>:root { --accent: {{ config.extra['accent_color'] }}; }</style>
 {% endif %}
 
-<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.site_url }}/feed.xml">
-<link rel="alternate" type="application/atom+xml" title="Atom" href="{{ config.site_url }}/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.site_url | trim('/') }}/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="{{ config.site_url | trim('/') }}/atom.xml">
 </head>
 <body class="type-{{ meta.get('type', 'article') }}">
 
