@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://digital-federalism.org/</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/"/>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/"/>
@@ -22,10 +22,19 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digital-federalism.org/en/articles/the-thesis-of-attentional-hijacking-and-short-form-video-abuse"/>
+  </url>
+  <url>
+    <loc>https://digital-federalism.org/en/articles/the-thesis-of-attentional-hijacking-and-short-form-video-abuse</loc>
+    <lastmod>2026-07-29T00:48:21Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digital-federalism.org/en/articles/the-thesis-of-attentional-hijacking-and-short-form-video-abuse"/>
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/politica</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/politica"/>
@@ -33,7 +42,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/politica</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/politica"/>
@@ -41,7 +50,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/tecnologia</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/tecnologia"/>
@@ -49,7 +58,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/tecnologia</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/tecnologia"/>
@@ -57,7 +66,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/religion</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/religion"/>
@@ -65,7 +74,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/religion</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/religion"/>
@@ -73,7 +82,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/juegos</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/juegos"/>
@@ -81,7 +90,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/juegos</loc>
-    <lastmod>2026-07-29T01:57:49Z</lastmod>
+    <lastmod>2026-07-29T02:13:39Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/juegos"/>
