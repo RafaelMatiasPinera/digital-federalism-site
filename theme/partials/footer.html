@@ -1,0 +1,39 @@
+{% set site_lang = (page.meta or {}).get('lang', 'es') %}
+
+<footer class="site-footer" role="contentinfo">
+  <div class="site-header__container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand-block">
+        <div class="site-footer__brand">{{ config.site_name }}</div>
+        <p class="site-footer__tagline">{{ config.site_description or '' }}</p>
+      </div>
+
+      <div>
+        <h4 class="site-footer__title">{{ 'Secciones' if site_lang == 'es' else 'Sections' }}</h4>
+        <ul class="site-footer__list">
+          {% for cat in config.extra.get('nav_categories', []) %}
+          <li><a href="{{ cat.url }}">{{ cat.name }}</a></li>
+          {% endfor %}
+          <li><a href="{{ '/investigaciones/' if site_lang == 'es' else '/en/investigations/' }}">{{ 'Investigaciones' if site_lang == 'es' else 'Investigations' }}</a></li>
+          <li><a href="{{ '/libros/' if site_lang == 'es' else '/en/books/' }}">{{ 'Libros' if site_lang == 'es' else 'Books' }}</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="site-footer__title">{{ 'Seguinos' if site_lang == 'es' else 'Follow us' }}</h4>
+        <ul class="site-footer__list">
+          <li><a href="{{ config.site_url }}/feed.xml">RSS</a></li>
+          <li><a href="{{ config.site_url }}/atom.xml">Atom</a></li>
+          {% if config.extra.get('twitter_handle') %}
+          <li><a href="https://twitter.com/{{ config.extra['twitter_handle'] }}">Twitter</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__legal">
+      <span>© {{ config.extra.get('current_year', '2026') }} {{ config.site_name }}.</span>
+      <span>{{ 'Todos los derechos reservados.' if site_lang == 'es' else 'All rights reserved.' }}</span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,28 @@
+{#
+  MkDocs theme entrypoint.
+
+  Dispatches to the correct layout based on the `type` field of the page's
+  YAML frontmatter (populated by the CMS in v0.6+).
+
+  Available types: home, article, investigation, book, category_index,
+  tag_index, series_index. Anything unknown falls back to article.
+#}
+{% set page_type = page.meta.get('type', 'article') if page.meta else 'article' %}
+
+{% if page_type == 'home' %}
+  {% include "layouts/home.html" %}
+{% elif page_type == 'investigation' %}
+  {% include "layouts/investigation.html" %}
+{% elif page_type == 'book' %}
+  {% include "layouts/book.html" %}
+{% elif page_type == 'category_index' %}
+  {% include "layouts/category.html" %}
+{% elif page_type == 'tag_index' %}
+  {% include "layouts/tag.html" %}
+{% elif page_type == 'series_index' %}
+  {% include "layouts/series.html" %}
+{% elif page_type == 'about' %}
+  {% include "layouts/about.html" %}
+{% else %}
+  {% include "layouts/article.html" %}
+{% endif %}

@@ -1,0 +1,82 @@
+{% extends "layouts/base.html" %}
+
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+{% set team = meta.get('team', []) %}
+
+{% block main_content %}
+<article class="about-page">
+  <header class="about-page__header">
+    <div class="about-page__header-inner">
+      <span class="about-page__label">
+        {{ 'SOBRE NOSOTROS' if site_lang == 'es' else 'ABOUT US' }}
+      </span>
+      <h1 class="about-page__title">{{ meta.title or page.title }}</h1>
+      {% if meta.get('subtitle') %}
+      <p class="about-page__subtitle">{{ meta.subtitle }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="about-page__body prose">
+    {{ page.content }}
+  </div>
+
+  {% if team %}
+  <section class="about-team">
+    <header class="section-header">
+      <h2 class="section-header__title">
+        {{ 'Nuestro equipo' if site_lang == 'es' else 'Our team' }}
+      </h2>
+      <span class="section-header__accent"></span>
+    </header>
+
+    <div class="team-grid">
+      {% for member in team %}
+      <div class="team-card">
+        {% if member.avatar_url %}
+        <div class="team-card__avatar">
+          <img src="{{ member.avatar_url }}" alt="{{ member.name }}" loading="lazy">
+        </div>
+        {% else %}
+        <div class="team-card__avatar team-card__avatar--placeholder">
+          <span>{{ member.name[0] | upper }}</span>
+        </div>
+        {% endif %}
+
+        <div class="team-card__body">
+          <h3 class="team-card__name">{{ member.name }}</h3>
+          {% if member.role %}
+          <p class="team-card__role">{{ member.role }}</p>
+          {% endif %}
+          {% if member.bio %}
+          <p class="team-card__bio">{{ member.bio }}</p>
+          {% endif %}
+          <div class="team-card__social">
+            {% if member.twitter %}
+            <a href="https://twitter.com/{{ member.twitter | replace('@', '') }}"
+               target="_blank" rel="noopener" aria-label="Twitter de {{ member.name }}">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            {% endif %}
+            {% if member.linkedin %}
+            <a href="{{ member.linkedin if member.linkedin.startswith('http') else 'https://linkedin.com/in/' + member.linkedin }}"
+               target="_blank" rel="noopener" aria-label="LinkedIn de {{ member.name }}">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            {% endif %}
+            {% if member.website %}
+            <a href="{{ member.website }}" target="_blank" rel="noopener" aria-label="Sitio web de {{ member.name }}">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+</article>
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "layouts/base.html" %}
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+
+{% block main_content %}
+<article class="book">
+  <header class="book__header">
+    <div class="book__header-inner">
+      <div class="book__cover-block">
+        {% if meta.get('cover_image') %}
+        <figure class="book__cover">
+          <img src="{{ meta.cover_image }}" alt="{{ meta.title }}">
+        </figure>
+        {% else %}
+        <div class="book__cover book__cover--placeholder">
+          <span>{{ meta.title[:1] | upper }}</span>
+        </div>
+        {% endif %}
+      </div>
+      <div class="book__info">
+        <span class="book__label">{{ 'LIBRO' if site_lang == 'es' else 'BOOK' }}</span>
+        <h1 class="book__title">{{ meta.title or page.title }}</h1>
+        {% if meta.get('subtitle') %}<p class="book__subtitle">{{ meta.subtitle }}</p>{% endif %}
+        {% if meta.get('synopsis') %}<p class="book__synopsis">{{ meta.synopsis }}</p>{% endif %}
+        <dl class="book__data">
+          {% if meta.get('code') %}<dt>{{ 'Código' if site_lang == 'es' else 'Code' }}</dt><dd><code>{{ meta.code }}</code></dd>{% endif %}
+          {% if meta.get('isbn') %}<dt>ISBN</dt><dd>{{ meta.isbn }}</dd>{% endif %}
+          {% if meta.get('published_year') %}<dt>{{ 'Año' if site_lang == 'es' else 'Year' }}</dt><dd>{{ meta.published_year }}</dd>{% endif %}
+          {% if meta.get('series') %}<dt>{{ 'Serie' if site_lang == 'es' else 'Series' }}</dt><dd>{{ meta.series }}</dd>{% endif %}
+        </dl>
+      </div>
+    </div>
+  </header>
+
+  <section class="book__preface prose">
+    {{ page.content }}
+  </section>
+
+  {% if meta.get('chapters') %}
+  <section class="book__toc">
+    <header class="section-header">
+      <h2 class="section-header__title">{{ 'Contenido' if site_lang == 'es' else 'Contents' }}</h2>
+      <span class="section-header__accent"></span>
+    </header>
+    <ol class="chapter-list">
+      {% for ch in meta.chapters %}
+      <li class="chapter-list__item">
+        <a href="{{ ch.url }}" class="chapter-list__link">
+          <span class="chapter-list__num">{{ '%02d'|format(ch.order) }}</span>
+          <span class="chapter-list__title">{{ ch.title }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

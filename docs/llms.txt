@@ -1,0 +1,24 @@
+# Digital Federalism
+
+> Editorial platform.
+
+Base URL: https://digital-federalism.org
+
+
+This file is machine-readable for AI crawlers. See https://llmstxt.org for the spec.
+
+
+## Articles
+
+- [La tesis del secuestro atencional (y el abuso del video corto)](https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto)
+
+## Categories
+
+- [politica](https://digital-federalism.org/categorias/politica)
+- [tecnología](https://digital-federalism.org/categorias/tecnologia)
+- [religion](https://digital-federalism.org/categorias/religion)
+- [juegos](https://digital-federalism.org/categorias/juegos)
+
+## Full corpus
+
+- [llms-full.txt](https://digital-federalism.org/llms-full.txt): complete text of every published piece

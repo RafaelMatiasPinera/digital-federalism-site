@@ -1,0 +1,87 @@
+{% extends "layouts/base.html" %}
+
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+
+{% block main_content %}
+<article class="investigation">
+  <header class="investigation__header">
+    <div class="investigation__header-inner">
+      <div class="investigation__badge-row">
+        <span class="investigation__badge">{{ 'INVESTIGACIÓN' if site_lang == 'es' else 'INVESTIGATION' }}</span>
+        {% if meta.get('category') %}
+        <a class="investigation__category" href="{{ '/categorias/' if site_lang == 'es' else '/en/categories/' }}{{ meta.category }}/">
+          {{ meta.category }}
+        </a>
+        {% endif %}
+      </div>
+
+      <h1 class="investigation__title">{{ meta.title or page.title }}</h1>
+
+      {% if meta.get('subtitle') %}
+      <p class="investigation__subtitle">{{ meta.subtitle }}</p>
+      {% endif %}
+
+      <div class="investigation__meta">
+        {% if meta.get('author') %}
+        <div class="investigation__author">
+          <span class="investigation__author-label">{{ 'Por' if site_lang == 'es' else 'By' }}</span>
+          <span class="investigation__author-name">{{ meta.author }}</span>
+        </div>
+        {% endif %}
+        {% if meta.get('published_at') %}
+        <time class="investigation__time" datetime="{{ meta.published_at }}">
+          {{ meta.published_at | truncate(10, True, '') }}
+        </time>
+        {% endif %}
+        {% if meta.get('reading_minutes') %}
+        <span class="investigation__reading">{{ meta.reading_minutes }} min</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  {% if meta.get('cover_image') %}
+  <figure class="investigation__cover">
+    <img src="{{ meta.cover_image }}" alt="{{ meta.title }}">
+  </figure>
+  {% endif %}
+
+  <div class="investigation__layout">
+    <div class="investigation__body prose">
+      {{ page.content }}
+    </div>
+
+    <aside class="investigation__sidebar">
+      <div class="inv-sidebar-block">
+        <h3 class="inv-sidebar-block__title">{{ 'Datos' if site_lang == 'es' else 'Facts' }}</h3>
+        <dl class="inv-sidebar-block__list">
+          {% if meta.get('sources_count') %}
+          <dt>{{ 'Fuentes consultadas' if site_lang == 'es' else 'Sources' }}</dt>
+          <dd>{{ meta.sources_count }}</dd>
+          {% endif %}
+          {% if meta.get('period') %}
+          <dt>{{ 'Período' if site_lang == 'es' else 'Period' }}</dt>
+          <dd>{{ meta.period.get('start') or '?' }} → {{ meta.period.get('end') or '?' }}</dd>
+          {% endif %}
+          {% if meta.get('word_count') %}
+          <dt>{{ 'Palabras' if site_lang == 'es' else 'Words' }}</dt>
+          <dd>{{ meta.word_count }}</dd>
+          {% endif %}
+          {% if meta.get('published_at') %}
+          <dt>{{ 'Publicado' if site_lang == 'es' else 'Published' }}</dt>
+          <dd><time datetime="{{ meta.published_at }}">{{ meta.published_at | truncate(10, True, '') }}</time></dd>
+          {% endif %}
+        </dl>
+      </div>
+
+      {% if meta.get('author') %}
+      <div class="inv-sidebar-block">
+        <h3 class="inv-sidebar-block__title">{{ 'Autor' if site_lang == 'es' else 'Author' }}</h3>
+        <p class="inv-sidebar-block__author">{{ meta.author }}</p>
+      </div>
+      {% endif %}
+    </aside>
+  </div>
+</article>
+{% endblock %}

@@ -1,0 +1,84 @@
+{#
+  Base HTML shell. All layouts extend this.
+  Sets up SEO meta, hreflang, category color CSS variable, and includes
+  the shared header/footer.
+#}
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+{% set page_title = meta.get('title') or page.title or config.site_name %}
+{% set page_description = meta.get('summary') or meta.get('description') or meta.get('seo_description') or config.site_description or '' %}
+{% set page_url = meta.get('url') or (config.site_url + page.url) %}
+{% set canonical = meta.get('canonical') or page_url %}
+{% set og_image = meta.get('cover_image') or meta.get('og_image') %}
+{% set category_color = meta.get('color') or meta.get('category_color') %}
+<!DOCTYPE html>
+<html lang="{{ site_lang }}" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<title>{{ page_title }}{% if page_title != config.site_name %} · {{ config.site_name }}{% endif %}</title>
+<meta name="description" content="{{ page_description }}">
+<link rel="canonical" href="{{ canonical }}">
+{% if meta.get('hreflang') %}
+{% for alt_lang, alt_url in meta['hreflang'].items() %}
+<link rel="alternate" hreflang="{{ alt_lang }}" href="{{ alt_url }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ meta['hreflang'].get('es') or meta['hreflang'].values() | list | first }}">
+{% endif %}
+
+{# Open Graph #}
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:type" content="{% if meta.get('type') == 'article' %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ config.site_name }}">
+<meta property="og:locale" content="{{ 'es_AR' if site_lang == 'es' else 'en_US' }}">
+{% if og_image %}<meta property="og:image" content="{{ og_image }}">{% endif %}
+{% if meta.get('published_at') %}
+<meta property="article:published_time" content="{{ meta['published_at'] }}">
+{% endif %}
+{% if meta.get('updated_at') %}
+<meta property="article:modified_time" content="{{ meta['updated_at'] }}">
+{% endif %}
+{% if meta.get('author') %}
+<meta name="author" content="{{ meta['author'] }}">
+<meta property="article:author" content="{{ meta['author'] }}">
+{% endif %}
+
+{# Twitter Card #}
+<meta name="twitter:card" content="{% if og_image %}summary_large_image{% else %}summary{% endif %}">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+{% if og_image %}<meta name="twitter:image" content="{{ og_image }}">{% endif %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ 'assets/css/editorial.css' | url }}">
+
+{% if category_color %}
+<style>:root { --category-color: {{ category_color }}; }</style>
+{% endif %}
+
+{% if config.extra.get('accent_color') %}
+<style>:root { --accent: {{ config.extra['accent_color'] }}; }</style>
+{% endif %}
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.site_url }}/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Atom" href="{{ config.site_url }}/atom.xml">
+</head>
+<body class="type-{{ meta.get('type', 'article') }}">
+
+{% include "partials/header.html" %}
+
+<main class="site-main" id="main">
+  {% block main_content %}{% endblock %}
+</main>
+
+{% include "partials/footer.html" %}
+
+<script src="{{ 'assets/js/site.js' | url }}" defer></script>
+</body>
+</html>

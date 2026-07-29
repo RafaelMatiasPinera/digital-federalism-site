@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digital-federalism.org/sitemap.xml
+Sitemap: https://digital-federalism.org/sitemap-news.xml

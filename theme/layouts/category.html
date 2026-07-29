@@ -1,0 +1,60 @@
+{% extends "layouts/base.html" %}
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+{% set articles = meta.get('articles', []) %}
+{% set investigations = meta.get('investigations', []) %}
+
+{% block main_content %}
+<div class="index-page index-page--category"
+     {% if meta.get('color') %}style="--category-color: {{ meta.color }};"{% endif %}>
+
+  <header class="index-page__header">
+    <div class="index-page__header-inner">
+      <span class="index-page__label">{{ 'CATEGORÍA' if site_lang == 'es' else 'CATEGORY' }}</span>
+      <h1 class="index-page__title">{{ meta.title }}</h1>
+      {% if meta.get('description') %}
+      <p class="index-page__description">{{ meta.description }}</p>
+      {% endif %}
+      <div class="index-page__meta">
+        <span>{{ meta.get('article_count', 0) }} {{ 'artículos' if site_lang == 'es' else 'articles' }}</span>
+        {% if investigations %}
+        <span>· {{ meta.get('investigation_count', 0) }} {{ 'investigaciones' if site_lang == 'es' else 'investigations' }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  {% if investigations %}
+  <section class="index-page__section">
+    <header class="section-header section-header--dark">
+      <span class="section-header__badge">{{ 'INVESTIGACIONES' if site_lang == 'es' else 'INVESTIGATIONS' }}</span>
+    </header>
+    <div class="inv-grid">
+      {% for inv in investigations %}
+      <a href="{{ inv.url }}" class="inv-card">
+        <h3 class="inv-card__title">{{ inv.slug | replace('-', ' ') | title }}</h3>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="index-page__section">
+    <header class="section-header">
+      <h2 class="section-header__title">{{ 'Artículos' if site_lang == 'es' else 'Articles' }}</h2>
+      <span class="section-header__accent"></span>
+    </header>
+    {% if articles %}
+    <div class="index-grid">
+      {% for a in articles %}
+      <a href="{{ a.url }}" class="index-card">
+        <h3 class="index-card__title">{{ a.slug | replace('-', ' ') | title }}</h3>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-state">{{ 'Sin artículos todavía.' if site_lang == 'es' else 'No articles yet.' }}</p>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

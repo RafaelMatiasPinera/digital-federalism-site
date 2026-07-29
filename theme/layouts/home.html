@@ -1,0 +1,113 @@
+{% extends "layouts/base.html" %}
+
+{% set meta = page.meta or {} %}
+{% set featured = meta.get('featured', []) %}
+{% set latest = meta.get('latest_articles', []) %}
+{% set latest_inv = meta.get('latest_investigations', []) %}
+
+{% block main_content %}
+<div class="home">
+
+  {# Hero — first featured piece, or first latest if none featured #}
+  {% set hero = featured[0] if featured else (latest[0] if latest else none) %}
+  {% if hero %}
+  <section class="home__hero">
+    <div class="hero">
+      {% if hero.cover_image %}
+      <a href="{{ hero.url }}" class="hero__cover">
+        <img src="{{ hero.cover_image }}" alt="{{ hero.title }}" loading="eager">
+      </a>
+      {% endif %}
+      <div class="hero__content">
+        <a href="{{ hero.url }}" class="hero__category">{{ hero.category or '' }}</a>
+        <h1 class="hero__title"><a href="{{ hero.url }}">{{ hero.title }}</a></h1>
+        {% if hero.summary %}
+        <p class="hero__summary">{{ hero.summary }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {# Featured grid — items 2, 3, 4 of featured (skip hero) #}
+  {% if featured | length > 1 %}
+  <section class="home__grid">
+    <div class="home__grid-inner">
+      {% for card in featured[1:4] %}
+      {% with card_variant='featured' %}
+        {% include "partials/article_card.html" %}
+      {% endwith %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {# Split layout: latest list + sidebar #}
+  <section class="home__split">
+    <div class="home__latest">
+      <header class="section-header">
+        <h2 class="section-header__title">Últimas publicaciones</h2>
+        <span class="section-header__accent"></span>
+      </header>
+      <ol class="latest-list">
+        {% for card in latest %}
+        <li class="latest-list__item">
+          {% if card.cover_image %}
+          <a href="{{ card.url }}" class="latest-list__cover">
+            <img src="{{ card.cover_image }}" alt="{{ card.title }}" loading="lazy">
+          </a>
+          {% endif %}
+          <div class="latest-list__body">
+            <span class="latest-list__category">{{ card.category or '' }}</span>
+            <h3 class="latest-list__title"><a href="{{ card.url }}">{{ card.title }}</a></h3>
+            <div class="latest-list__meta">
+              {% if card.published_at %}<time>{{ card.published_at | truncate(10, True, '') }}</time>{% endif %}
+              {% if card.reading_minutes %}<span>· {{ card.reading_minutes }} min</span>{% endif %}
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+
+    <aside class="home__sidebar" aria-label="Más leídas">
+      <div class="sidebar-block">
+        <header class="section-header section-header--sm">
+          <h2 class="section-header__title">Destacadas</h2>
+          <span class="section-header__accent"></span>
+        </header>
+        <ol class="ranked-list">
+          {% for card in featured[:5] %}
+          <li class="ranked-list__item">
+            <span class="ranked-list__num">{{ loop.index }}</span>
+            <a href="{{ card.url }}" class="ranked-list__title">{{ card.title }}</a>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+    </aside>
+  </section>
+
+  {# Investigations block — differentiated visual #}
+  {% if latest_inv %}
+  <section class="home__investigations">
+    <header class="section-header section-header--dark">
+      <span class="section-header__badge">INVESTIGACIONES</span>
+      <h2 class="section-header__title">Trabajos en profundidad</h2>
+    </header>
+    <div class="inv-grid">
+      {% for inv in latest_inv %}
+      <a href="{{ inv.url }}" class="inv-card">
+        <span class="inv-card__category">{{ inv.category or '' }}</span>
+        <h3 class="inv-card__title">{{ inv.title }}</h3>
+        {% if inv.published_at %}
+        <time class="inv-card__time">{{ inv.published_at | truncate(10, True, '') }}</time>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+</div>
+{% endblock %}

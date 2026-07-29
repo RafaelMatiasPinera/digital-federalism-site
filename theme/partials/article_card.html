@@ -1,0 +1,41 @@
+{#
+  Article card — reusable in home grid, category/tag/series index, and
+  "más de esta categoría" trailers.
+
+  Expects `card` dict with: title, url, summary, category, category_name,
+  category_color, cover_image, published_at, reading_minutes.
+
+  Optional variant: card_variant = 'hero' | 'featured' | 'default' | 'compact'
+#}
+{% set variant = card_variant | default('default') %}
+<article class="card card--{{ variant }}"
+         {% if card.category_color %}style="--card-color: {{ card.category_color }};"{% endif %}>
+  {% if card.cover_image and variant != 'compact' %}
+  <a href="{{ card.url }}" class="card__cover">
+    <img src="{{ card.cover_image }}" alt="{{ card.title }}" loading="lazy">
+  </a>
+  {% endif %}
+
+  <div class="card__body">
+    {% if card.category_name %}
+    <a href="{{ card.category_url or '#' }}" class="card__category">{{ card.category_name }}</a>
+    {% endif %}
+
+    <h3 class="card__title">
+      <a href="{{ card.url }}">{{ card.title }}</a>
+    </h3>
+
+    {% if card.summary and variant in ['hero', 'featured'] %}
+    <p class="card__summary">{{ card.summary }}</p>
+    {% endif %}
+
+    <div class="card__meta">
+      {% if card.published_at %}
+      <time class="card__time" datetime="{{ card.published_at }}">{{ card.published_at | truncate(10, True, '') }}</time>
+      {% endif %}
+      {% if card.reading_minutes %}
+      <span class="card__reading">· {{ card.reading_minutes }} min</span>
+      {% endif %}
+    </div>
+  </div>
+</article>

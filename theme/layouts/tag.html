@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+{% set articles = meta.get('articles', []) %}
+
+{% block main_content %}
+<div class="index-page index-page--tag">
+  <header class="index-page__header">
+    <div class="index-page__header-inner">
+      <span class="index-page__label">{{ 'ETIQUETA' if site_lang == 'es' else 'TAG' }}</span>
+      <h1 class="index-page__title">#{{ meta.title }}</h1>
+      <div class="index-page__meta">
+        <span>{{ meta.get('article_count', 0) }} {{ 'artículos' if site_lang == 'es' else 'articles' }}</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="index-page__section">
+    {% if articles %}
+    <div class="index-grid">
+      {% for a in articles %}
+      <a href="{{ a.url }}" class="index-card">
+        <h3 class="index-card__title">{{ a.slug | replace('-', ' ') | title }}</h3>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-state">{{ 'Sin artículos con esta etiqueta.' if site_lang == 'es' else 'No articles yet.' }}</p>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

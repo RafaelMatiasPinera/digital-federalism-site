@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <id>https://digital-federalism.org/atom.xml</id>
+  <title>Digital Federalism</title>
+  <updated>2026-07-29T00:49:30.803078+00:00</updated>
+  <author>
+    <name>Digital Federalism</name>
+  </author>
+  <link href="https://digital-federalism.org/" rel="alternate"/>
+  <link href="https://digital-federalism.org/atom.xml" rel="self"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto</id>
+    <title>La tesis del secuestro atencional (y el abuso del video corto)</title>
+    <updated>2026-07-29T00:48:21.003940+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto"/>
+    <published>2026-07-29T00:48:21.003940+00:00</published>
+  </entry>
+</feed>

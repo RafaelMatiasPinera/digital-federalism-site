@@ -1,0 +1,38 @@
+{% extends "layouts/base.html" %}
+{% set meta = page.meta or {} %}
+{% set site_lang = meta.get('lang', 'es') %}
+{% set articles = meta.get('articles', []) %}
+
+{% block main_content %}
+<div class="index-page index-page--series">
+  <header class="index-page__header">
+    <div class="index-page__header-inner">
+      <span class="index-page__label">{{ 'SERIE' if site_lang == 'es' else 'SERIES' }}</span>
+      <h1 class="index-page__title">{{ meta.title }}</h1>
+      {% if meta.get('description') %}
+      <p class="index-page__description">{{ meta.description }}</p>
+      {% endif %}
+      <div class="index-page__meta">
+        <span>{{ meta.get('article_count', 0) }} {{ 'entregas' if site_lang == 'es' else 'installments' }}</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="index-page__section">
+    {% if articles %}
+    <ol class="chapter-list">
+      {% for a in articles %}
+      <li class="chapter-list__item">
+        <a href="{{ a.url }}" class="chapter-list__link">
+          <span class="chapter-list__num">{{ '%02d' | format(loop.index) }}</span>
+          <span class="chapter-list__title">{{ a.slug | replace('-', ' ') | title }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p class="empty-state">{{ 'Sin entregas todavía.' if site_lang == 'es' else 'No installments yet.' }}</p>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}
