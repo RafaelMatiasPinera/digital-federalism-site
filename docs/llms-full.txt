@@ -1,6 +1,6 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-08-04T17:47:55.522142-03:00
+Generated at 2026-08-04T18:04:44.011320-03:00
 
 Total pieces: 4
 
@@ -63,25 +63,26 @@ Un año después de su muerte, en 1884, León XIII publicó Humanum Genus, la en
 
 Lo que dejó pendiente, y lo que dejó a sus herederos, fue el problema de cómo hablar de la agencia consciente sin caer en el relato oculto. La derecha reaccionaria del siglo XIX tenía un lenguaje para eso, aunque el lenguaje fuera falso. La tradición marxista tuvo que inventar el suyo casi desde cero, y todavía está haciéndolo.
 
-Augustin Barruel, Mémoires pour servir à l'histoire du Jacobinisme, 4 tomos, Londres, 1797-1798. Hay edición española en Alta Fulla, Barcelona, 2003, con estudio preliminar útil.\
+FUENTES:
+
+Augustin Barruel, Mémoires pour servir à l'histoire du Jacobinisme, 4 tomos, Londres, 1797-1798. \
 John Robison, Proofs of a Conspiracy against all the Religions and Governments of Europe, Edimburgo, 1798. Disponible en Internet Archive y Project Gutenberg.\
 Joseph de Maistre, Consideraciones sobre Francia (1797) y Las veladas de San Petersburgo (1821). Edición española: Tecnos, 1990.\
 Louis de Bonald, Teoría del poder político y religioso (1796).\
 Nicolas Deschamps, S.J., Les sociétés secrètes et la société, ou Philosophie de l'histoire contemporaine, 3 tomos, Avignon, Seguin, 1874-1876. Consultable en Gallica (BnF).\
-Jedidiah Morse, A Sermon Delivered at the New North Church in Boston (1798). Fuente primaria del pánico anti-iluminati.\
+Jedidiah Morse, A Sermon Delivered at the New North Church in Boston (1798). \
 John Quincy Adams, Letters on the Masonic Institution, Boston, 1847.\
-William Preston Vaughn, The Anti-Masonic Party in the United States, 1826-1843 (University Press of Kentucky, 1983). Estudio académico de referencia.\
+William Preston Vaughn, The Anti-Masonic Party in the United States, 1826-1843 (University Press of Kentucky, 1983). \
 Paul Goodman, Towards a Christian Republic: Antimasonry and the Great Transition in New England, 1826-1836 (Oxford, 1988).\
-Karl Marx, Enthüllungen über den Kommunisten-Prozess zu Köln (Revelaciones sobre el proceso de los comunistas de Colonia), 1853. Está en el volumen 11 de las Marx-Engels Collected Works (Progress/Lawrence & Wishart) y en [marxists.org](http://marxists.org).\
-Wilhelm Stieber, Denkwürdigkeiten des Wilhelm Stieber (memorias póstumas, 1884). Fuente autobiográfica del propio jefe de policía.\
-Franz Mehring, Karl Marx. Historia de su vida (1918). Reconstrucción clásica que incluye el proceso de Colonia con detalle.\
-Jonathan Sperber, Karl Marx. A Nineteenth-Century Life (Norton, 2013; hay edición española en Galaxia Gutenberg). Biografía reciente y sólida, con el contexto policial y las persecuciones.\
-Karl Marx y Friedrich Engels, La Sagrada Familia, o Crítica de la crítica crítica (1845), capítulo VIII especialmente. Ahí despliegan la crítica a Sue como método.\
+Karl Marx, Enthüllungen über den Kommunisten-Prozess zu Köln 1853. \
+Wilhelm Stieber, Denkwürdigkeiten des Wilhelm Stieber (memorias póstumas, 1884). \
+Franz Mehring, Karl Marx. Historia de su vida (1918). \
+Jonathan Sperber, Karl Marx. A Nineteenth-Century Life (Norton, 2013; hay edición española en Galaxia Gutenberg). \
+Karl Marx y Friedrich Engels, La Sagrada Familia, o Crítica de la crítica crítica (1845), capítulo VIII especialmente. \
 Eugène Sue, El judío errante (1844-1845). El Los misterios de París del mismo autor también está discutido por Marx y Engels.\
 Antonio Gramsci, Cuadernos de la cárcel, edición crítica de Valentino Gerratana (Era, 6 tomos). Cuadernos 12, 13 y 25 son los más pertinentes para hegemonía e intelectuales orgánicos.\
-Perry Anderson, "Las antinomias de Antonio Gramsci", New Left Review, 1976. Ensayo clásico sobre las tensiones internas del concepto de hegemonía.\
-Norman Cohn, El mito de la conspiración judía mundial (Alianza, 1983; original: Warrant for Genocide, 1967). Muestra la línea Barruel → Protocolos.\
-Monita Secreta, texto apócrifo del jesuita polaco Jerónimo Zahorowski, publicado por primera vez en Cracovia en 1614. Sobre su historia: Sabina Pavone, Le astuzie dei gesuiti. Le false istruzioni segrete della Compagnia di Gesù e la polemica antigesuita nei secoli XVII e XVIII (Salerno, 2000).
+Perry Anderson, "Las antinomias de Antonio Gramsci", New Left Review, 1976. \
+Norman Cohn, El mito de la conspiración judía mundial (Alianza, 1983; original: Warrant for Genocide, 1967). 
 
 #Historia #Marx #Marxismo #Ensayo #HistoriaDeLasIdeas #Ilustración #RevoluciónFrancesa #Conspiración #PensamientoPolítico #SigloXIX
 
