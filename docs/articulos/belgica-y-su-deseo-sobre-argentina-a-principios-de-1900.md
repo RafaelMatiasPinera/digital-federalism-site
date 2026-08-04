@@ -1,21 +1,26 @@
-# Digital Federalism — full corpus
-
-Generated at 2026-08-04T17:36:36.632437-03:00
-
-Total pieces: 2
-
-
 ---
-
-
-
-## Article: Bélgica y su deseo sobre Argentina a principios de 1900
-
-URL: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
-Author: Rafael Piñera
-Category: historia
-Published: 2026-08-04T20:36:15.470036
-Reading time: 6 min
+type: article
+id: 2
+title: Bélgica y su deseo sobre Argentina a principios de 1900
+slug: belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
+lang: es
+author: Rafael Piñera
+author_username: rafa
+category: historia
+category_name: historia
+tags: []
+series: null
+reading_minutes: 6
+word_count: 1399
+is_featured: false
+updated_at: '2026-08-04T20:36:15+00:00'
+url: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
+hreflang:
+  es: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
+published_at: '2026-08-04T20:36:15.470036+00:00'
+date: '2026-08-04'
+canonical: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
+---
 
 En los hogares de Villaguay, provincia de Entre Ríos, el retrato del rey Leopoldo II de Bélgica presidía la mesa familiar. Había llegado con los colonos flamencos en 1882 —cuarenta familias que un hombre llamado Eugenio Schepens había reclutado en Oudenaarde— y quedó ahí, mirando desde la pared cómo esos campesinos aprendían castellano, sembraban trigo y se volvían criollos. En ese mismo momento, a un océano de distancia, su rey empezaba a convertir el Congo en su feudo privado. La misma cara de barba blanca, la misma mirada dura, presidía las dos escenas.
 
@@ -67,109 +72,3 @@ Sobre Leopoldo III y Sudamérica:\
 "Lago Leopoldo / Lago Autana", Wikipedia en español. Fecha de la expedición (1952-1953), organización por José M. Cruxent, hecho curioso de que la expedición del rey nunca llegó al lago.
 
 #Historia #Argentina #Colonialismo #LeopoldoII #Bélgica #Congo #Patagonia #Villaguay #EntreRíos #HistoriaLatinoamericana
-
----
-
-
-
-## Article: La tesis del secuestro atencional (y el abuso del video corto)
-
-URL: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
-Author: Rafael Piñera
-Category: tecnologia
-Published: 2026-07-29T00:48:21.003940
-Reading time: 5 min
-
-En un mundo donde buena parte de la información relevante para pensar temas complejos está disponible (desclasificaciones, investigaciones, papers, archivos abiertos), el cuello de botella dejó de ser solo el acceso y empezó a ser la capacidad de procesarla.
-
-Si la persona no puede sostener foco el tiempo suficiente para entender algo complejo, ese algo queda fuera de su alcance aunque pueda encontrarlo.
-
-Sigue habiendo información oculta, pero la novedad histórica es que ya no hace falta ocultar todo lo que la mayoría directamente no puede procesar.
-
-En una línea: junto con la censura clásica de contenido, ahora opera una segunda capa que apunta a la capacidad misma de atender.
-
-## **Evidencia agregada de gran escala**
-
-El estudio más sólido hasta la fecha es el meta-análisis de Nguyen y colegas, publicado en Psychological Bulletin (revista de la American Psychological Association) en septiembre de 2025.
-
-Dicho estudio analiza 71 estudios con 98.299 participantes de cinco continentes. Encuentra que el uso de video corto (TikTok, Reels, Shorts) se asocia con peor cognición general con tamaño de efecto moderado (r=-0.34), y los efectos más marcados aparecen en atención sostenida (r=-0.38) y control inhibitorio (r=-0.41).
-
-También encuentra asociación con peor salud mental, con estrés y ansiedad como los indicadores más afectados.
-
-Los hallazgos son consistentes en muestras de jóvenes y adultos, y en distintas plataformas.
-
-*Fuente: Nguyen L. et al. (2025). "Feeds, feelings, and focus." Psychological Bulletin, 151(9):1125-1146. DOI: 10.1037/bul0000498*.
-
-Una revisión sistemática paralela publicada en medRxiv en 2025 llegó a conclusiones consistentes y agregó dimensiones cognitivas menos estudiadas: **lenguaje, memoria y memoria de trabajo también se ven afectadas.**
-
-*Fuente: revisión sistemática en medRxiv (2025.08.27.25334540), enfocada en Generación Z*.
-
-## **Neuroimagen y circuitos de recompensa**
-
-Los estudios de resonancia magnética funcional muestran menor activación en la corteza prefrontal dorsolateral y la corteza cingulada anterior (zonas de control ejecutivo) durante **el uso de video corto**, junto con activación intensificada del área tegmental ventral, el mismo circuito **dopaminérgico que se dispara con drogas y apuestas.**
-
-La combinación sugiere un desplazamiento hacia procesamiento reactivo, guiado por estímulo, con menor participación del control voluntario.
-
-*Fuentes: Su et al. (2021) y Firth et al. (2019) sobre DLPFC y ACC; Zhou & Wang (2025) sobre conectividad prefrontal-estriatal.*
-
-## **Evidencia electrofisiológica**
-
-El estudio de Satani y colegas de julio de 2025, publicado en Cureus, aplicó EEG de 24 canales a 100 adultos usando redes sociales por 30 minutos.
-
-Registró disminución de ondas alfa durante el uso, indicando carga cognitiva alta, y elevación sostenida de ondas beta y gamma que persiste después del uso, **sugiriendo un estado prolongado de hiperactivación.**
-
-\-La interacción activa aumenta beta y gamma.
-
-\-El scroll pasivo aumenta theta y delta.
-
-*Fuente: Satani A. et al. (2025). "Modern Day High: The Neurocognitive Impact of Social Media Usage." Cureus 17(7):e87496. DOI: 10.7759/cureus.87496*
-
-## **Magnitud conductual y memoria**
-
-En tests conductuales estandarizados de atención (SART, ANT), los usuarios pesados muestran menor atención sostenida y mayor variabilidad de desempeño.
-
-Estudios en adolescentes con más de tres horas diarias reportan desempeño atencional significativamente por debajo de las normas por edad.
-
-También hay evidencia de deterioro en **memoria prospectiva** (capacidad de recordar hacer algo en el futuro) y en **memoria visual de corto plazo**.
-
-*Fuentes: Chiossi et al. (2023) sobre memoria prospectiva; Zheng (2021) sobre memoria visual de corto plazo (VSTM); Chen et al. (2022) sobre atención e interferencia.*
-
-## **Bucle autoreforzante y reversibilidad**
-
-La relación parece bidireccional: el uso alto reduce la resistencia atencional, y esa resistencia reducida hace que la persona tolere menos el contenido largo, lo que la empuja hacia más contenido corto.
-
-Es un ciclo que se estrecha con el tiempo.
-
-La buena noticia es que hay reversibilidad neuroplástica: los estudios de EEG muestran recuperación parcial de las ondas alfa después de aproximadamente 30 días de reducción del uso.
-
-Los umbrales de exposición sugeridos por la investigación se ubican por debajo de 1-2 horas diarias, con pausas cada 20-30 minutos.
-
-*Fuentes: Nguyen et al. (2025) sobre bidireccionalidad; Satani et al. (2025) sobre recuperación alfa.*
-
-## **Vulnerabilidad diferencial por edad**
-
-Los efectos son más pronunciados en adolescentes y niños porque la corteza prefrontal (control de impulsos y planificación a largo plazo) no termina de madurar hasta cerca de los 25 años.
-
-Los cerebros en desarrollo combinan mayor neuroplasticidad con mayor vulnerabilidad a la desregulación de los circuitos de recompensa.
-
-Las cohortes criadas con estas plataformas desde la infancia son la población de riesgo más alto y también la menos estudiada longitudinalmente.
-
-*Fuentes: literatura consolidada sobre maduración prefrontal (Casey et al., 2008; Giedd, 2015) aplicada al contexto de redes en Firth et al. (2019) "The 'online brain'", World Psychiatry, 18(2):119-129.*
-
-## **La nueva matrix**
-
-Lo interesante del cuadro empírico no es solo que exista degradación cognitiva medible.
-
-Es que esa degradación construye una capa de encierro distinta a las ya conocidas.
-
-Las formas clásicas de control sobre la información —ocultar, censurar, monopolizar el acceso— siguen existiendo, pero ahora conviven con algo nuevo: **una arquitectura tecnológica que degrada la capacidad de procesar lo que sí está disponible**.
-
-La combinación es quizás más eficiente que la censura clásica.
-
-Lo que quede oculto queda oculto, y lo que esté disponible queda igualmente fuera de alcance para una porción creciente de la población que ya no puede sostener atención suficiente para procesarlo.
-
-La analogía con la película funciona bien por una razón puntual. En Matrix, lo central no es que los personajes estén atrapados: es que no lo saben. Viven vidas que perciben como completas, con trabajos, relaciones, opiniones, hasta con inquietudes existenciales. La prisión funciona porque es invisible desde adentro. Nadie despierta pensando "hoy voy a existir en una simulación": simplemente existen, y la simulación es lo que llaman realidad. Solo unos pocos, por accidente o disposición, empiezan a notar inconsistencias que los llevan a preguntarse si lo que perciben es todo lo que hay.
-
-Pero en este caso no se puede salir no por un cable conectado al cerebro, sino por un aparato con pantalla pegado en las manos por inercia
-
----

@@ -29,5 +29,9 @@ extra:
     name: tecnología
     url: /categorias/tecnologia/
     color: '#dc2626'
+  - code: historia
+    name: historia
+    url: /categorias/historia/
+    color: '#dc2626'
   twitter_handle: null
   contact_email: null

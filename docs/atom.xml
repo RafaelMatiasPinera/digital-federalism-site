@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-04T20:34:15.642905+00:00</updated>
+  <updated>2026-08-04T20:36:36.654894+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,16 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900</id>
+    <title>Bélgica y su deseo sobre Argentina a principios de 1900</title>
+    <updated>2026-08-04T20:36:15.470036+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900"/>
+    <published>2026-08-04T20:36:15.470036+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto</id>
     <title>La tesis del secuestro atencional (y el abuso del video corto)</title>

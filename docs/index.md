@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: Bélgica y su deseo sobre Argentina a principios de 1900
+  slug: belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
+  url: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-08-04T20:36:15.470036+00:00'
+  reading_minutes: 6
 - title: La tesis del secuestro atencional (y el abuso del video corto)
   slug: la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   url: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto

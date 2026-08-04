@@ -10,6 +10,7 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 
 ## Articles
 
+- [Bélgica y su deseo sobre Argentina a principios de 1900](https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900)
 - [La tesis del secuestro atencional (y el abuso del video corto)](https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto)
 
 ## Categories

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Digital Federalism</title>
-    <link>https://digital-federalism.org/feed.xml</link>
-    <description>Editorial CMS</description>
-    <atom:link href="https://digital-federalism.org/feed.xml" rel="self"/>
+    <title>historia · Digital Federalism</title>
+    <link>https://digital-federalism.org/feeds/historia.xml</link>
+    <description>Explora la evolución de las redes descentralizadas y la gobernanza abierta a través de una mirada distinta: desde los hitos clave hasta las historias más curiosas y poco conocidas de la historia. Descubre las ideas y anécdotas olvidadas que moldearon la autonomía digital moderna.</description>
+    <atom:link href="https://digital-federalism.org/feeds/historia.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>es</language>
@@ -14,12 +14,6 @@
       <link>https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900</link>
       <guid isPermaLink="false">https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900</guid>
       <pubDate>Tue, 04 Aug 2026 20:36:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>La tesis del secuestro atencional (y el abuso del video corto)</title>
-      <link>https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto</link>
-      <guid isPermaLink="false">https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto</guid>
-      <pubDate>Wed, 29 Jul 2026 00:48:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
