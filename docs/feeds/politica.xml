@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>politica · Digital Federalism</title>
+    <link>https://digital-federalism.org/feeds/politica.xml</link>
+    <description>Examina la intersección entre el poder, la estructura estatal y la soberanía digital. Desde las teorías políticas fundamentales y el diseño institucional hasta experimentos históricos inusuales y conflictos políticos poco conocidos, esta sección analiza cómo evoluciona la gobernanza en un mundo interconectado.</description>
+    <atom:link href="https://digital-federalism.org/feeds/politica.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 04 Aug 2026 20:43:39 +0000</lastBuildDate>
+    <item>
+      <title>Milei no es Hitler. Y aun así..... la conexión con el populismo</title>
+      <link>https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo</link>
+      <guid isPermaLink="false">https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo</guid>
+      <category>historia</category>
+      <category>politica</category>
+      <category>sociedad</category>
+      <pubDate>Tue, 04 Aug 2026 20:43:36 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

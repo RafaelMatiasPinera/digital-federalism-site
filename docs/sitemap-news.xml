@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Digital Federalism</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T20:43:36Z</news:publication_date>
+      <news:title>Milei no es Hitler. Y aun así..... la conexión con el populismo</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900</loc>
     <news:news>
       <news:publication>

@@ -25,6 +25,10 @@ extra:
   accent_color: '#d32f2f'
   current_year: '2026'
   nav_categories:
+  - code: politica
+    name: politica
+    url: /categorias/politica/
+    color: '#dc2626'
   - code: tecnologia
     name: tecnología
     url: /categorias/tecnologia/

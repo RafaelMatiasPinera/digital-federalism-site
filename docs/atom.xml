@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-04T20:36:36.654894+00:00</updated>
+  <updated>2026-08-04T20:43:39.862531+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,19 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo</id>
+    <title>Milei no es Hitler. Y aun así..... la conexión con el populismo</title>
+    <updated>2026-08-04T20:43:36.071490+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo"/>
+    <category term="historia" label="historia"/>
+    <category term="politica" label="politica"/>
+    <category term="sociedad" label="sociedad"/>
+    <published>2026-08-04T20:43:36.071490+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900</id>
     <title>Bélgica y su deseo sobre Argentina a principios de 1900</title>
