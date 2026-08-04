@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: El jesuita, el filósofo y el silencio de Marx frente a las sociedades secretas
+  slug: el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
+  url: https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-08-04T20:47:51.621793+00:00'
+  reading_minutes: 11
 - title: Milei no es Hitler. Y aun así..... la conexión con el populismo
   slug: milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
   url: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo

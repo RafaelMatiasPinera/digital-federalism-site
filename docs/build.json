@@ -1,11 +1,11 @@
 {
   "version": "0.9.2",
-  "generated_at": "2026-08-04T20:43:39.817858+00:00",
+  "generated_at": "2026-08-04T20:47:55.507899+00:00",
   "output_path": "/Users/rafa/Desktop/diario/v06/digitalfederalism-site/docs",
   "total_duration_ms": 58,
-  "total_files": 51,
+  "total_files": 53,
   "counts": {
-    "articles": 3,
+    "articles": 4,
     "investigations": 0,
     "books": 0,
     "categories": 6,
@@ -17,35 +17,35 @@
     {
       "name": "context",
       "files_written": 0,
-      "duration_ms": 20,
+      "duration_ms": 14,
       "ok": true,
       "error": null
     },
     {
       "name": "clean",
       "files_written": 0,
-      "duration_ms": 5,
+      "duration_ms": 4,
       "ok": true,
       "error": null
     },
     {
       "name": "markdown",
-      "files_written": 22,
-      "duration_ms": 17,
+      "files_written": 24,
+      "duration_ms": 22,
       "ok": true,
       "error": null
     },
     {
       "name": "sitemap",
       "files_written": 2,
-      "duration_ms": 1,
+      "duration_ms": 0,
       "ok": true,
       "error": null
     },
     {
       "name": "feeds",
       "files_written": 5,
-      "duration_ms": 2,
+      "duration_ms": 1,
       "ok": true,
       "error": null
     },
@@ -80,7 +80,7 @@
     {
       "name": "theme",
       "files_written": 16,
-      "duration_ms": 6,
+      "duration_ms": 8,
       "ok": true,
       "error": null
     },
