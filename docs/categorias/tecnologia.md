@@ -16,6 +16,7 @@ articles:
   published_at: '2026-07-29T00:48:21.003940+00:00'
   reading_minutes: 5
 investigations: []
+description: 'Una mirada crítica y polifacética al código, la infraestructura y la interacción entre el ser humano y la máquina. Esta sección explora la tecnología en todas sus dimensiones: desde el diseño de protocolos y el control centralizado hasta anomalías técnicas curiosas, innovaciones olvidadas y los sistemas digitales invisibles que rigen la vida moderna.'
 ---
 
-
+Una mirada crítica y polifacética al código, la infraestructura y la interacción entre el ser humano y la máquina. Esta sección explora la tecnología en todas sus dimensiones: desde el diseño de protocolos y el control centralizado hasta anomalías técnicas curiosas, innovaciones olvidadas y los sistemas digitales invisibles que rigen la vida moderna.

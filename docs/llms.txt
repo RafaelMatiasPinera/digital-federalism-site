@@ -18,6 +18,8 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 - [tecnología](https://digital-federalism.org/categorias/tecnologia)
 - [religion](https://digital-federalism.org/categorias/religion)
 - [juegos](https://digital-federalism.org/categorias/juegos)
+- [historia](https://digital-federalism.org/categorias/historia)
+- [sociedad](https://digital-federalism.org/categorias/sociedad)
 
 ## Full corpus
 

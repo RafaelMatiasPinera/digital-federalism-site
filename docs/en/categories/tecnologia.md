@@ -16,6 +16,7 @@ articles:
   published_at: '2026-07-29T00:48:21.003940+00:00'
   reading_minutes: 5
 investigations: []
+description: 'A critical and multifaceted look at code, infrastructure, and human-machine interaction. This section explores technology in all its dimensions: from protocol design and centralized control to curious technical anomalies, forgotten innovations, and the unseen digital systems that dictate modern life.'
 ---
 
-
+A critical and multifaceted look at code, infrastructure, and human-machine interaction. This section explores technology in all its dimensions: from protocol design and centralized control to curious technical anomalies, forgotten innovations, and the unseen digital systems that dictate modern life.
