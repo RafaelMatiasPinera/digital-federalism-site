@@ -8,6 +8,28 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: La sexta potencia - Baring en París, 1803
+  slug: eeuu-francia-uk
+  url: https://digital-federalism.org/articulos/eeuu-francia-uk
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-08-05T18:11:47.205472+00:00'
+  reading_minutes: 8
+- title: Once dolientes en Highgate
+  slug: once-dolientes-en-highgate
+  url: https://digital-federalism.org/articulos/once-dolientes-en-highgate
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-08-05T18:00:30.702279+00:00'
+  reading_minutes: 4
 - title: El jesuita, el filósofo y el silencio de Marx frente a las sociedades secretas
   slug: el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
   url: https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
