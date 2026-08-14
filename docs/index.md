@@ -18,7 +18,7 @@ latest_articles:
   category_color: '#dc2626'
   category_url: https://digital-federalism.org/categorias/tecnologia/
   published_at: '2026-08-14T23:01:41.954417+00:00'
-  reading_minutes: 10
+  reading_minutes: 9
 - title: Creer en virtud de lo absurdo
   slug: el-cristianismo-como-paradoja-estrucutral
   url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral

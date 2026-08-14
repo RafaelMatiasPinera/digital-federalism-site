@@ -10,10 +10,10 @@ category: tecnologia
 category_name: tecnología
 tags: []
 series: null
-reading_minutes: 10
-word_count: 2104
+reading_minutes: 9
+word_count: 1993
 is_featured: false
-updated_at: '2026-08-14T23:01:41+00:00'
+updated_at: '2026-08-14T23:22:26+00:00'
 url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
 hreflang:
   es: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
@@ -147,24 +147,40 @@ Hay una analogía útil con los irracionales. Cuando los griegos descubrieron qu
 
 ## **Una isla en un océano**
 
-Y no son excepciones marginales. Henry Rice, en un teorema posterior, demostró algo brutal: cualquier propiedad no trivial del comportamiento de un programa es incomputable. No existe algoritmo general para decidir si un programa cualquiera "hace X", para casi cualquier X interesante. La equivalencia entre dos programas es incomputable. La detección general de bugs, incomputable. El décimo problema de Hilbert —dado un polinomio con coeficientes enteros, ¿tiene soluciones enteras?— resultó también incomputable cuando Yuri Matiyasevich lo resolvió en 1970. La lista sigue.
+Y no son excepciones marginales. 
 
-Hay una manera precisa de decir cuán vasto es el océano. Los programas posibles son numerables: se pueden enumerar uno por uno, 1, 2, 3. Los problemas posibles, no: hay tantos como números reales. Por pura aritmética de infinitos, la mayoría de los problemas no tienen algoritmo que los resuelva. Lo computable es una isla en un mar de incomputabilidad. Que casi todo lo que nos interesa en la práctica caiga adentro de esa isla es una suerte, no una ley.
+Henry Rice, en un teorema posterior, demostró también que cualquier propiedad no trivial del comportamiento de un programa es incomputable. 
+
+No existe algoritmo general para decidir si un programa cualquiera "hace X", para casi cualquier X interesante. 
+
+La equivalencia entre dos programas es incomputable. 
+
+La detección general de bugs, incomputable… y la lista sigue...
+
+Hay una manera precisa de decir cuán vasto es el océano. 
+
+Por pura aritmética de infinitos, la mayoría de los problemas no tienen algoritmo que los resuelva. Lo computable es una isla en un mar de incomputabilidad. 
 
 ## **Cinco años**
 
-En cinco años —de 1931 a 1936— el programa de Hilbert quedó completamente destruido. Fue uno de los momentos más traumáticos de la historia de la matemática. Y, paradójicamente, uno de los más fértiles: de ese derrumbe nacieron la teoría de la computabilidad, la lógica moderna y, eventualmente, las computadoras que hoy usamos.
+En cinco años —**de 1931 a 1936**— el **programa de Hilbert quedó completamente destruido**. Fue uno de los momentos más traumáticos de la historia de la matemática. Y, paradójicamente, uno de los más fértiles.
 
-Los tres resultados —Gödel 1931, Turing y Church 1936— no son coincidencias independientes. Son manifestaciones del mismo fenómeno. Turing usó en su demostración una técnica muy parecida a la de Gödel. Gödel había inventado un truco llamado numeración de Gödel, para que las fórmulas matemáticas pudieran hablar de sí mismas de manera controlada. Turing hizo lo análogo con programas: programas que reciben otros programas como entrada, lo que habilita la autorreferencia que aparece en el argumento de D(D). Se puede derivar el teorema de Gödel del de Turing y viceversa. Son, en un sentido matemáticamente preciso, equivalentes.
+Los tres resultados —**Gödel 1931, Turing y Church 1936**— no son coincidencias independientes. Son manifestaciones del mismo fenómeno. 
 
-La estructura lógica de fondo es la misma que la de la paradoja del mentiroso —"esta oración es falsa"—, pero domesticada matemáticamente para producir teoremas en lugar de paradojas. En sistemas formales lo bastante expresivos, la autorreferencia produce límites intrínsecos. No es un defecto reparable. Es una propiedad estructural.
+Turing usó en su demostración una técnica muy parecida a la de Gödel. Gödel había inventado un truco llamado **numeración de Gödel**, para que las fórmulas matemáticas pudieran hablar de sí mismas de manera controlada. 
+
+Turing hizo lo análogo con programas: **programas que reciben otros programas como entrada, lo que habilita la autorreferencia**. Se puede derivar el teorema de Gödel del de Turing y viceversa. **Son, en un sentido matemáticamente preciso, equivalentes.**
+
+La estructura lógica de fondo es la misma que la de la paradoja del mentiroso "esta oración es falsa", pero domesticada matemáticamente para producir teoremas en lugar de paradojas. 
+
+En sistemas formales lo bastante expresivos, **la autorreferencia** produce límites intrínsecos. **Es una propiedad estructural.**
 
 ## **El regreso del hereje**
 
-Uno podría pensar que después del colapso los matemáticos habrían dicho "bueno, Brouwer tenía razón, volvamos a él". No pasó. Los teoremas de Gödel no vindicaban a Brouwer: mostraban que la matemática clásica tenía límites, no que fuera incorrecta. La matemática clásica seguía siendo consistente hasta donde sabíamos, y seguía produciendo resultados. 
+Uno podría pensar que después del colapso los matemáticos habrían dicho "*bueno, Brouwer el rival de Hilbert tenía razón, volvamos a él*". **No pasó.** 
 
-Además, hacer matemática constructivista es mucho más incómodo. Sin el principio del tercero excluido, sin reducción al absurdo en muchos casos, áreas enormes del análisis se vuelven inabordables. Los matemáticos, pragmáticamente, no quisieron pagar el precio.
+**Los teoremas de Gödel no vindicaban a Brouwer**, sino que mostraban que la matemática clásica tenía límites (no que fuera incorrecta). La matemática clásica seguía siendo consistente, y seguía produciendo resultados. Además, hacer matemática constructivista era mucho más incómodo. 
 
-Pero las ideas de Brouwer resurgieron desde un lugar completamente inesperado: la computación.
+Pero **las ideas de Brouwer** resurgieron desde un lugar completamente inesperado: **la computación.**
 
-De este místico se trata la próxima entrega…. “La estructura mística del pensamiento riguroso”.
+De este místico se trata la próxima entrega…. **“*La estructura mística del pensamiento riguroso*”.**

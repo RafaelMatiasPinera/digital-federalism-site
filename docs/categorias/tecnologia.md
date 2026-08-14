@@ -14,7 +14,7 @@ articles:
   summary: null
   cover_image: null
   published_at: '2026-08-14T23:01:41.954417+00:00'
-  reading_minutes: 10
+  reading_minutes: 9
 - slug: la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   url: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   title: La tesis del secuestro atencional (y el abuso del video corto)
