@@ -1,58 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://digital-federalism.org/articulos/eeuu-francia-uk</loc>
+    <loc>https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</loc>
     <news:news>
       <news:publication>
         <news:name>Digital Federalism</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05T18:11:47Z</news:publication_date>
-      <news:title>La sexta potencia - Baring en París, 1803</news:title>
+      <news:publication_date>2026-08-14T22:03:03Z</news:publication_date>
+      <news:title>El absurdo como corazón de la fe</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://digital-federalism.org/articulos/once-dolientes-en-highgate</loc>
+    <loc>https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio</loc>
     <news:news>
       <news:publication>
         <news:name>Digital Federalism</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05T18:00:30Z</news:publication_date>
-      <news:title>Once dolientes en Highgate</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Digital Federalism</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T20:47:51Z</news:publication_date>
-      <news:title>El jesuita, el filósofo y el silencio de Marx frente a las sociedades secretas</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Digital Federalism</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T20:43:36Z</news:publication_date>
-      <news:title>Milei no es Hitler. Y aun así..... la conexión con el populismo</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Digital Federalism</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-04T20:36:15Z</news:publication_date>
-      <news:title>Bélgica y su deseo sobre Argentina a principios de 1900</news:title>
+      <news:publication_date>2026-08-14T21:48:18Z</news:publication_date>
+      <news:title>De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció</news:title>
     </news:news>
   </url>
 </urlset>

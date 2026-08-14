@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-05T18:12:09.860529+00:00</updated>
+  <updated>2026-08-14T22:03:08.920777+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,26 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</id>
+    <title>El absurdo como corazón de la fe</title>
+    <updated>2026-08-14T22:03:03.600786+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral"/>
+    <published>2026-08-14T22:03:03.600786+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio</id>
+    <title>De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció</title>
+    <updated>2026-08-14T21:48:18.251235+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio"/>
+    <published>2026-08-14T21:48:18.251235+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/eeuu-francia-uk</id>
     <title>La sexta potencia - Baring en París, 1803</title>

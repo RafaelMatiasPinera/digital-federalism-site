@@ -33,6 +33,10 @@ extra:
     name: tecnología
     url: /categorias/tecnologia/
     color: '#dc2626'
+  - code: religion
+    name: religion
+    url: /categorias/religion/
+    color: '#dc2626'
   - code: historia
     name: historia
     url: /categorias/historia/

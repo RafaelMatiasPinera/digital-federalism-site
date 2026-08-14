@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>religion · Digital Federalism</title>
+    <link>https://digital-federalism.org/feeds/religion.xml</link>
+    <description>Una exploración crítica y abierta de lo sagrado, lo dogmático y la necesidad humana de creer. Esta sección analiza la religión en todas sus dimensiones: desde las estructuras de autoridad central hasta ritos curiosos, mitologías modernas y los fenómenos sociales inusuales que emergen cuando la fe, el poder y la naturaleza humana colisionan.</description>
+    <atom:link href="https://digital-federalism.org/feeds/religion.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 14 Aug 2026 22:03:08 +0000</lastBuildDate>
+    <item>
+      <title>El absurdo como corazón de la fe</title>
+      <link>https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</link>
+      <guid isPermaLink="false">https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</guid>
+      <pubDate>Fri, 14 Aug 2026 22:03:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció</title>
+      <link>https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio</link>
+      <guid isPermaLink="false">https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio</guid>
+      <pubDate>Fri, 14 Aug 2026 21:48:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

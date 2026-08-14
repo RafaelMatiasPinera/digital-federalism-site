@@ -8,6 +8,28 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: El absurdo como corazón de la fe
+  slug: el-cristianismo-como-paradoja-estrucutral
+  url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
+  summary: null
+  cover_image: null
+  category: religion
+  category_name: religion
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/religion/
+  published_at: '2026-08-14T22:03:03.600786+00:00'
+  reading_minutes: 3
+- title: De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció
+  slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
+  url: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
+  summary: null
+  cover_image: null
+  category: religion
+  category_name: religion
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/religion/
+  published_at: '2026-08-14T21:48:18.251235+00:00'
+  reading_minutes: 3
 - title: La sexta potencia - Baring en París, 1803
   slug: eeuu-francia-uk
   url: https://digital-federalism.org/articulos/eeuu-francia-uk
