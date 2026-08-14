@@ -1,7 +1,7 @@
 ---
 type: article
 id: 8
-title: El absurdo como corazón de la fe
+title: Creer en virtud de lo absurdo
 slug: el-cristianismo-como-paradoja-estrucutral
 lang: es
 author: Rafael Piñera
@@ -13,7 +13,7 @@ series: null
 reading_minutes: 3
 word_count: 586
 is_featured: false
-updated_at: '2026-08-14T22:03:03+00:00'
+updated_at: '2026-08-14T22:05:21+00:00'
 url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
 hreflang:
   es: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral

@@ -8,7 +8,7 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
-- title: El absurdo como corazón de la fe
+- title: Creer en virtud de lo absurdo
   slug: el-cristianismo-como-paradoja-estrucutral
   url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
   summary: null

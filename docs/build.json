@@ -1,8 +1,8 @@
 {
   "version": "0.9.2",
-  "generated_at": "2026-08-14T22:03:08.831798+00:00",
+  "generated_at": "2026-08-14T22:05:36.468178+00:00",
   "output_path": "/Users/rafa/Desktop/diario/v06/digitalfederalism-site/docs",
-  "total_duration_ms": 100,
+  "total_duration_ms": 60,
   "total_files": 58,
   "counts": {
     "articles": 8,
@@ -17,21 +17,21 @@
     {
       "name": "context",
       "files_written": 0,
-      "duration_ms": 69,
+      "duration_ms": 15,
       "ok": true,
       "error": null
     },
     {
       "name": "clean",
       "files_written": 0,
-      "duration_ms": 4,
+      "duration_ms": 6,
       "ok": true,
       "error": null
     },
     {
       "name": "markdown",
       "files_written": 28,
-      "duration_ms": 13,
+      "duration_ms": 24,
       "ok": true,
       "error": null
     },
@@ -73,7 +73,7 @@
     {
       "name": "media",
       "files_written": 1,
-      "duration_ms": 2,
+      "duration_ms": 3,
       "ok": true,
       "error": null
     },

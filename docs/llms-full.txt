@@ -1,6 +1,6 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-08-14T19:03:08.901417-03:00
+Generated at 2026-08-14T19:05:36.483627-03:00
 
 Total pieces: 8
 
@@ -9,7 +9,7 @@ Total pieces: 8
 
 
 
-## Article: El absurdo como corazón de la fe
+## Article: Creer en virtud de lo absurdo
 
 URL: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
 Author: Rafael Piñera
