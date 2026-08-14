@@ -10,6 +10,7 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 
 ## Articles
 
+- [Lo que ninguna máquina puede calcular](https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular)
 - [Creer en virtud de lo absurdo](https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral)
 - [De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció](https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio)
 - [La sexta potencia - Baring en París, 1803](https://digital-federalism.org/articulos/eeuu-francia-uk)

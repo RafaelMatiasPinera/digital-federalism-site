@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-14T22:05:36.515873+00:00</updated>
+  <updated>2026-08-14T23:05:01.987163+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,16 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular</id>
+    <title>Lo que ninguna máquina puede calcular</title>
+    <updated>2026-08-14T23:01:41.954417+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular"/>
+    <published>2026-08-14T23:01:41.954417+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</id>
     <title>Creer en virtud de lo absurdo</title>

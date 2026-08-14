@@ -5,9 +5,16 @@ code: tecnologia
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/tecnologia
-article_count: 1
+article_count: 2
 investigation_count: 0
 articles:
+- slug: lo-que-ninguna-maquina-puede-calcular
+  url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
+  title: Lo que ninguna máquina puede calcular
+  summary: null
+  cover_image: null
+  published_at: '2026-08-14T23:01:41.954417+00:00'
+  reading_minutes: 10
 - slug: la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   url: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   title: La tesis del secuestro atencional (y el abuso del video corto)

@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: Lo que ninguna máquina puede calcular
+  slug: lo-que-ninguna-maquina-puede-calcular
+  url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
+  summary: null
+  cover_image: null
+  category: tecnologia
+  category_name: tecnología
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/tecnologia/
+  published_at: '2026-08-14T23:01:41.954417+00:00'
+  reading_minutes: 10
 - title: Creer en virtud de lo absurdo
   slug: el-cristianismo-como-paradoja-estrucutral
   url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral

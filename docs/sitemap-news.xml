@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Digital Federalism</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-14T23:01:41Z</news:publication_date>
+      <news:title>Lo que ninguna máquina puede calcular</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</loc>
     <news:news>
       <news:publication>
