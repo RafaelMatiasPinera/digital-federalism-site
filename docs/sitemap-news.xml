@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://digital-federalism.org/articulos/a</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Digital Federalism</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-17T18:17:29Z</news:publication_date>
+      <news:title>¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</loc>
     <news:news>
       <news:publication>

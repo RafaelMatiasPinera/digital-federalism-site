@@ -10,6 +10,7 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 
 ## Articles
 
+- [¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing](https://digital-federalism.org/articulos/a)
 - [Los místicos y las máquinas](https://digital-federalism.org/articulos/los-misticos-y-las-maquinas)
 - [Lo que ninguna máquina puede calcular](https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular)
 - [Creer en virtud de lo absurdo](https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral)

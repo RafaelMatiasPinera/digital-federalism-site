@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: ¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing
+  slug: a
+  url: https://digital-federalism.org/articulos/a
+  summary: null
+  cover_image: null
+  category: tecnologia
+  category_name: tecnología
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/tecnologia/
+  published_at: '2026-08-17T18:17:29.810564+00:00'
+  reading_minutes: 12
 - title: Los místicos y las máquinas
   slug: los-misticos-y-las-maquinas
   url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas

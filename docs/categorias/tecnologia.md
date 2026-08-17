@@ -5,9 +5,16 @@ code: tecnologia
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/tecnologia
-article_count: 2
+article_count: 3
 investigation_count: 0
 articles:
+- slug: a
+  url: https://digital-federalism.org/articulos/a
+  title: ¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing
+  summary: null
+  cover_image: null
+  published_at: '2026-08-17T18:17:29.810564+00:00'
+  reading_minutes: 12
 - slug: lo-que-ninguna-maquina-puede-calcular
   url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
   title: Lo que ninguna máquina puede calcular
