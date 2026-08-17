@@ -13,7 +13,7 @@ series: null
 reading_minutes: 16
 word_count: 3540
 is_featured: false
-updated_at: '2026-08-17T17:57:26+00:00'
+updated_at: '2026-08-17T18:00:30+00:00'
 url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 hreflang:
   es: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
