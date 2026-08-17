@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-17T18:35:06.775803+00:00</updated>
+  <updated>2026-08-17T19:40:01.523536+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,16 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/aa</id>
+    <title>El átomo de una disciplina científica</title>
+    <updated>2026-08-17T19:39:54.699047+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/aa"/>
+    <published>2026-08-17T19:39:54.699047+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/a</id>
     <title>¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing</title>

@@ -5,9 +5,16 @@ code: sociedad
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/sociedad
-article_count: 1
+article_count: 2
 investigation_count: 0
 articles:
+- slug: aa
+  url: https://digital-federalism.org/articulos/aa
+  title: El átomo de una disciplina científica
+  summary: null
+  cover_image: null
+  published_at: '2026-08-17T19:39:54.699047+00:00'
+  reading_minutes: 5
 - slug: los-misticos-y-las-maquinas
   url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
   title: Los místicos y las máquinas

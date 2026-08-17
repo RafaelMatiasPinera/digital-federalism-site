@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: El átomo de una disciplina científica
+  slug: aa
+  url: https://digital-federalism.org/articulos/aa
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-08-17T19:39:54.699047+00:00'
+  reading_minutes: 5
 - title: ¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing
   slug: a
   url: https://digital-federalism.org/articulos/a
