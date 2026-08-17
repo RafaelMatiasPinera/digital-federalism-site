@@ -11,9 +11,9 @@ category_name: sociedad
 tags: []
 series: null
 reading_minutes: 16
-word_count: 3564
+word_count: 3540
 is_featured: false
-updated_at: '2026-08-17T17:55:53+00:00'
+updated_at: '2026-08-17T17:57:26+00:00'
 url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 hreflang:
   es: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
@@ -56,7 +56,7 @@ Acá se vuelve más raro y más hermoso.
 
 Brouwer introdujo el concepto de **secuencias de elección** —*keuzerijen* en holandés—: sucesiones infinitas donde el sujeto creador elige libremente cada término, uno por vez, a través del tiempo. Estas sucesiones no están "dadas de antemano" como en la matemática clásica. Se crean sobre la marcha.
 
-Esto lleva a consecuencias bizarras y bellas. En el análisis brouweriano (de lo que trató la tesis doctoral de Einstein y lo hizo relativamente famoso antes de publicar sus ideas sobre la relatividad general), por ejemplo, se puede demostrar que toda función total de los reales a los reales es continua. 
+Esto lleva a consecuencias bizarras y bellas. En su análisis, por ejemplo, se puede demostrar que toda función total de los reales a los reales es continua. 
 
 En la matemática clásica esto es evidentemente falso —pensá en una función escalón—. Pero en la matemática de Brouwer es verdad, porque las funciones deben ser calculables a partir de aproximaciones finitas del input.
 
