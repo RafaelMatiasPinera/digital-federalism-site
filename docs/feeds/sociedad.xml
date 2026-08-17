@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>sociedad · Digital Federalism</title>
+    <link>https://digital-federalism.org/feeds/sociedad.xml</link>
+    <description>Una mirada práctica y curiosa a la interacción humana, las dinámicas comunitarias y el comportamiento colectivo. Esta sección abarca desde la organización de base y los movimientos sociales hasta tendencias culturales inusuales, hábitos cotidianos y las formas inesperadas en que las personas construyen redes y conviven.</description>
+    <atom:link href="https://digital-federalism.org/feeds/sociedad.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 17 Aug 2026 17:55:59 +0000</lastBuildDate>
+    <item>
+      <title>Los místicos y las máquinas</title>
+      <link>https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</link>
+      <guid isPermaLink="false">https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</guid>
+      <pubDate>Mon, 17 Aug 2026 17:55:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

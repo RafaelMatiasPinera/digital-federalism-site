@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular</loc>
+    <loc>https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</loc>
     <news:news>
       <news:publication>
         <news:name>Digital Federalism</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-14T23:01:41Z</news:publication_date>
-      <news:title>Lo que ninguna máquina puede calcular</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Digital Federalism</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T22:03:03Z</news:publication_date>
-      <news:title>Creer en virtud de lo absurdo</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Digital Federalism</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-14T21:48:18Z</news:publication_date>
-      <news:title>De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció</news:title>
+      <news:publication_date>2026-08-17T17:55:53Z</news:publication_date>
+      <news:title>Los místicos y las máquinas</news:title>
     </news:news>
   </url>
 </urlset>

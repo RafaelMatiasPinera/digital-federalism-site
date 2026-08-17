@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: Los místicos y las máquinas
+  slug: los-misticos-y-las-maquinas
+  url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-08-17T17:55:53.563179+00:00'
+  reading_minutes: 16
 - title: Lo que ninguna máquina puede calcular
   slug: lo-que-ninguna-maquina-puede-calcular
   url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular

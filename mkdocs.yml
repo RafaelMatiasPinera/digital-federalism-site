@@ -41,5 +41,9 @@ extra:
     name: historia
     url: /categorias/historia/
     color: '#dc2626'
+  - code: sociedad
+    name: sociedad
+    url: /categorias/sociedad/
+    color: '#dc2626'
   twitter_handle: null
   contact_email: null

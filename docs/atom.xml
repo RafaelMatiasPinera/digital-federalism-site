@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-14T23:22:30.839373+00:00</updated>
+  <updated>2026-08-17T17:55:59.378417+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,16 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</id>
+    <title>Los místicos y las máquinas</title>
+    <updated>2026-08-17T17:55:53.563179+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/los-misticos-y-las-maquinas"/>
+    <published>2026-08-17T17:55:53.563179+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular</id>
     <title>Lo que ninguna máquina puede calcular</title>
