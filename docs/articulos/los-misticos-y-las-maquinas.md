@@ -11,9 +11,9 @@ category_name: sociedad
 tags: []
 series: null
 reading_minutes: 16
-word_count: 3540
+word_count: 3557
 is_featured: false
-updated_at: '2026-08-17T18:00:30+00:00'
+updated_at: '2026-08-17T18:02:42+00:00'
 url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 hreflang:
   es: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
@@ -21,6 +21,8 @@ published_at: '2026-08-17T17:55:53.563179+00:00'
 date: '2026-08-17'
 canonical: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 ---
+
+(Se recomienda leer previamente el artículo “Lo que ninguna máquina puede calcular” previo a comenzar con este).-
 
 En 1905, un matemático holandés de veinticuatro años publicó un librito extraño donde atacaba prácticamente todo. La sociedad industrial. La ciencia moderna. El lenguaje. El estado. La razón instrumental. La vida en las ciudades. Se llamaba ***Leven, Kunst en Mystiek* —*Vida, arte y mística*—**, y su autor se llamaba **Luitzen Egbertus Jan Brouwer**.
 

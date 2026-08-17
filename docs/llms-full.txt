@@ -1,6 +1,6 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-08-17T15:00:34.819686-03:00
+Generated at 2026-08-17T15:02:49.833659-03:00
 
 Total pieces: 10
 
@@ -16,6 +16,8 @@ Author: Rafael Piñera
 Category: sociedad
 Published: 2026-08-17T17:55:53.563179
 Reading time: 16 min
+
+(Se recomienda leer previamente el artículo “Lo que ninguna máquina puede calcular” previo a comenzar con este).-
 
 En 1905, un matemático holandés de veinticuatro años publicó un librito extraño donde atacaba prácticamente todo. La sociedad industrial. La ciencia moderna. El lenguaje. El estado. La razón instrumental. La vida en las ciudades. Se llamaba ***Leven, Kunst en Mystiek* —*Vida, arte y mística*—**, y su autor se llamaba **Luitzen Egbertus Jan Brouwer**.
 
