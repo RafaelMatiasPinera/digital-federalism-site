@@ -14,14 +14,14 @@ series: null
 reading_minutes: 5
 word_count: 995
 is_featured: false
-updated_at: '2026-07-29T00:48:21+00:00'
+updated_at: '2026-08-18T16:07:42+00:00'
 url: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
 hreflang:
   es: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   en: https://digital-federalism.org/en/articles/the-thesis-of-attentional-hijacking-and-short-form-video-abuse
 published_at: '2026-07-29T00:48:21.003940+00:00'
 date: '2026-07-29'
-cover_image: https://digital-federalism.org/media/dd/dd7bee0997deb852df16fae570d62cdf0cf22b07e6ae8769273dc12b5d285c1d.webp
+cover_image: https://digital-federalism.org/media/65/65a7fbec6a6458f6ed85014f9eb04e790a7fddb9947374cd7d350c491b862e59.medium.jpg
 canonical: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
 ---
 

@@ -89,7 +89,7 @@ latest_articles:
   slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   url: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/53/532a45b39338e88b6d8920bdf0c0e25ff154b5a1f2d19673372bd79ace66bdaa.medium.jpg
   category: religion
   category_name: religion
   category_color: '#dc2626'
@@ -155,7 +155,7 @@ latest_articles:
   slug: la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   url: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
   summary: null
-  cover_image: https://digital-federalism.org/media/dd/dd7bee0997deb852df16fae570d62cdf0cf22b07e6ae8769273dc12b5d285c1d.webp
+  cover_image: https://digital-federalism.org/media/65/65a7fbec6a6458f6ed85014f9eb04e790a7fddb9947374cd7d350c491b862e59.medium.jpg
   category: tecnologia
   category_name: tecnología
   category_color: '#dc2626'

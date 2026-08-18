@@ -14,12 +14,13 @@ series: null
 reading_minutes: 3
 word_count: 769
 is_featured: false
-updated_at: '2026-08-14T21:48:18+00:00'
+updated_at: '2026-08-18T16:08:34+00:00'
 url: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
 hreflang:
   es: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
 published_at: '2026-08-14T21:48:18.251235+00:00'
 date: '2026-08-14'
+cover_image: https://digital-federalism.org/media/53/532a45b39338e88b6d8920bdf0c0e25ff154b5a1f2d19673372bd79ace66bdaa.medium.jpg
 canonical: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
 ---
 
