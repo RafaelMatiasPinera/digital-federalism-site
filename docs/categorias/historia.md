@@ -12,7 +12,7 @@ articles:
   url: https://digital-federalism.org/articulos/eeuu-francia-uk
   title: La sexta potencia - Baring en París, 1803
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/eb/eb1cd86028fc639be9d8ff1c603ce0db0464ee33e084209bc5a261c648261ea5.medium.jpg
   published_at: '2026-08-05T18:11:47.205472+00:00'
   reading_minutes: 8
 - slug: once-dolientes-en-highgate

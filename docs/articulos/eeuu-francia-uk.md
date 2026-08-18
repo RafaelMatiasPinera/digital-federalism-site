@@ -9,17 +9,20 @@ author_username: rafa
 category: historia
 category_name: historia
 category_url: https://digital-federalism.org/categorias/historia/
-tags: []
+tags:
+- historia
+- politica
 series: null
 reading_minutes: 8
 word_count: 1810
 is_featured: false
-updated_at: '2026-08-05T18:11:47+00:00'
+updated_at: '2026-08-18T16:44:14+00:00'
 url: https://digital-federalism.org/articulos/eeuu-francia-uk
 hreflang:
   es: https://digital-federalism.org/articulos/eeuu-francia-uk
 published_at: '2026-08-05T18:11:47.205472+00:00'
 date: '2026-08-05'
+cover_image: https://digital-federalism.org/media/eb/eb1cd86028fc639be9d8ff1c603ce0db0464ee33e084209bc5a261c648261ea5.medium.jpg
 canonical: https://digital-federalism.org/articulos/eeuu-francia-uk
 ---
 

@@ -17,12 +17,13 @@ series: null
 reading_minutes: 7
 word_count: 1628
 is_featured: false
-updated_at: '2026-08-04T20:43:36+00:00'
+updated_at: '2026-08-18T16:45:33+00:00'
 url: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
 hreflang:
   es: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
 published_at: '2026-08-04T20:43:36.071490+00:00'
 date: '2026-08-04'
+cover_image: https://digital-federalism.org/media/e2/e2f247ff29deff253b5e7b59417c6f23aa94f5772b977c4b2a2809be8ef00580.medium.jpg
 canonical: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
 ---
 

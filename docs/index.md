@@ -100,7 +100,7 @@ latest_articles:
   slug: eeuu-francia-uk
   url: https://digital-federalism.org/articulos/eeuu-francia-uk
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/eb/eb1cd86028fc639be9d8ff1c603ce0db0464ee33e084209bc5a261c648261ea5.medium.jpg
   category: historia
   category_name: historia
   category_color: '#dc2626'
@@ -133,7 +133,7 @@ latest_articles:
   slug: milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
   url: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/e2/e2f247ff29deff253b5e7b59417c6f23aa94f5772b977c4b2a2809be8ef00580.medium.jpg
   category: politica
   category_name: politica
   category_color: '#dc2626'
