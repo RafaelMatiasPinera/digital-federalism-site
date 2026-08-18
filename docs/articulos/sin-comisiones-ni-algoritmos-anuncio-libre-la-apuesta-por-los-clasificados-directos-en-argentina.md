@@ -14,12 +14,13 @@ series: null
 reading_minutes: 3
 word_count: 752
 is_featured: true
-updated_at: '2026-08-18T15:52:18+00:00'
+updated_at: '2026-08-18T16:03:28+00:00'
 url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
 hreflang:
   es: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
 published_at: '2026-08-18T03:15:38.298162+00:00'
 date: '2026-08-18'
+cover_image: https://digital-federalism.org/media/d5/d5d8ca64ea2ee1d0721c48398f7323b01b18d07bcea57e2d6f62b27a9fe6a9ee.medium.jpg
 canonical: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
 ---
 

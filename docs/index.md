@@ -11,7 +11,7 @@ featured:
   slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/d5/d5d8ca64ea2ee1d0721c48398f7323b01b18d07bcea57e2d6f62b27a9fe6a9ee.medium.jpg
   category: sociedad
   category_name: sociedad
   category_color: '#dc2626'
@@ -23,7 +23,7 @@ latest_articles:
   slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/d5/d5d8ca64ea2ee1d0721c48398f7323b01b18d07bcea57e2d6f62b27a9fe6a9ee.medium.jpg
   category: sociedad
   category_name: sociedad
   category_color: '#dc2626'
