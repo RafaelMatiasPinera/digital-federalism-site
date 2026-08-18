@@ -122,7 +122,7 @@ latest_articles:
   slug: el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
   url: https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/f2/f22a9fa44997b5017447bfa1c3434144bf1a84fa8759f42bd560b46440041a38.medium.jpg
   category: historia
   category_name: historia
   category_color: '#dc2626'

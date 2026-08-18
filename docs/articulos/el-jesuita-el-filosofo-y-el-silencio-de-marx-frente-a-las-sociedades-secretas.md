@@ -18,12 +18,13 @@ series: null
 reading_minutes: 11
 word_count: 2381
 is_featured: false
-updated_at: '2026-08-04T21:04:36+00:00'
+updated_at: '2026-08-18T16:39:49+00:00'
 url: https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
 hreflang:
   es: https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
 published_at: '2026-08-04T20:47:51.621793+00:00'
 date: '2026-08-04'
+cover_image: https://digital-federalism.org/media/f2/f22a9fa44997b5017447bfa1c3434144bf1a84fa8759f42bd560b46440041a38.medium.jpg
 canonical: https://digital-federalism.org/articulos/el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
 ---
 
