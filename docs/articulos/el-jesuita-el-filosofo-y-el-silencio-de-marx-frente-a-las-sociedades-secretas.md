@@ -8,6 +8,7 @@ author: Rafael Piñera
 author_username: rafa
 category: historia
 category_name: historia
+category_url: https://digital-federalism.org/categorias/historia/
 tags:
 - historia
 - politica

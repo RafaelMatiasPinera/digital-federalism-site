@@ -8,6 +8,7 @@ author: Rafael Piñera
 author_username: rafa
 category: tecnologia
 category_name: tecnología
+category_url: https://digital-federalism.org/categorias/tecnologia/
 tags: []
 series: null
 reading_minutes: 5

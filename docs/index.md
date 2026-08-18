@@ -8,6 +8,17 @@ hreflang:
   en: https://digital-federalism.org/en
 featured: []
 latest_articles:
+- title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'
+  slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
+  url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-08-18T03:15:38.298162+00:00'
+  reading_minutes: 3
 - title: El átomo de una disciplina científica
   slug: aa
   url: https://digital-federalism.org/articulos/aa
@@ -63,7 +74,7 @@ latest_articles:
   category_url: https://digital-federalism.org/categorias/religion/
   published_at: '2026-08-14T22:03:03.600786+00:00'
   reading_minutes: 3
-- title: De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció
+- title: De la mesa de los hijos a las migajas de los perros. El Jesús que nos desconocía
   slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   url: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   summary: null

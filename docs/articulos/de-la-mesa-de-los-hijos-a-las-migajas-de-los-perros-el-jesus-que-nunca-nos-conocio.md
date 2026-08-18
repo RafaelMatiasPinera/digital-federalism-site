@@ -1,13 +1,14 @@
 ---
 type: article
 id: 7
-title: De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció
+title: De la mesa de los hijos a las migajas de los perros. El Jesús que nos desconocía
 slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
 lang: es
 author: Rafael Piñera
 author_username: rafa
 category: religion
 category_name: religion
+category_url: https://digital-federalism.org/categorias/religion/
 tags: []
 series: null
 reading_minutes: 3

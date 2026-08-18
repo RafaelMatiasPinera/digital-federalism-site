@@ -5,11 +5,26 @@
 #}
 {% set meta = page.meta or {} %}
 {% set site_lang = meta.get('lang', 'es') %}
-{% set page_title = meta.get('title') or page.title or config.site_name %}
-{% set page_description = meta.get('summary') or meta.get('description') or meta.get('seo_description') or config.site_description or '' %}
+{% set is_home = meta.get('type') == 'home' %}
+{% set tagline = config.extra.get('site_tagline') %}
+{% set base_page_title = meta.get('title') or page.title or config.site_name %}
+
+{# For the home, add tagline to <title> for SEO context. For other pages,
+   suffix with site_name. #}
+{% if is_home and tagline %}
+  {% set page_title_tag = config.site_name ~ ' — ' ~ tagline %}
+{% elif base_page_title != config.site_name %}
+  {% set page_title_tag = base_page_title ~ ' · ' ~ config.site_name %}
+{% else %}
+  {% set page_title_tag = base_page_title %}
+{% endif %}
+
+{% set page_title = base_page_title %}
+{% set page_description = meta.get('summary') or meta.get('description') or meta.get('seo_description') or config.site_description or tagline or '' %}
 {% set page_url = meta.get('url') or (config.site_url + page.url) %}
 {% set canonical = meta.get('canonical') or page_url %}
-{% set og_image = meta.get('cover_image') or meta.get('og_image') %}
+{# og:image: cover_image → explicit og_image → site default fallback #}
+{% set og_image = meta.get('cover_image') or meta.get('og_image') or config.extra.get('og_default_image') %}
 {% set category_color = meta.get('color') or meta.get('category_color') %}
 <!DOCTYPE html>
 <html lang="{{ site_lang }}" dir="ltr">
@@ -17,9 +32,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-<title>{{ page_title }}{% if page_title != config.site_name %} · {{ config.site_name }}{% endif %}</title>
+<title>{{ page_title_tag }}</title>
 <meta name="description" content="{{ page_description }}">
 <link rel="canonical" href="{{ canonical }}">
+
+{# Search engine verification (v0.9.3) — only used when verifying via meta tag rather than DNS #}
+{% if config.extra.get('google_site_verification') %}
+<meta name="google-site-verification" content="{{ config.extra['google_site_verification'] }}">
+{% endif %}
+{% if config.extra.get('bing_site_verification') %}
+<meta name="msvalidate.01" content="{{ config.extra['bing_site_verification'] }}">
+{% endif %}
+
 {% if meta.get('hreflang') %}
 {% for alt_lang, alt_url in meta['hreflang'].items() %}
 <link rel="alternate" hreflang="{{ alt_lang }}" href="{{ alt_url }}">
@@ -34,7 +58,9 @@
 <meta property="og:type" content="{% if meta.get('type') == 'article' %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ config.site_name }}">
 <meta property="og:locale" content="{{ 'es_AR' if site_lang == 'es' else 'en_US' }}">
-{% if og_image %}<meta property="og:image" content="{{ og_image }}">{% endif %}
+{% if og_image %}<meta property="og:image" content="{{ og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">{% endif %}
 {% if meta.get('published_at') %}
 <meta property="article:published_time" content="{{ meta['published_at'] }}">
 {% endif %}
@@ -51,6 +77,9 @@
 <meta name="twitter:title" content="{{ page_title }}">
 <meta name="twitter:description" content="{{ page_description }}">
 {% if og_image %}<meta name="twitter:image" content="{{ og_image }}">{% endif %}
+{% if config.extra.get('twitter_handle') %}
+<meta name="twitter:site" content="@{{ config.extra['twitter_handle'] | replace('@', '') }}">
+{% endif %}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,6 +97,9 @@
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.site_url | trim('/') }}/feed.xml">
 <link rel="alternate" type="application/atom+xml" title="Atom" href="{{ config.site_url | trim('/') }}/atom.xml">
+
+{# JSON-LD structured data #}
+{% include "partials/jsonld.html" %}
 </head>
 <body class="type-{{ meta.get('type', 'article') }}">
 

@@ -1,0 +1,249 @@
+{#
+  JSON-LD dispatcher.
+
+  Emits schema.org structured data based on `page.meta.type`. Google + Bing
+  use this for rich results (author, date, image, breadcrumbs).
+
+  Types handled:
+    - home           → Organization + WebSite (with SearchAction)
+    - article        → NewsArticle + BreadcrumbList
+    - investigation  → NewsArticle (articleSection = 'Investigación') + BreadcrumbList
+    - book           → Book
+    - about          → AboutPage + Organization (with employee list)
+    - category_index → CollectionPage + BreadcrumbList
+    - tag_index      → CollectionPage
+    - series_index   → CollectionPage
+#}
+{% set meta = page.meta or {} %}
+{% set page_type = meta.get('type', 'article') %}
+{% set site_url_trimmed = config.site_url | trim('/') %}
+{% set org_name = config.extra.get('organization_legal_name') or config.site_name %}
+{% set publisher_logo = config.extra.get('publisher_logo') %}
+{% set twitter_handle = config.extra.get('twitter_handle') %}
+{% set github_org = config.extra.get('github_org') %}
+
+{# Reusable Publisher object — built once per page render #}
+{% set publisher_obj %}
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ org_name | tojson }},
+      "url": {{ site_url_trimmed | tojson }}
+      {% if publisher_logo %},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ publisher_logo | tojson }}
+      }
+      {% endif %}
+    }
+{% endset %}
+
+{% set same_as = [] %}
+{% if twitter_handle %}{% set _ = same_as.append('https://twitter.com/' ~ (twitter_handle | replace('@', ''))) %}{% endif %}
+{% if github_org %}{% set _ = same_as.append('https://github.com/' ~ github_org) %}{% endif %}
+
+{% if page_type == 'home' %}
+{# Organization + WebSite for the home #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": {{ (site_url_trimmed ~ '/#organization') | tojson }},
+      "name": {{ org_name | tojson }},
+      "url": {{ site_url_trimmed | tojson }}
+      {% if publisher_logo %},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ publisher_logo | tojson }}
+      }
+      {% endif %}
+      {% if config.site_description %},
+      "description": {{ config.site_description | tojson }}
+      {% endif %}
+      {% if same_as %},
+      "sameAs": {{ same_as | tojson }}
+      {% endif %}
+      {% if config.extra.get('contact_email') %},
+      "email": {{ config.extra['contact_email'] | tojson }}
+      {% endif %}
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ (site_url_trimmed ~ '/#website') | tojson }},
+      "url": {{ site_url_trimmed | tojson }},
+      "name": {{ config.site_name | tojson }}
+      {% if config.site_description %},
+      "description": {{ config.site_description | tojson }}
+      {% endif %}
+      ,
+      "inLanguage": "es",
+      "publisher": {"@id": {{ (site_url_trimmed ~ '/#organization') | tojson }}}
+    }
+  ]
+}
+</script>
+
+{% elif page_type in ['article', 'investigation'] %}
+{# NewsArticle #}
+{% set page_url = meta.get('url') %}
+{% set article_section = meta.get('category_name') if page_type == 'article' else ('Investigación' if (meta.get('lang', 'es') == 'es') else 'Investigation') %}
+{% set headline = meta.get('title') or page.title %}
+{% set description = meta.get('summary') or meta.get('seo_description') or meta.get('description') or '' %}
+{% set image_url = meta.get('cover_image') or config.extra.get('og_default_image') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page_url | tojson }}
+  },
+  "headline": {{ headline | tojson }}
+  {% if description %},
+  "description": {{ description | tojson }}
+  {% endif %}
+  {% if image_url %},
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ image_url | tojson }}
+  }
+  {% endif %}
+  {% if meta.get('published_at') %},
+  "datePublished": {{ meta.published_at | tojson }}
+  {% endif %}
+  {% if meta.get('updated_at') %},
+  "dateModified": {{ meta.updated_at | tojson }}
+  {% endif %}
+  {% if meta.get('author') %},
+  "author": {
+    "@type": "Person",
+    "name": {{ meta.author | tojson }}
+  }
+  {% endif %},
+  {{ publisher_obj }}
+  {% if article_section %},
+  "articleSection": {{ article_section | tojson }}
+  {% endif %}
+  {% if meta.get('word_count') %},
+  "wordCount": {{ meta.word_count }}
+  {% endif %}
+  ,
+  "inLanguage": {{ meta.get('lang', 'es') | tojson }}
+}
+</script>
+{# BreadcrumbList: Home → Category → Article #}
+{% if meta.get('category_url') and meta.get('category_name') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": {{ ('Portada' if meta.get('lang', 'es') == 'es' else 'Home') | tojson }}, "item": {{ (site_url_trimmed ~ ('/' if meta.get('lang', 'es') == 'es' else '/en/')) | tojson }}},
+    {"@type": "ListItem", "position": 2, "name": {{ meta.category_name | tojson }}, "item": {{ meta.category_url | tojson }}},
+    {"@type": "ListItem", "position": 3, "name": {{ headline | tojson }}, "item": {{ page_url | tojson }}}
+  ]
+}
+</script>
+{% endif %}
+
+{% elif page_type == 'book' %}
+{% set page_url = meta.get('url') %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": {{ (meta.get('title') or page.title) | tojson }}
+  {% if meta.get('subtitle') %},
+  "alternativeHeadline": {{ meta.subtitle | tojson }}
+  {% endif %}
+  {% if meta.get('synopsis') %},
+  "description": {{ meta.synopsis | tojson }}
+  {% endif %}
+  {% if meta.get('isbn') %},
+  "isbn": {{ meta.isbn | tojson }}
+  {% endif %}
+  {% if meta.get('cover_image') %},
+  "image": {{ meta.cover_image | tojson }}
+  {% endif %}
+  {% if meta.get('published_year') %},
+  "datePublished": {{ (meta.published_year | string) | tojson }}
+  {% endif %}
+  {% if meta.get('author') %},
+  "author": {"@type": "Person", "name": {{ meta.author | tojson }}}
+  {% endif %},
+  {{ publisher_obj }},
+  "url": {{ page_url | tojson }}
+}
+</script>
+
+{% elif page_type == 'about' %}
+{% set page_url = meta.get('url') %}
+{% set team = meta.get('team', []) %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": {{ (meta.get('title') or page.title) | tojson }}
+  {% if meta.get('subtitle') %},
+  "description": {{ meta.subtitle | tojson }}
+  {% endif %},
+  "url": {{ page_url | tojson }},
+  "mainEntity": {
+    "@type": "Organization",
+    "name": {{ org_name | tojson }},
+    "url": {{ site_url_trimmed | tojson }}
+    {% if publisher_logo %},
+    "logo": {{ publisher_logo | tojson }}
+    {% endif %}
+    {% if team %},
+    "employee": [
+      {% for m in team %}
+      {
+        "@type": "Person",
+        "name": {{ m.name | tojson }}
+        {% if m.role %},
+        "jobTitle": {{ m.role | tojson }}
+        {% endif %}
+        {% if m.avatar_url %},
+        "image": {{ m.avatar_url | tojson }}
+        {% endif %}
+        {% if m.bio %},
+        "description": {{ m.bio | tojson }}
+        {% endif %}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+    {% endif %}
+  }
+}
+</script>
+
+{% elif page_type in ['category_index', 'tag_index', 'series_index'] %}
+{% set page_url = meta.get('url') %}
+{% set item_count = meta.get('article_count', 0) %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ (meta.get('title') or page.title) | tojson }}
+  {% if meta.get('description') %},
+  "description": {{ meta.description | tojson }}
+  {% endif %},
+  "url": {{ page_url | tojson }},
+  "isPartOf": {"@id": {{ (site_url_trimmed ~ '/#website') | tojson }}}
+}
+</script>
+{% if page_type == 'category_index' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": {{ ('Portada' if meta.get('lang', 'es') == 'es' else 'Home') | tojson }}, "item": {{ (site_url_trimmed ~ ('/' if meta.get('lang', 'es') == 'es' else '/en/')) | tojson }}},
+    {"@type": "ListItem", "position": 2, "name": {{ (meta.get('title') or page.title) | tojson }}, "item": {{ page_url | tojson }}}
+  ]
+}
+</script>
+{% endif %}
+{% endif %}

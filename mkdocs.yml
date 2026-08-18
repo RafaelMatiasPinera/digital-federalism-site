@@ -47,3 +47,10 @@ extra:
     color: '#dc2626'
   twitter_handle: null
   contact_email: null
+  site_tagline: ''
+  og_default_image: ''
+  publisher_logo: ''
+  organization_legal_name: Digital Federalism
+  google_site_verification: ''
+  bing_site_verification: ''
+  github_org: ''

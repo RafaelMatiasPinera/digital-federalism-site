@@ -8,6 +8,7 @@ author: Rafael Piñera
 author_username: rafa
 category: religion
 category_name: religion
+category_url: https://digital-federalism.org/categorias/religion/
 tags: []
 series: null
 reading_minutes: 3

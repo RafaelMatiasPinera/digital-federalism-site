@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-17T19:40:01.523536+00:00</updated>
+  <updated>2026-08-18T03:15:45.031240+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,16 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina</id>
+    <title>Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina</title>
+    <updated>2026-08-18T03:15:38.298162+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina"/>
+    <published>2026-08-18T03:15:38.298162+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/aa</id>
     <title>El átomo de una disciplina científica</title>
@@ -62,7 +72,7 @@
   </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio</id>
-    <title>De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció</title>
+    <title>De la mesa de los hijos a las migajas de los perros. El Jesús que nos desconocía</title>
     <updated>2026-08-14T21:48:18.251235+00:00</updated>
     <author>
       <name>Rafael Piñera</name>

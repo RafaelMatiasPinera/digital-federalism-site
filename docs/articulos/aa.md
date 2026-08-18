@@ -8,6 +8,7 @@ author: Rafael Piñera
 author_username: rafa
 category: sociedad
 category_name: sociedad
+category_url: https://digital-federalism.org/categorias/sociedad/
 tags: []
 series: null
 reading_minutes: 5

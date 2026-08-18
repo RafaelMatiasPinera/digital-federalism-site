@@ -5,9 +5,16 @@ code: sociedad
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/sociedad
-article_count: 2
+article_count: 3
 investigation_count: 0
 articles:
+- slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
+  url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
+  title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'
+  summary: null
+  cover_image: null
+  published_at: '2026-08-18T03:15:38.298162+00:00'
+  reading_minutes: 3
 - slug: aa
   url: https://digital-federalism.org/articulos/aa
   title: El átomo de una disciplina científica

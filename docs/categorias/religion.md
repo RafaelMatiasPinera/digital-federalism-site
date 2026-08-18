@@ -17,7 +17,7 @@ articles:
   reading_minutes: 3
 - slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   url: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
-  title: De la mesa de los hijos a las migajas de los perros. El Jesús que nunca nos conoció
+  title: De la mesa de los hijos a las migajas de los perros. El Jesús que nos desconocía
   summary: null
   cover_image: null
   published_at: '2026-08-14T21:48:18.251235+00:00'
