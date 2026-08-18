@@ -6,7 +6,18 @@ url: https://digital-federalism.org/
 hreflang:
   es: https://digital-federalism.org/
   en: https://digital-federalism.org/en
-featured: []
+featured:
+- title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'
+  slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
+  url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-08-18T03:15:38.298162+00:00'
+  reading_minutes: 3
 latest_articles:
 - title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'
   slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
