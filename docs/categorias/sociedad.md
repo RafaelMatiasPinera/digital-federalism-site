@@ -19,7 +19,7 @@ articles:
   url: https://digital-federalism.org/articulos/aa
   title: El átomo de una disciplina científica
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/18/185c120fb8f4a478cc605019137fe37ea708c1a39b43dfbd71b5ca0303c7cb04.medium.jpg
   published_at: '2026-08-17T19:39:54.699047+00:00'
   reading_minutes: 5
 - slug: los-misticos-y-las-maquinas

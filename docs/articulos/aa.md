@@ -14,12 +14,13 @@ series: null
 reading_minutes: 5
 word_count: 1100
 is_featured: false
-updated_at: '2026-08-17T19:39:54+00:00'
+updated_at: '2026-08-18T16:13:55+00:00'
 url: https://digital-federalism.org/articulos/aa
 hreflang:
   es: https://digital-federalism.org/articulos/aa
 published_at: '2026-08-17T19:39:54.699047+00:00'
 date: '2026-08-17'
+cover_image: https://digital-federalism.org/media/18/185c120fb8f4a478cc605019137fe37ea708c1a39b43dfbd71b5ca0303c7cb04.medium.jpg
 canonical: https://digital-federalism.org/articulos/aa
 ---
 

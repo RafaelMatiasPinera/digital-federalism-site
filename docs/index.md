@@ -34,7 +34,7 @@ latest_articles:
   slug: aa
   url: https://digital-federalism.org/articulos/aa
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/18/185c120fb8f4a478cc605019137fe37ea708c1a39b43dfbd71b5ca0303c7cb04.medium.jpg
   category: sociedad
   category_name: sociedad
   category_color: '#dc2626'
