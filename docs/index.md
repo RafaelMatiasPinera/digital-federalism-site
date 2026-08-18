@@ -56,7 +56,7 @@ latest_articles:
   slug: los-misticos-y-las-maquinas
   url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/e6/e67b7641e2cc3d0f975691685eaa2ab71e7dc4e46beb71a4e4f4069cc7607eab.medium.jpg
   category: sociedad
   category_name: sociedad
   category_color: '#dc2626'
@@ -67,7 +67,7 @@ latest_articles:
   slug: lo-que-ninguna-maquina-puede-calcular
   url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/8c/8ca8bc80f22e99bbcd7d37f7202dfc00f16d1d2187f6776ebf2884e858b5ece5.medium.jpg
   category: tecnologia
   category_name: tecnología
   category_color: '#dc2626'
@@ -89,7 +89,7 @@ latest_articles:
   slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   url: https://digital-federalism.org/articulos/de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio
   summary: null
-  cover_image: https://digital-federalism.org/media/53/532a45b39338e88b6d8920bdf0c0e25ff154b5a1f2d19673372bd79ace66bdaa.medium.jpg
+  cover_image: https://digital-federalism.org/media/2a/2a0339244bd08c090db48dd3ea247364680a096329e6a45d792ea9d5ecec6d94.medium.jpg
   category: religion
   category_name: religion
   category_color: '#dc2626'

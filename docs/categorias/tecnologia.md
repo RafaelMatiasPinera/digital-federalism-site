@@ -19,7 +19,7 @@ articles:
   url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
   title: Lo que ninguna máquina puede calcular
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/8c/8ca8bc80f22e99bbcd7d37f7202dfc00f16d1d2187f6776ebf2884e858b5ece5.medium.jpg
   published_at: '2026-08-14T23:01:41.954417+00:00'
   reading_minutes: 9
 - slug: la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto

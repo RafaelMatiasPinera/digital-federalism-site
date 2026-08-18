@@ -14,12 +14,13 @@ series: null
 reading_minutes: 9
 word_count: 1993
 is_featured: false
-updated_at: '2026-08-17T18:02:15+00:00'
+updated_at: '2026-08-18T16:38:22+00:00'
 url: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
 hreflang:
   es: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
 published_at: '2026-08-14T23:01:41.954417+00:00'
 date: '2026-08-14'
+cover_image: https://digital-federalism.org/media/8c/8ca8bc80f22e99bbcd7d37f7202dfc00f16d1d2187f6776ebf2884e858b5ece5.medium.jpg
 canonical: https://digital-federalism.org/articulos/lo-que-ninguna-maquina-puede-calcular
 ---
 

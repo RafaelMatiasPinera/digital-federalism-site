@@ -9,17 +9,21 @@ author_username: rafa
 category: sociedad
 category_name: sociedad
 category_url: https://digital-federalism.org/categorias/sociedad/
-tags: []
+tags:
+- historia
+- programacion
+- sociedad
 series: null
 reading_minutes: 16
 word_count: 3557
 is_featured: false
-updated_at: '2026-08-17T18:02:42+00:00'
+updated_at: '2026-08-18T16:37:09+00:00'
 url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 hreflang:
   es: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 published_at: '2026-08-17T17:55:53.563179+00:00'
 date: '2026-08-17'
+cover_image: https://digital-federalism.org/media/e6/e67b7641e2cc3d0f975691685eaa2ab71e7dc4e46beb71a4e4f4069cc7607eab.medium.jpg
 canonical: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
 ---
 

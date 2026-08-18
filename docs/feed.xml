@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:36:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 16:38:37 +0000</lastBuildDate>
     <item>
       <title>Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina</title>
       <link>https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina</link>
@@ -33,6 +33,9 @@
       <title>Los místicos y las máquinas</title>
       <link>https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</link>
       <guid isPermaLink="false">https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</guid>
+      <category>historia</category>
+      <category>programacion</category>
+      <category>sociedad</category>
       <pubDate>Mon, 17 Aug 2026 17:55:53 +0000</pubDate>
     </item>
     <item>

@@ -26,7 +26,7 @@ articles:
   url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
   title: Los místicos y las máquinas
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/e6/e67b7641e2cc3d0f975691685eaa2ab71e7dc4e46beb71a4e4f4069cc7607eab.medium.jpg
   published_at: '2026-08-17T17:55:53.563179+00:00'
   reading_minutes: 16
 investigations: []

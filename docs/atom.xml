@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-18T16:36:38.517877+00:00</updated>
+  <updated>2026-08-18T16:38:37.120657+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -50,6 +50,9 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/los-misticos-y-las-maquinas"/>
+    <category term="historia" label="historia"/>
+    <category term="programacion" label="programacion"/>
+    <category term="sociedad" label="sociedad"/>
     <published>2026-08-17T17:55:53.563179+00:00</published>
   </entry>
   <entry>
