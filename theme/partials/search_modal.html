@@ -1,0 +1,49 @@
+{#
+  Search modal. Rendered inline on every page but kept `hidden` until the
+  header's search button toggles it. Uses <dialog> for native modal semantics
+  (focus trap, Esc-to-close, backdrop) with a JS polyfill only if needed.
+#}
+{% set site_lang = (page.meta or {}).get('lang', 'es') %}
+<dialog class="search-modal" id="search-modal" aria-label="{{ 'Buscar en el sitio' if site_lang == 'es' else 'Search the site' }}">
+  <form method="dialog" class="search-modal__form" onsubmit="return false;">
+    <div class="search-modal__input-row">
+      <svg class="search-modal__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input type="search"
+             id="search-input"
+             class="search-modal__input"
+             autocomplete="off"
+             spellcheck="false"
+             placeholder="{{ 'Buscar artículos, investigaciones, libros…' if site_lang == 'es' else 'Search articles, investigations, books…' }}"
+             aria-label="{{ 'Buscar' if site_lang == 'es' else 'Search' }}">
+      <button type="button" class="search-modal__close" value="cancel" aria-label="{{ 'Cerrar' if site_lang == 'es' else 'Close' }}">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="search-modal__results" id="search-results">
+      <div class="search-modal__empty" id="search-empty">
+        <p class="search-modal__hint">
+          {{ 'Escribí para buscar en todo el sitio. Podés filtrar por título, resumen, autor o contenido.' if site_lang == 'es' else 'Type to search the whole site. Filter by title, summary, author, or content.' }}
+        </p>
+        <p class="search-modal__shortcut">
+          <kbd>Esc</kbd> {{ 'para cerrar' if site_lang == 'es' else 'to close' }}
+          &nbsp;·&nbsp;
+          <kbd>↑</kbd> <kbd>↓</kbd> {{ 'para navegar' if site_lang == 'es' else 'to navigate' }}
+          &nbsp;·&nbsp;
+          <kbd>↵</kbd> {{ 'para abrir' if site_lang == 'es' else 'to open' }}
+        </p>
+      </div>
+      <ul class="search-modal__list" id="search-list" role="listbox" aria-label="{{ 'Resultados' if site_lang == 'es' else 'Results' }}"></ul>
+      <div class="search-modal__no-results" id="search-no-results" hidden>
+        <p>{{ 'Sin resultados para tu búsqueda.' if site_lang == 'es' else 'No results for your search.' }}</p>
+      </div>
+      <div class="search-modal__loading" id="search-loading" hidden>
+        <p>{{ 'Cargando índice…' if site_lang == 'es' else 'Loading index…' }}</p>
+      </div>
+    </div>
+  </form>
+</dialog>

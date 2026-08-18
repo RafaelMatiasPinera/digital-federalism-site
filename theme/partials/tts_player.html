@@ -1,0 +1,85 @@
+{#
+  Text-to-speech floating player.
+
+  Rendered on article and investigation pages. The launcher is a circular
+  button fixed bottom-right; clicking it expands to a mini-player.
+  All the actual TTS logic lives in tts.js (Web Speech API).
+
+  If the browser doesn't support speechSynthesis, tts.js hides this partial
+  gracefully — nothing to configure on the server side.
+#}
+{% set site_lang = (page.meta or {}).get('lang', 'es') %}
+{% set page_type = (page.meta or {}).get('type', '') %}
+{% if page_type in ['article', 'investigation'] %}
+<div class="tts" id="tts-widget" data-lang="{{ site_lang }}" hidden>
+  <button type="button" class="tts__launcher" id="tts-launcher"
+          aria-label="{{ 'Escuchar artículo' if site_lang == 'es' else 'Listen to article' }}"
+          title="{{ 'Escuchar artículo' if site_lang == 'es' else 'Listen to article' }}">
+    <svg class="tts__icon tts__icon--play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M8 5v14l11-7z"/>
+    </svg>
+    <svg class="tts__icon tts__icon--pause" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+      <path d="M6 4h4v16H6zm8 0h4v16h-4z"/>
+    </svg>
+    <span class="tts__launcher-label">{{ 'Escuchar' if site_lang == 'es' else 'Listen' }}</span>
+  </button>
+
+  <div class="tts__panel" id="tts-panel" hidden aria-label="{{ 'Reproductor' if site_lang == 'es' else 'Player' }}">
+    <header class="tts__panel-header">
+      <span class="tts__panel-title">
+        <span class="tts__panel-status" id="tts-status">{{ 'Listo' if site_lang == 'es' else 'Ready' }}</span>
+      </span>
+      <button type="button" class="tts__close" id="tts-close" aria-label="{{ 'Cerrar' if site_lang == 'es' else 'Close' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </header>
+
+    <div class="tts__controls">
+      <button type="button" class="tts__btn tts__btn--play" id="tts-play"
+              aria-label="{{ 'Reproducir / Pausar' if site_lang == 'es' else 'Play / Pause' }}">
+        <svg class="tts__ctl-icon tts__ctl-icon--play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg class="tts__ctl-icon tts__ctl-icon--pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+          <path d="M6 4h4v16H6zm8 0h4v16h-4z"/>
+        </svg>
+      </button>
+      <button type="button" class="tts__btn" id="tts-stop"
+              aria-label="{{ 'Detener' if site_lang == 'es' else 'Stop' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <rect x="6" y="6" width="12" height="12"/>
+        </svg>
+      </button>
+      <button type="button" class="tts__btn" id="tts-prev" title="{{ 'Párrafo anterior' if site_lang == 'es' else 'Previous paragraph' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+        </svg>
+      </button>
+      <button type="button" class="tts__btn" id="tts-next" title="{{ 'Párrafo siguiente' if site_lang == 'es' else 'Next paragraph' }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 18l8.5-6L6 6zm10-12h2v12h-2z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="tts__row">
+      <label class="tts__label" for="tts-speed">{{ 'Velocidad' if site_lang == 'es' else 'Speed' }}</label>
+      <input type="range" id="tts-speed" class="tts__slider"
+             min="0.7" max="2.0" step="0.1" value="1.0"
+             aria-label="{{ 'Velocidad' if site_lang == 'es' else 'Speed' }}">
+      <span class="tts__speed-value" id="tts-speed-value">1.0×</span>
+    </div>
+
+    <div class="tts__row">
+      <label class="tts__label" for="tts-voice">{{ 'Voz' if site_lang == 'es' else 'Voice' }}</label>
+      <select id="tts-voice" class="tts__select" aria-label="{{ 'Voz' if site_lang == 'es' else 'Voice' }}"></select>
+    </div>
+
+    <p class="tts__hint">
+      {{ 'La voz depende de tu navegador y sistema. En iOS y Mac suele sonar mejor.' if site_lang == 'es' else 'Voice quality depends on your browser and OS. iOS and Mac usually sound best.' }}
+    </p>
+  </div>
+</div>
+{% endif %}
