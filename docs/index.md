@@ -78,7 +78,7 @@ latest_articles:
   slug: el-cristianismo-como-paradoja-estrucutral
   url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/53/532a45b39338e88b6d8920bdf0c0e25ff154b5a1f2d19673372bd79ace66bdaa.medium.jpg
   category: religion
   category_name: religion
   category_color: '#dc2626'

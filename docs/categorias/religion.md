@@ -12,7 +12,7 @@ articles:
   url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
   title: Creer en virtud de lo absurdo
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/53/532a45b39338e88b6d8920bdf0c0e25ff154b5a1f2d19673372bd79ace66bdaa.medium.jpg
   published_at: '2026-08-14T22:03:03.600786+00:00'
   reading_minutes: 3
 - slug: de-la-mesa-de-los-hijos-a-las-migajas-de-los-perros-el-jesus-que-nunca-nos-conocio

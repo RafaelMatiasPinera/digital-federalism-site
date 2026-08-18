@@ -14,12 +14,13 @@ series: null
 reading_minutes: 3
 word_count: 586
 is_featured: false
-updated_at: '2026-08-14T22:05:21+00:00'
+updated_at: '2026-08-18T16:39:10+00:00'
 url: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
 hreflang:
   es: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
 published_at: '2026-08-14T22:03:03.600786+00:00'
 date: '2026-08-14'
+cover_image: https://digital-federalism.org/media/53/532a45b39338e88b6d8920bdf0c0e25ff154b5a1f2d19673372bd79ace66bdaa.medium.jpg
 canonical: https://digital-federalism.org/articulos/el-cristianismo-como-paradoja-estrucutral
 ---
 
