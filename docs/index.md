@@ -111,7 +111,7 @@ latest_articles:
   slug: once-dolientes-en-highgate
   url: https://digital-federalism.org/articulos/once-dolientes-en-highgate
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/7d/7dee8ef5375c50d1456053285468c112f237fd2c42a4f7dcd4b5dc956b41dde4.medium.jpg
   category: historia
   category_name: historia
   category_color: '#dc2626'
@@ -144,7 +144,7 @@ latest_articles:
   slug: belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
   url: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/97/97041b1eb170516cc5cf370f7a44b69d8e573ed4c5b869c5cc92b89623e1a4d7.medium.jpg
   category: historia
   category_name: historia
   category_color: '#dc2626'

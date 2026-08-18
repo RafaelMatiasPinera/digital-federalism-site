@@ -19,7 +19,7 @@ articles:
   url: https://digital-federalism.org/articulos/once-dolientes-en-highgate
   title: Once dolientes en Highgate
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/7d/7dee8ef5375c50d1456053285468c112f237fd2c42a4f7dcd4b5dc956b41dde4.medium.jpg
   published_at: '2026-08-05T18:00:30.702279+00:00'
   reading_minutes: 4
 - slug: el-jesuita-el-filosofo-y-el-silencio-de-marx-frente-a-las-sociedades-secretas
@@ -33,7 +33,7 @@ articles:
   url: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
   title: Bélgica y su deseo sobre Argentina a principios de 1900
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/97/97041b1eb170516cc5cf370f7a44b69d8e573ed4c5b869c5cc92b89623e1a4d7.medium.jpg
   published_at: '2026-08-04T20:36:15.470036+00:00'
   reading_minutes: 6
 investigations: []

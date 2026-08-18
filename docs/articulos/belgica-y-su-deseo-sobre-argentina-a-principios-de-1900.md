@@ -14,12 +14,13 @@ series: null
 reading_minutes: 6
 word_count: 1399
 is_featured: false
-updated_at: '2026-08-04T20:36:15+00:00'
+updated_at: '2026-08-18T16:36:08+00:00'
 url: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
 hreflang:
   es: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
 published_at: '2026-08-04T20:36:15.470036+00:00'
 date: '2026-08-04'
+cover_image: https://digital-federalism.org/media/97/97041b1eb170516cc5cf370f7a44b69d8e573ed4c5b869c5cc92b89623e1a4d7.medium.jpg
 canonical: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
 ---
 

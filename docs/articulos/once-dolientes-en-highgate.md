@@ -16,12 +16,13 @@ series: null
 reading_minutes: 4
 word_count: 979
 is_featured: false
-updated_at: '2026-08-05T18:00:30+00:00'
+updated_at: '2026-08-18T16:35:41+00:00'
 url: https://digital-federalism.org/articulos/once-dolientes-en-highgate
 hreflang:
   es: https://digital-federalism.org/articulos/once-dolientes-en-highgate
 published_at: '2026-08-05T18:00:30.702279+00:00'
 date: '2026-08-05'
+cover_image: https://digital-federalism.org/media/7d/7dee8ef5375c50d1456053285468c112f237fd2c42a4f7dcd4b5dc956b41dde4.medium.jpg
 canonical: https://digital-federalism.org/articulos/once-dolientes-en-highgate
 ---
 
