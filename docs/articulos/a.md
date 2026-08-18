@@ -9,17 +9,20 @@ author_username: rafa
 category: tecnologia
 category_name: tecnología
 category_url: https://digital-federalism.org/categorias/tecnologia/
-tags: []
+tags:
+- historia
+- programacion
 series: null
 reading_minutes: 12
 word_count: 2599
 is_featured: false
-updated_at: '2026-08-17T18:35:02+00:00'
+updated_at: '2026-08-18T16:02:26+00:00'
 url: https://digital-federalism.org/articulos/a
 hreflang:
   es: https://digital-federalism.org/articulos/a
 published_at: '2026-08-17T18:17:29.810564+00:00'
 date: '2026-08-17'
+cover_image: https://digital-federalism.org/media/d2/d2d1066ec14381d40dea171e8bf4a20554e95aebc106aaf314f7cf45d4fcb621.medium.jpg
 canonical: https://digital-federalism.org/articulos/a
 ---
 

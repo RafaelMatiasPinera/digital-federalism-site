@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-18T15:54:58.735067+00:00</updated>
+  <updated>2026-08-18T16:02:57.199469+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -38,6 +38,8 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/a"/>
+    <category term="historia" label="historia"/>
+    <category term="programacion" label="programacion"/>
     <published>2026-08-17T18:17:29.810564+00:00</published>
   </entry>
   <entry>

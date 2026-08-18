@@ -45,7 +45,7 @@ latest_articles:
   slug: a
   url: https://digital-federalism.org/articulos/a
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/d2/d2d1066ec14381d40dea171e8bf4a20554e95aebc106aaf314f7cf45d4fcb621.medium.jpg
   category: tecnologia
   category_name: tecnología
   category_color: '#dc2626'
