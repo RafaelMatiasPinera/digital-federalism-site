@@ -5,9 +5,16 @@ code: historia
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/historia
-article_count: 4
+article_count: 5
 investigation_count: 0
 articles:
+- slug: roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional
+  summary: null
+  cover_image: null
+  published_at: '2026-08-28T18:55:40.534309+00:00'
+  reading_minutes: 8
 - slug: eeuu-francia-uk
   url: https://digital-federalism.org/articulos/eeuu-francia-uk
   title: La sexta potencia - Baring en París, 1803

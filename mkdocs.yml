@@ -45,6 +45,10 @@ extra:
     name: sociedad
     url: /categorias/sociedad/
     color: '#dc2626'
+  - code: finanzas
+    name: finanzas
+    url: /categorias/finanzas/
+    color: '#dc2626'
   twitter_handle: null
   contact_email: null
   site_tagline: ''

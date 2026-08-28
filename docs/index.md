@@ -19,6 +19,39 @@ featured:
   published_at: '2026-08-18T03:15:38.298162+00:00'
   reading_minutes: 3
 latest_articles:
+- title: El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres
+  slug: noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+  url: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+  summary: null
+  cover_image: null
+  category: finanzas
+  category_name: finanzas
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/finanzas/
+  published_at: '2026-08-28T21:15:09.499994+00:00'
+  reading_minutes: 9
+- title: Todo el oro de la historia medido en pelotas de fútbol.
+  slug: todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-08-28T20:51:16.875501+00:00'
+  reading_minutes: 9
+- title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional
+  slug: roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-08-28T18:55:40.534309+00:00'
+  reading_minutes: 8
 - title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'
   slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina

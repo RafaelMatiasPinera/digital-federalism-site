@@ -5,9 +5,16 @@ code: sociedad
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/sociedad
-article_count: 3
+article_count: 4
 investigation_count: 0
 articles:
+- slug: todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  title: Todo el oro de la historia medido en pelotas de fútbol.
+  summary: null
+  cover_image: null
+  published_at: '2026-08-28T20:51:16.875501+00:00'
+  reading_minutes: 9
 - slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'

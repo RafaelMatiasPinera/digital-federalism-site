@@ -10,6 +10,9 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 
 ## Articles
 
+- [El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres](https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres)
+- [Todo el oro de la historia medido en pelotas de fútbol.](https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer)
+- [Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional](https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional)
 - [Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina](https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina)
 - [El átomo de una disciplina científica](https://digital-federalism.org/articulos/aa)
 - [¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing](https://digital-federalism.org/articulos/a)
@@ -32,6 +35,7 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 - [juegos](https://digital-federalism.org/categorias/juegos)
 - [historia](https://digital-federalism.org/categorias/historia)
 - [sociedad](https://digital-federalism.org/categorias/sociedad)
+- [finanzas](https://digital-federalism.org/categorias/finanzas)
 
 ## Full corpus
 

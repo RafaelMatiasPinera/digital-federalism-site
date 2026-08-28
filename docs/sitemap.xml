@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://digital-federalism.org/</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/"/>
@@ -10,11 +10,32 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://digital-federalism.org/en"/>
+  </url>
+  <url>
+    <loc>https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres</loc>
+    <lastmod>2026-08-28T21:19:43Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres"/>
+  </url>
+  <url>
+    <loc>https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer</loc>
+    <lastmod>2026-08-28T20:51:16Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer"/>
+  </url>
+  <url>
+    <loc>https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional</loc>
+    <lastmod>2026-08-28T18:55:40Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional"/>
   </url>
   <url>
     <loc>https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina</loc>
@@ -118,7 +139,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/politica</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/politica"/>
@@ -126,7 +147,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/politica</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/politica"/>
@@ -134,7 +155,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/tecnologia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/tecnologia"/>
@@ -142,7 +163,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/tecnologia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/tecnologia"/>
@@ -150,7 +171,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/religion</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/religion"/>
@@ -158,7 +179,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/religion</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/religion"/>
@@ -166,7 +187,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/juegos</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/juegos"/>
@@ -174,7 +195,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/juegos</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/juegos"/>
@@ -182,7 +203,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/historia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/historia"/>
@@ -190,7 +211,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/historia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/historia"/>
@@ -198,7 +219,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/categorias/sociedad</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/sociedad"/>
@@ -206,15 +227,31 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/categories/sociedad</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/sociedad"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://digital-federalism.org/en/categories/sociedad"/>
   </url>
   <url>
+    <loc>https://digital-federalism.org/categorias/finanzas</loc>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/finanzas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digital-federalism.org/en/categories/finanzas"/>
+  </url>
+  <url>
+    <loc>https://digital-federalism.org/en/categories/finanzas</loc>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/categorias/finanzas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://digital-federalism.org/en/categories/finanzas"/>
+  </url>
+  <url>
     <loc>https://digital-federalism.org/tags/legal</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/legal"/>
@@ -222,7 +259,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/legal</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/legal"/>
@@ -230,7 +267,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/blockchain</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/blockchain"/>
@@ -238,7 +275,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/blockchain</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/blockchain"/>
@@ -246,7 +283,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/programacion</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/programacion"/>
@@ -254,7 +291,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/programacion</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/programacion"/>
@@ -262,7 +299,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/ciberseguridad</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/ciberseguridad"/>
@@ -270,7 +307,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/ciberseguridad</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/ciberseguridad"/>
@@ -278,7 +315,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/seguridad-informatica</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/seguridad-informatica"/>
@@ -286,7 +323,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/seguridad-informatica</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/seguridad-informatica"/>
@@ -294,7 +331,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/cypherpunk</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/cypherpunk"/>
@@ -302,7 +339,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/cypherpunk</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/cypherpunk"/>
@@ -310,7 +347,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/transparencia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/transparencia"/>
@@ -318,7 +355,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/transparencia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/transparencia"/>
@@ -326,7 +363,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/federalismo-digital</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/federalismo-digital"/>
@@ -334,7 +371,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/federalismo-digital</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/federalismo-digital"/>
@@ -342,7 +379,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/juegos</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/juegos"/>
@@ -350,7 +387,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/juegos</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/juegos"/>
@@ -358,7 +395,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/inteligencia-artificial</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/inteligencia-artificial"/>
@@ -366,7 +403,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/inteligencia-artificial</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/inteligencia-artificial"/>
@@ -374,7 +411,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/codigo-abierto</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/codigo-abierto"/>
@@ -382,7 +419,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/codigo-abierto</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/codigo-abierto"/>
@@ -390,7 +427,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/historia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/historia"/>
@@ -398,7 +435,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/historia</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/historia"/>
@@ -406,7 +443,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/sociedad</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/sociedad"/>
@@ -414,7 +451,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/sociedad</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/sociedad"/>
@@ -422,7 +459,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/tags/politica</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/politica"/>
@@ -430,7 +467,7 @@
   </url>
   <url>
     <loc>https://digital-federalism.org/en/tags/politica</loc>
-    <lastmod>2026-08-18T16:47:01Z</lastmod>
+    <lastmod>2026-08-28T21:24:37Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://digital-federalism.org/tags/politica"/>

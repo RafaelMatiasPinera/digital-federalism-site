@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-08-18T16:47:01.627597+00:00</updated>
+  <updated>2026-08-28T21:24:37.096596+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,36 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres</id>
+    <title>El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres</title>
+    <updated>2026-08-28T21:15:09.499994+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres"/>
+    <published>2026-08-28T21:15:09.499994+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer</id>
+    <title>Todo el oro de la historia medido en pelotas de fútbol.</title>
+    <updated>2026-08-28T20:51:16.875501+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer"/>
+    <published>2026-08-28T20:51:16.875501+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional</id>
+    <title>Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional</title>
+    <updated>2026-08-28T18:55:40.534309+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional"/>
+    <published>2026-08-28T18:55:40.534309+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina</id>
     <title>Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina</title>

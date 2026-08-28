@@ -1,9 +1,405 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-08-18T13:47:01.586567-03:00
+Generated at 2026-08-28T18:24:37.054294-03:00
 
-Total pieces: 13
+Total pieces: 16
 
+
+---
+
+
+
+## Article: El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres
+
+URL: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+Author: Rafael Piñera
+Category: finanzas
+Published: 2026-08-28T21:15:09.499994
+Reading time: 9 min
+
+Durante casi un siglo, el precio del oro del planeta se decidió en una habitación de Londres con cinco hombres, cinco teléfonos y cinco banderitas de escritorio. 
+
+Empezó en 1919 como una solución de posguerra y terminó en 2015, con multas millonarias y un escándalo de manipulación. 
+
+En el medio, ese ritual fijó la referencia que usaron bancos centrales, refinerías, joyeros, mineras y gobiernos de todo el mundo.
+
+La historia de cómo se llegó a semejante mecanismo, y de cómo terminó, dice bastante sobre cómo se construyen y se rompen los sistemas de confianza en las finanzas globales.
+
+## **El vacío de precio**
+
+Hasta 1914, el oro no tenía precio en el sentido moderno. 
+
+Bajo el patrón oro clásico, cada moneda era literalmente una cantidad determinada de metal. 
+
+Una libra esterlina equivalía a 7,32 gramos de oro fino; un dólar estadounidense, a 1,50; un franco francés, a 0,29. 
+
+Cambiar libras por dólares o comprar oro con francos eran operaciones aritméticas, no cotizaciones de mercado. El oro no fluctuaba porque el oro era la unidad de medida. O sea, no había la “presión de ordenes de compra (traiding)” con la que se mueven las bolsas de valores actuales.
+
+Cuando **estalló la Primera Guerra Mundial** en agosto de **1914**, ese sistema fijo, aritmético se rompió. 
+
+Los países beligerantes suspendieron la convertibilidad casi de inmediato, para poder emitir moneda sin restricciones y financiar la guerra. Las monedas empezaron a moverse entre sí. Y por primera vez en décadas, **el oro necesitaba un precio**.
+
+El problema no era menor. El comercio internacional seguía funcionando, las mineras sudafricanas seguían produciendo, las refinerías seguían operando, y todos necesitaban saber cuánto valía una onza.
+
+Existía un antecedente. Antes de la guerra, cuatro corredores de lingotes londinenses —*Mocatta & Goldsmid, Pixley & Abell, Sharps & Wilkins y Samuel Montagu*— se juntaban de manera informal para establecer un precio único que despejara el mercado. 
+
+La guerra interrumpió esas reuniones. Lo que vino después no fue un invento sino una restauración, pero con un cambio decisivo en quién mandaba.
+
+## **La reunión de las cinco casas**
+
+El 12 de septiembre de **1919**, **el Banco de Inglaterra** acordó con **N. M. Rothschild & Sons** la formación de un **mercado libre de oro** y el establecimiento **de un precio diario**. 
+
+La iniciativa no salió del mercado sino que salió del banco central, que buscaba reconstruir a Londres como centro financiero internacional después de la guerra.
+
+La primera subasta se realizó a las once de la mañana y el precio quedó en 4 libras, 18 chelines y 9 peniques, fijado por los cinco miembros fundadores: N. M. Rothschild & Sons como presidente, Mocatta & Goldsmid, Pixley & Abell, Samuel Montagu & Co. y Sharps Wilkins.
+
+Los primeros días las posturas se hicieron por teléfono; después se decidió celebrar una reunión formal diaria en New Court, la oficina londinense de Rothschild.
+
+Acá conviene desarmar un mito. La **presidencia de Rothschild** fue porque aquel era el agente principal de las mineras sudafricanas, y por eso, el Banco de Inglaterra lo invitó a presidir. Rothschild no era el mayor operador de la mesa, sino el que traía la oferta.
+
+Las otras cuatro sí eran casas del oficio, algunas con siglos encima. **Mocatta & Goldsmid**, la más antigua, se remonta a **1671**, cuando Moses Mocatta abrió en Camomile Street un negocio de oro, plata y diamantes. El nombre con el que llegó a 1919 data de 1783, cuando Asher Goldsmid entró en la firma.
+
+El mecanismo era ingenioso por lo simple. **El presidente proponía un precio de apertura.** Cada representante llamaba por teléfono a su firma, transmitía el precio y preguntaba a sus clientes cuánto comprarían o venderían a ese valor. Después informaba a la mesa la posición neta de su casa: **tantas barras para comprar, tantas para vender.**
+
+Si la oferta y la demanda coincidían, el precio se fijaba. Si no, el presidente proponía otro, más alto si había más compradores que vendedores, más bajo en el caso contrario. Y así, tantas veces como hiciera falta, hasta que las cifras cuadraran.
+
+Lo distintivo era la banderita. En **la Gold Fix Room de New Court**, cada representante tenía sobre su escritorio **una bandera británica en miniatura.** 
+
+Mientras las negociaciones seguían en curso, el representante la mantenía en alto para indicar que no estaba listo para cerrar. Solo cuando todas las banderas estaban bajas sobre la mesa y las cuentas cuadraban, el presidente podía declarar el fix.
+
+De ahí el nombre: **el *fixing* del oro**. El precio fijo, congelado por consenso.
+
+## **La era Rothschild**
+
+El ritual no fue continuo. El mercado del oro de Londres cerró en septiembre de **1939** y no reabrió hasta **1954**:quince años de guerra y posguerra en los que el fixing simplemente no existió. 
+
+Tampoco fue siempre de a cinco. En **1926 se sumó Johnson Matthey**, y la composición fue mutando con las fusiones bancarias del siglo.
+
+Y **durante casi cincuenta años hubo una sola reunión diaria.** La segunda, a las tres de la tarde, se agregó recién en 1968, para incorporar al mercado americano cuando abría Nueva York. 
+
+Los precios de esas reuniones eran los que usaban las mineras para calcular ingresos, los bancos centrales para valuar reservas, las refinerías para facturar y los joyeros para comprar.
+
+**En 2004** llegó el primer golpe simbólico. **N. M. Rothschild & Sons abandonó su asiento** después de ochenta y cinco años presidiendo. La familia consideraba que los márgenes del comercio de lingotes ya no justificaban su presencia.  Su lugar **lo compró Barclays Capital, presedida por el yerno de Rothschild.** La reunión se mudó de New Court, y las reuniones físicas fueron reemplazadas por conferencias telefónicas. Las banderitas quedaron en la vitrina del archivo Rothschild, aunque la lógica —levantar o bajar la orden hasta que cuadrara— siguió siendo la misma.
+
+## **Las grietas**
+
+Nadie prestó demasiada atención al fixing durante casi un siglo. Era un mecanismo técnico, aburrido, de una industria que la mayoría asociaba más con la joyería y las reservas soberanas que con la especulación. Pero a comienzos del siglo XXI el contexto cambió rápido.
+
+**Primero**, el precio se disparó. **De 252 dólares la onza en 1999 pasó a más de 1.800 en 2011**, multiplicándose por siete en doce años. Cada movimiento del fixing afectaba miles de millones de dólares en posiciones abiertas.
+
+**Segundo**, los mercados de derivados sobre oro crecieron de forma explosiva. Opciones, futuros y contratos exóticos referenciados al fixing multiplicaron el volumen de oro papel que dependía de esa cotización. Variaciones mínimas en el precio de referencia se traducían en ganancias o pérdidas enormes.
+
+**Tercero**, y más importante, los bancos que participaban en el fixing eran los mismos que operaban esos derivados por cuenta propia. Fijaban un precio que afectaba sus propias posiciones. Había un conflicto de interés era estructural, cada participante tenía, todos los días, incentivo económico para influir en el resultado.
+
+Durante décadas ese conflicto se manejó con una defensa cultural más que institucional. La idea de que los operadores de las casas históricas eran gente de palabra, con reputaciones construidas durante generaciones, que no arriesgaría siglos de prestigio por una ganancia de corto plazo. En los años dos mil ya no alcanzaba.
+
+## **El caso Barclays**
+
+El escándalo que rompió todo estalló el **28 de junio de 2012**, y fue chico en el gran esquema de las cosas. Pero expuso el problema estructural.
+
+Daniel James Plunkett era director de la mesa de metales preciosos de Barclays. Estaba a cargo de valuar y gestionar el riesgo del banco sobre una opción exótica digital referenciada al precio del oro en el fixing de las tres de la tarde de ese día. Si el precio quedaba por encima de 1.558,96 dólares, Barclays debía pagarle a su cliente; si quedaba por debajo, no pagaba nada.
+
+Durante esa subasta, Plunkett colocó órdenes con la intención de aumentar la probabilidad de que el precio se fijara por debajo del umbral, cosa que finalmente ocurrió. Barclays se ahorró el pago de 3,9 millones de dólares y el libro de Plunkett ganó 1,75 millones adicionales.
+
+Lo que siguió fue peor que la maniobra. El cliente advirtió enseguida que el precio había cerrado apenas por debajo del umbral y pidió explicaciones. Cuando Barclays le trasladó el reclamo a Plunkett, el 28 y el 29 de junio, este no reveló que había operado durante el fixing, y dio tanto al banco como al regulador una versión falsa de los hechos.
+
+El lunes siguiente, 2 de julio, se presentó ante su superior y admitió lo que había hecho. Fue despedido, y el cliente recibió su compensación.
+
+El detalle que le dio notoriedad al caso fue la fecha. La manipulación ocurrió un día después de que los reguladores británicos y estadounidenses multaran a Barclays con 450 millones de dólares por intentar manipular la Libor, el índice de referencia de los préstamos interbancarios que afecta billones de dólares en contratos alrededor del mundo. 
+
+Como señaló Tracey McDermott, directora de cumplimiento de la FCA, la investigación de ese caso implicaba que tanto la firma como Plunkett estaban claramente advertidos del potencial de conflictos de interés en torno a los índices de referencia.
+
+La investigación reveló además que no era un episodio aislado. La FCA identificó fallas en Barclays desde 2004 hasta 2013, nueve años de deficiencias en el manejo de conflictos de interés.
+
+La sanción llegó en mayo de 2014: 26 millones de libras para Barclays, 95.600 libras de multa personal para Plunkett y su inhabilitación para ejercer cualquier actividad regulada. Fue el primer banco multado por manipular el fixing del oro en los noventa y cinco años de historia del mecanismo.
+
+## **Sin juez ni jurado**
+
+Un detalle importante: nada de esto pasó por un tribunal. **La sanción fue enteramente administrativa**, impuesta por la FCA en ejercicio de su propia potestad regulatoria. No hubo juicio, ni fiscal, ni condena penal. Plunkett no fue a la cárcel: quedó multado e inhabilitado, y punto.
+
+Es el patrón habitual en la regulación financiera británica. Los reguladores llegan a acuerdos con los bancos, que suelen aceptar las multas con un descuento por cooperar y sin admitir responsabilidad penal. Si la firma discute la sanción puede apelar ante un tribunal administrativo especializado, pero en la práctica rara vez ocurre.
+
+Las causas penales, cuando aparecen, suelen venir de Estados Unidos y por otras vías. **En el caso paralelo de JPMorgan, la mesa de metales preciosos del banco enfrentó procesos penales federales por manipulación del mercado de futuros de oro y plata**, con condenas ante jurado. Pero esa es otra historia, en otra jurisdicción, con otra lógica.
+
+## **Los problemas continuaron saliendo a la luz**
+
+El caso Barclays fue el más ruidoso pero no el único. 
+
+**Entre 2013 y 2014 se multiplicaron las investigaciones** sobre presunta **manipulación del fixing**, y aparecieron **demandas colectivas en Estados Unidos** por parte de fondos que alegaban pérdidas por manipulación sistemática del precio de referencia.
+
+El sistema ya venía encogiéndose. Cuando la FCA sancionó a Barclays en 2014, el fixing ya no lo hacían cinco bancos sino cuatro, y la reunión de la mañana se había adelantado a las diez y media. Deutsche Bank anunció ese año que abandonaba su asiento. Otros siguieron. La London Bullion Market Association convocó a una consulta para reemplazar el mecanismo.
+
+El 20 de marzo de 2015, el fixing tradicional se realizó por última vez. Al día siguiente entró en operación el LBMA Gold Price: una subasta electrónica administrada por ICE Benchmark Administration, una empresa independiente especializada en administrar índices financieros. Los participantes envían sus órdenes de forma anónima a través de una plataforma que ejecuta rondas automáticas hasta que la oferta y la demanda cuadran, con auditoría permanente y registro digital de cada movimiento.
+
+El principio de fondo es el mismo que tenía el fixing original: un precio de referencia acordado mediante un proceso estructurado entre las grandes casas del mercado. Lo que cambió es la arquitectura. Reuniones telefónicas privadas reemplazadas por subastas auditadas. Un puñado de participantes reemplazado por varias veces esa cantidad. Conflicto de interés no eliminado, pero mucho más difícil de explotar sin dejar rastro.
+
+---
+
+
+
+## Article: Todo el oro de la historia medido en pelotas de fútbol.
+
+URL: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+Author: Rafael Piñera
+Category: sociedad
+Published: 2026-08-28T20:51:16.875501
+Reading time: 9 min
+
+Una **pelota de fútbol maciza de oro** pesa **ciento ocho kilos**. 
+
+Pesa lo que un hombre grande, en un objeto que entra en una mochila.
+
+**Todo el oro** que la humanidad sacó de la tierra, desde **Egipto** hasta **esta mañana**, son **dos millones de esas pelotas.** 
+
+Unas 220.700 toneladas, según el World Gold Council. 
+
+El ya **extraído más el que sigue bajo tierra e identificado** son 348.375 toneladas = **tres millones doscientas mil pelotas.**
+
+Sorprende lo poco que es. El oro pesa diecinueve veces y media más que el agua, así que **doscientas mil toneladas evocan una montaña cuando en realidad son una pileta grande.**
+
+## **El Ritmo**
+
+Vamos a hablar un poco del ritmo en el que se llenó.
+
+De esas 220.700 toneladas, cerca de dos tercios se extrajeron después de 1950. 
+
+**Cinco mil años de minería** produjeron **una de cada tres pelotas.** 
+
+**Los últimos setenta y cinco años** produjeron **las otras dos.** [World Gold Council](https://www.gold.org/goldhub/data/how-much-gold)
+
+## **La curva plana**
+
+Durante milenios el ritmo fue casi imperceptible. 
+
+**Egipto** y **Nubia** fueron las grandes fuentes desde el tercer milenio antes de Cristo. 
+
+Anatolia y las Islas Británicas aportaban lo suyo. 
+
+Roma por su parte, explotó **Hispania** con una violencia que dejó paisajes deformados para siempre.
+
+**Las Médulas**, las minas más grandes, en el noroeste español, miden esa desproporción mejor que ninguna cifra. Los romanos removieron entre **ochenta y noventa millones de metros cúbicos de material para extraer**, según las estimaciones arqueológicas modernas, **cuatro o cinco toneladas** de oro en todo el proceso de explotación. **Cuarenta pelotas**. Una montaña entera desarmada por **lo que hoy sale del mundo en menos de medio día.**
+
+**(4-5 toneladas en dos siglos. El mundo hoy produce 3.672 toneladas al año, o sea unas diez por día. Cinco toneladas salen en medio día)**
+
+Plinio el Viejo, procurador en Hispania en ese entonces habló de **toda la producción anual del noroeste hispano**: Asturias, Galicia y Lusitania juntas, decenas de explotaciones. Las Médulas es **una sola de esas minas**, aunque fuera la más grande. Según él, Asturias, Galicia y Lusitania producían unas veinte mil libras de oro al año: alrededor de 6.550 kilos. **Sesenta pelotas**. La cifra está probablemente inflada, pero incluso tomándola por buena da la escala. **Lo que el Imperio Romano consideraba una producción imperial hoy lo saca un yacimiento mediano en un año.**
+
+Los grandes flujos de los siglos siguientes fueron dos. 
+
+Uno, **el oro sahariano**: caravanas cruzando el desierto con lingotes de los **reinos de Malí y de Ghana hacia el Magreb y Europa**, durante siglos la principal fuente del oro europeo.
+
+El otro fue **el americano,** y acá hay que corregir un imaginario; **el saqueo español de América fue de plata, no de oro.** Las cuentas de Earl Hamilton sobre los registros oficiales entre 1503 y 1660 dan unas 185 toneladas de oro contra 16.887 de plata. Mil setecientas pelotas de oro en siglo y medio, contra noventa veces esa masa en plata. **Mil setecientas pelotas de oro en siglo y medio**, contra noventa veces esa masa en plata.
+
+El **oro americano** que sí pesó fue el **brasileño del siglo XVIII**, y tampoco fue lo que se cuenta. Las estimaciones dan unas **11.100 pelotas para todo el siglo**, repartidas entre **Minas Gerais, Goiás, Bahía y Mato Grosso,** con **Minas Gerais** aportando unas **5.100**. 
+
+El pico llegó entre **1730** y **1755**, con una **producción anual de dieciocho a veinte toneladas**: **ciento setenta pelotas por año**, el mayor ritmo que el mundo había visto hasta entonces.
+
+Para el año 1847, todo el oro del mundo equivalía a 92.600 pelotas de fútbol.
+
+## **La aceleración**
+
+En **1848**, en Sutter's Mill, California, un carpintero encontró pepitas en la corriente de un aserradero. Al año siguiente ochenta mil hombres cruzaban el continente.
+
+Entre 1792 y 1847 la producción acumulada de todo Estados Unidos fue de unas 37 toneladas; California superó esa cifra solo en 1849, y entre 1848 y 1857 promedió **76 toneladas por año.** **Setecientas pelotas anuales**, contra las trescientas cuarenta que el país entero había juntado en medio siglo. 
+
+Tres años después, en **1851**, aparecieron los **yacimientos de Victoria**, en **Australia**. El Departamento de Minas de Victoria registró 1.898.391 kilos de oro entre 1851 y 1896. **Diecisiete mil quinientas pelotas.** La población australiana se cuadruplicó en una década. [Wikipedia](https://en.wikipedia.org/wiki/Victorian_gold_rush)
+
+Y en **1886**, en **Sudáfrica**, apareció el yacimiento que cambió la escala. **Los conglomerados del Witwatersrand** alimentaron una industria que dominaría el siglo siguiente y que fue **causa** central de las **guerras anglo-bóer** entre **1899 y 1902**.
+
+## **El siglo del oro**
+
+Todo lo que vino después está en otra escala, y **Sudáfrica** la fijó. Su producción anual llegó al máximo en **1970 con 1.002 toneladas**, por lejos la mayor cantidad producida por un país en un año. **Nueve mil trescientas pelotas: veinticinco por día, todos los días.** 
+
+En ese momento el país representaba más del 70% de la producción mundial. [LBMA](https://www.lbma.org.uk/publications/spotlight-on-the-south-african-market/chapter-3-mining)
+
+**Canadá** entró en 1909 con los **hallazgos de Porcupine Lake**, en **Ontario**. La zona produjo **diecinueve mil pelotas**. El Klondike, la fiebre más famosa de la historia, tres mil quinientas. (*Klondike se encuentra en el territorio del Yukón, al noroeste de Canadá, cerca de la frontera con Alaska. La fiebre fue de 1896 a 1899 y la ciudad que creció con ella fue Dawson City*).
+
+El motor de la segunda mitad del siglo no fue un descubrimiento sino una técnica. 
+
+La **lixiviación** en **pilas** permitió procesar mineral de ley bajísima. Ya no hacía falta encontrar vetas ricas, alcanzaba con mover montañas de roca pobre. Los depósitos tipo **Carlin**, identificados en **Nevada** en **1961**, contienen oro tan finamente diseminado que es invisible a simple vista, en rocas que los buscadores anteriores habían descartado como estériles. El procesamiento moderno con cianuro extrae oro de mineral con apenas un gramo por tonelada. [Geography WorldsGeography Worlds](https://geographyworlds.com/blog/gold-mining-geography-guide/)
+
+**Sudáfrica**, mientras tanto, **se** **derrumbaba**. De aquellas mil toneladas pasó a 430 en el año 2000. Y el mapa entero se atomizó. Los cinco mayores productores pasaron del **91,6% del total mundial** en **1970** al **40,9%** en **2019**. [barchart](https://www.barchart.com/cmdty/resources/blog/4562806/gold-production-by-country-over-time)
+
+## **El presente**
+
+La producción minera de 2025 alcanzó un récord de 3.672 toneladas, dentro de una oferta total de 5.002, la mayor de la serie del World Gold Council desde 1970. **Treinta y cuatro mil pelotas** al **año.** **Noventa y tres** por **día**. [World Gold Council](https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/supply)
+
+- China encabeza con 384 toneladas, 
+- seguida por Rusia con 345, 
+- Australia con 293 y 
+- Canadá con 213. 
+
+Hoy se mina oro en más de cuarenta países. 
+
+(Sudáfrica, la que llegó a producir más de dos tercios del oro del planeta, produce hoy menos de cien toneladas al año: menos que Ghana, menos de una décima parte de su propio pico). [Money Metals](https://www.moneymetals.com/news/2026/08/15/top-10-gold-producing-countries-in-2025-005143)
+
+Por otro lado, **no hubo, en todo este período, ningún hallazgo nuevo espectacular.** 
+
+Hubo volumen industrial sobre roca cada vez más pobre.
+
+## **Lo que queda**
+
+El total accesible de la Tierra ronda las 348.375 toneladas, lo que equivale a **poco menos de cuatro décadas de producción adicional** al ritmo actual, siempre que el precio o la tecnología vuelvan económicamente viable extraerlo. 
+
+**Recordemos, hay tres millones doscientas mil pelotas en total. Ya salieron dos de cada tres.** [Visual Capitalist](https://www.visualcapitalist.com/worlds-total-supply-of-gold/)
+
+**Hace años que no aparecen depósitos grandes nuevos.** 
+
+**Hay una tesis que sostiene que**  lo significativo ya se descubrió y lo que queda son yacimientos chicos y antieconómicos y se viene anunciando desde hace veinte años y hasta ahora falló. Eso quizás no la vuelva falsa, sino difícil acertar la fecha.
+
+Por otro lado el factor que más puede correr la **demanda actual** es el reciclaje. En 2025 **el reciclaje** aportó 1.404 toneladas, cerca del 27% de la oferta mundial. **Trece mil pelotas que no salieron de ninguna mina.** 
+
+Pero curiosamente pese a que **el precio promedio anual subió 44%**, el **volumen reciclado creció apenas 3%**. 
+
+En cualquier mercado normal, cuando el precio salta 44% y el stock ya está extraído, refinado y en manos de particulares —sin costo de extracción, sin permisos, sin años de obra— la respuesta debería ser inmediata. La gente simplemente no vendió.
+
+Más del noventa por ciento del oro reciclado sale de joyería, y el grueso viene de India, China y otros mercados emergentes donde la gente vende cuando conviene. En rallies anteriores, el scrap indio llegó a triplicarse en un año.
+
+En 2025 no pasó. El precio promedio subió 44% y el volumen reciclado creció apenas 3%.
+
+Las razones son domésticas y bastante humanas. Si el precio viene subiendo sin parar, vender hoy parece un mal negocio.
+
+La era del oro barato, del que sale por primera vez, probablemente ya pasó su punto más alto. La que viene depende de las alianzas, las cadenas y las monedas guardadas.
+
+**En manos de familias y personas hay unas 1.315.000 pelotas** —joyería más barras y monedas particulares— contra 350.000 pelotas de los bancos centrales y 32.000 pelotas de los fondos de capitales.
+
+Dicho de otro modo: **por cada pelota que tiene un banco central, hay casi cuatro colgando de un cuello o guardadas en un cajón.** Y por cada pelota que tienen todos los ETFs del mundo juntos, hay cuarenta.
+
+Convendría analizar en un próximo artículo, como se dió la movilización del oro y los actores involucrados.
+
+## Fuentes:
+
+*Datos globales*
+
+- World Gold Council, *How much gold has been mined?* — gold.org/goldhub/data/how-much-gold. Total histórico y proporción posterior a 1950.
+- World Gold Council, *Gold Demand Trends, Full Year 2025 – Supply*. Producción minera récord, oferta total, reciclaje.
+- World Gold Council, *You asked, we answered: Are we running out of gold?* (marzo 2026). Reservas y stock sobre superficie.
+- U.S. Geological Survey, *Mineral Commodity Summaries*. Reservas por país y series históricas de producción.
+- Metals Focus y Refinitiv GFMS, proveedores de datos del WGC.
+- Visual Capitalist, *Visualizing the World's Total Supply of Gold* y *200 Years of Global Gold Production by Country*, ambos sobre datos de WGC y USGS.
+- Barchart / cmdty, *Gold Production by Country Over Time* (2020), para la concentración de productores.
+
+*Antigüedad*
+
+- Plinio el Viejo, *Naturalis Historia*, XXXIII, 78 (edición Loeb; texto en línea en Perseus y Attalus).
+- F. J. Sánchez-Palencia et al. (1998), citado en Alejano, Currás et al., "Roman gold exploitation at the archaeological site of Las Médulas by means of Ruina Montium", 15th ISRM Congress, 2023.
+- "Pliny the Elder's discourse on Roman gold mining", *Humanities and Social Sciences Communications*, 2026.
+
+*Edad Moderna*
+
+- Earl J. Hamilton, "Imports of American Gold and Silver into Spain, 1503-1660", *Quarterly Journal of Economics* 43:3 (1929), y *American Treasure and the Price Revolution in Spain, 1501-1650* (1934).
+- "The gold mining industry in Brazil: a historical overview", *Ore Geology Reviews* (2022).
+- C. R. Boxer, *The Golden Age of Brazil, 1695-1750* (1962).
+
+*Siglos XIX y XX*
+
+- LBMA, *The California Gold Rush*, The Alchemist n.º 91.
+- [EH.net](http://EH.net), *California Gold Rush* (con series del USGS).
+- Victorian Mines Department, series 1851-1896, vía Museums Victoria.
+- LBMA, *Spotlight on the South African Market*, cap. 3: Mining.
+- Canadian Mining Hall of Fame, *Timmins Mine Finders / Builders*.
+- Frimmel & Nwaila (2020) sobre la producción del Witwatersrand.
+
+---
+
+#Oro #Minería #HistoriaEconómica #PeakGold #RecursosNaturales #Geología #WorldGoldCouncil #Commodities #FiebreDelOro #LasMédulas #Witwatersrand #Reciclaje #Divulgación #Datos #Gold #Mining #EconomicHistory
+
+---
+
+
+
+## Article: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional
+
+URL: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+Author: Rafael Piñera
+Category: historia
+Published: 2026-08-28T18:55:40.534309
+Reading time: 8 min
+
+Marco Aurelio escribió su diario íntimo en griego.
+
+Las *Meditaciones* son lo más privado que dejó el emperador que gobernó Roma entre 161 y 180: anotaciones nocturnas, redactadas en campaña, sin destinatario ni intención de publicarse. El hombre que mandaba sobre el mundo conocido pensaba para adentro en la lengua de Atenas, y a nadie de su entorno le habría llamado la atención.
+
+El Imperio Romano funcionó durante siglos con dos lenguas de peso equivalente, y con decenas más viviendo debajo de ellas. La historia de cómo se llegó a eso empieza tres siglos antes de que Roma tuviera un imperio.
+
+**La lengua que dejó Alejandro**
+
+Alejandro Magno avanzó hacia el este: Anatolia, Siria, Fenicia, Egipto, Mesopotamia, Persia, hasta el valle del Indo. Detrás del ejército viajó una lengua.
+
+No era el griego literario de los clásicos, sino el koiné, palabra que significa justamente "común": una versión simplificada del dialecto de Atenas, limada de las asperezas que separaban a una ciudad griega de otra. Resultó práctica. En dos generaciones se volvió la lengua franca del comercio, la administración y la cultura desde el Adriático hasta Afganistán, el idioma en el que uno cerraba un negocio, litigaba, estudiaba y escribía si quería que lo leyeran más allá de su comarca.
+
+Alejandro murió en 323 a.C., a los 32 años, sin heredero viable. Sus generales se repartieron el territorio y pasaron cuatro décadas destrozándose entre ellos. De esas guerras salieron los tres grandes reinos helenísticos: los Antigónidas en Macedonia, los Seléucidas en Asia, los Ptolomeos en Egipto. Fronteras nuevas, dinastías nuevas, guerras constantes. Todos gobernaban en griego.
+
+**Roma llega, y llega tarde**
+
+Mientras el mundo helenístico se desangraba consigo mismo, Roma miraba hacia otro lado. Su rival era Cartago, la potencia comercial fundada por navegantes fenicios en el norte de África, donde hoy está Túnez, que le disputaba palmo a palmo el Mediterráneo occidental. Las tres guerras púnicas —la segunda es la de Aníbal y los elefantes cruzando los Alpes— se comieron el siglo III entero y terminaron con Cartago arrasada en 146 a.C.
+
+Recién entonces empezó el avance sistemático hacia el este, y fue lento. Macedonia se volvió provincia romana en 148 a.C. El reino de Pérgamo, en el occidente de la actual Turquía, pasó a manos romanas en 133 a.C. porque su último rey lo dejó en herencia testamentaria. Pompeyo liquidó a los Seléucidas en 63 a.C. Egipto resistió hasta 30 a.C. Entre la muerte de Alejandro y la anexión del último reino helenístico pasaron casi tres siglos.
+
+Cuando llegó, Roma montó su autoridad sobre administraciones que ya funcionaban en griego y las dejó funcionando así. Los gobernadores de Asia y de Siria despachaban en griego, los tribunales locales sesionaban en griego, los censos y los impuestos se registraban en griego. Un campesino de Anatolia podía vivir tres generaciones bajo dominio romano y escuchar latín solamente cuando pasaba la tropa.
+
+**La línea que partía el imperio**
+
+La división quedó nítida, y los historiadores la llaman línea de Jireček, por el erudito checo que la trazó a comienzos del siglo XX. Al este quedaron Grecia, Anatolia, Siria, Egipto y Cirenaica —el actual este de Libia—, en griego. Al oeste, Italia, la Galia, Hispania, Britania, África y la mitad occidental de los Balcanes, en latín. Entre ambas corría una franja de mezcla que atravesaba los Balcanes de norte a sur.
+
+En la mitad occidental el latín era la lengua de la calle: la del mercado, el cuartel y la taberna, hablada por millones de personas que jamás vieron un documento oficial. De sus deformaciones regionales salieron con los siglos el español, el portugués, el francés, el italiano, el catalán y el rumano.
+
+Del otro lado de la línea, el griego hacía todo lo demás. Los papiros que se conservan en la arena de Egipto —contratos de alquiler, recibos de impuestos, testamentos, denuncias por robo de una cabra, cartas de un hijo pidiéndole plata al padre— están escritos en griego durante siglos de dominio romano. Los consejos de las ciudades deliberaban en griego. Las inscripciones que honraban al emperador se tallaban en griego. Los gobernadores publicaban sus edictos en griego, y la correspondencia imperial con las ciudades orientales salía muchas veces directamente en esa lengua. El mundo culto entero pensaba en griego: Galeno, el médico personal de Marco Aurelio, nacido en Pérgamo, escribió en griego toda la obra que iba a gobernar la medicina europea durante mil quinientos años. Hasta los ciudadanos romanos instalados en Oriente mandaban a grabar sus lápidas en griego.
+
+El latín llegaba hasta ahí en forma de tres cosas concretas: el ejército, que daba las órdenes y tomaba juramento en latín; las colonias de veteranos, islas latinas en territorio griego como Berito, la actual Beirut; y los actos jurídicos formales, donde la lengua del derecho romano seguía siendo el latín. Fuera de esos tres ámbitos, un habitante de Antioquía o de Éfeso podía pasarse la vida sin necesitarlo.
+
+En Roma, en cambio, la lengua era una cuestión de identidad y se hacía notar. El Senado exigía que los embajadores extranjeros se dirigieran a él en latín, con intérpretes de por medio, aunque medio Senado entendiera el griego a la perfección. Casio Dión cuenta que el emperador Claudio le quitó la ciudadanía a un hombre por ignorar el idioma. El detalle sabroso es que Dión era senador romano y escribió su historia de Roma en griego.
+
+**Las lenguas de la casa**
+
+Debajo de las dos lenguas grandes seguía viviendo el resto. Arameo en Siria y Judea. Egipcio en todo el valle del Nilo, el mismo que más tarde se escribiría en alfabeto griego y se llamaría copto. Púnico, la lengua de los cartagineses, todavía audible en el norte de África en el siglo IV, cuando Agustín de Hipona lo menciona entre sus fieles. Galo en el campo de la Galia durante siglos después de César. Bereber, tracio, ilirio, celtíbero. El imperio era una torta de capas: una lengua para el poder, otra para el mundo culto, y la de la casa.
+
+Judea funciona como muestra concentrada. En la Galilea del siglo I se hablaba arameo. El hebreo quedaba para la sinagoga y la erudición. El griego se oía en el comercio y en las ciudades, y era moneda corriente en Séforis, la capital administrativa de la región, a una hora a pie de Nazaret. El latín asomaba por la guarnición. Cuatro lenguas superpuestas en un territorio del tamaño de una provincia chica.
+
+**Por qué el Nuevo Testamento está en griego**
+
+Los evangelios se escribieron décadas más tarde y para otro público: comunidades urbanas dispersas entre Éfeso, Corinto, Antioquía, Tesalónica y Roma. El griego era lo único que todas esas ciudades tenían en común.
+
+Existía además un precedente. Desde el siglo III a.C. circulaba la Septuaginta, la traducción al griego de la Biblia hebrea hecha en Alejandría para los judíos que ya leían con más soltura en griego que en hebreo. Cuando los primeros cristianos citan las Escrituras, muchas veces están citando esa versión.
+
+En la capital del imperio ocurrió algo parecido. La iglesia de Roma fue griega durante casi trescientos años: Pablo les escribe a los romanos en griego, las inscripciones más antiguas de las catacumbas están en griego, la liturgia se celebró en griego hasta bien entrado el siglo III. El latín se impuso hacia fines del siglo IV, cuando el papa Dámaso le encargó a Jerónimo la traducción que sería la Vulgata, la Biblia latina que la Iglesia usaría durante los mil años siguientes.
+
+**Egipto y los límites del griego**
+
+Alejandría fue una de las grandes capitales culturales de la Antigüedad, con su Biblioteca y su Museo llenos de matemáticos, gramáticos y astrónomos financiados por la corona. La corte de los Ptolomeos funcionaba enteramente en griego. Ptolomeo, general y amigo de Alejandro, se había quedado con la provincia y fundó una dinastía que duró casi tres siglos, hasta Cleopatra.
+
+El pueblo egipcio, mientras tanto, siguió hablando egipcio. Plutarco, el biógrafo griego que escribió sobre ella un siglo y medio después, elogia la facilidad de Cleopatra para los idiomas y anota, casi al pasar, que fue la primera de su familia en aprender la lengua del país que gobernaba. Sus antecesores se habían manejado en griego durante trescientos años: una élite flotando sobre otra cultura.
+
+**Un imperio que no tuvo que elegir**
+
+El latín fue la lengua del poder, del ejército, del derecho y de la vida diaria de todo el occidente. El griego fue la lengua del pensamiento, del comercio, de la administración oriental y de las primeras comunidades cristianas. Las dos convivieron durante siglos, y debajo de ambas siguieron vivas las lenguas de siempre.
+
+Roma nunca tuvo que decidirse. Vivió en las dos con la mayor naturalidad, hasta el punto de que su emperador más filósofo terminó hablando consigo mismo en griego.
+
+**FUENTES**
+
+*Fuentes antiguas*
+
+- Marco Aurelio, *Meditaciones* (escritas en griego, c. 170–180).
+- Casio Dión, *Historia romana*, libro LX (episodio de Claudio y la ciudadanía).
+- Plutarco, *Vida de Antonio*, 27 (Cleopatra y los idiomas).
+- Agustín de Hipona, *Epístolas* y *Sermones* (menciones al púnico entre sus fieles).
+
+*Bibliografía moderna*
+
+- J. N. Adams, *Bilingualism and the Latin Language*, Cambridge University Press, 2003. La obra de referencia sobre convivencia latín-griego.
+- J. N. Adams, Mark Janse y Simon Swain (eds.), *Bilingualism in Ancient Society: Language Contact and the Written Word*, Oxford University Press, 2002.
+- Bruno Rochette, *Le latin dans le monde grec*, Latomus, Bruselas, 1997. Sobre los límites reales del latín en Oriente.
+- Simon Swain, *Hellenism and Empire: Language, Classicism, and Power in the Greek World, AD 50–250*, Oxford, 1996.
+- Fergus Millar, *The Roman Near East, 31 BC – AD 337*, Harvard University Press, 1993.
+- Fergus Millar, *A Greek Roman Empire*, University of California Press, 2006.
+- Roger S. Bagnall, *Everyday Writing in the Graeco-Roman East*, University of California Press, 2011, y *Egypt in Late Antiquity*, Princeton, 1993. Para los papiros egipcios.
+- Mark A. Chancey, *Greco-Roman Culture and the Galilee of Jesus*, Cambridge, 2005. Para Séforis y el mosaico lingüístico galileo.
+- Natalio Fernández Marcos, *Introducción a las versiones griegas de la Biblia*, CSIC, Madrid. Sobre la Septuaginta.
+- Christine Mohrmann, *Études sur le latin des chrétiens*, Roma. Sobre la latinización tardía de la liturgia romana.
+- Konstantin Jireček, *Die Romanen in den Städten Dalmatiens während des Mittelalters*, Viena, 1901–1903. El trabajo del que sale la línea que lleva su nombre.
+- Nicholas Ostler, *Ad Infinitum: A Biography of Latin*, HarperPress, 2007. Divulgación seria, buena puerta de entrada.
+
+#HistoriaAntigua #ImperioRomano #Roma #GreciaAntigua #Koiné #MarcoAurelio #Alejandría #Cleopatra #Helenismo #LenguasClásicas #Latín #Griego #Sociolingüística #HistoriaDeLasLenguas #Divulgación #AncientHistory #RomanEmpire #Classics
 
 ---
 

@@ -1,47 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina</loc>
+    <loc>https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres</loc>
     <news:news>
       <news:publication>
         <news:name>Digital Federalism</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-18T03:15:38Z</news:publication_date>
-      <news:title>Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina</news:title>
+      <news:publication_date>2026-08-28T21:15:09Z</news:publication_date>
+      <news:title>El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://digital-federalism.org/articulos/aa</loc>
+    <loc>https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer</loc>
     <news:news>
       <news:publication>
         <news:name>Digital Federalism</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-17T19:39:54Z</news:publication_date>
-      <news:title>El átomo de una disciplina científica</news:title>
+      <news:publication_date>2026-08-28T20:51:16Z</news:publication_date>
+      <news:title>Todo el oro de la historia medido en pelotas de fútbol.</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://digital-federalism.org/articulos/a</loc>
+    <loc>https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional</loc>
     <news:news>
       <news:publication>
         <news:name>Digital Federalism</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-08-17T18:17:29Z</news:publication_date>
-      <news:title>¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://digital-federalism.org/articulos/los-misticos-y-las-maquinas</loc>
-    <news:news>
-      <news:publication>
-        <news:name>Digital Federalism</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-17T17:55:53Z</news:publication_date>
-      <news:title>Los místicos y las máquinas</news:title>
+      <news:publication_date>2026-08-28T18:55:40Z</news:publication_date>
+      <news:title>Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional</news:title>
     </news:news>
   </url>
 </urlset>
