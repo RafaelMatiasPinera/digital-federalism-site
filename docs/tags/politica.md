@@ -4,8 +4,15 @@ title: politica
 code: politica
 lang: es
 url: https://digital-federalism.org/tags/politica
-article_count: 4
+article_count: 5
 articles:
+- slug: todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  title: Todo el oro de la historia medido en pelotas de fútbol.
+  summary: null
+  cover_image: null
+  published_at: '2026-08-28T20:51:16.875501+00:00'
+  reading_minutes: 9
 - slug: eeuu-francia-uk
   url: https://digital-federalism.org/articulos/eeuu-francia-uk
   title: La sexta potencia - Baring en París, 1803

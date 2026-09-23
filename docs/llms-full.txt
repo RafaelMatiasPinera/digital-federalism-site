@@ -1,6 +1,6 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-08-28T18:24:37.054294-03:00
+Generated at 2026-09-23T11:07:48.443112-03:00
 
 Total pieces: 16
 
@@ -141,7 +141,7 @@ El principio de fondo es el mismo que tenía el fixing original: un precio de re
 
 URL: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
 Author: Rafael Piñera
-Category: sociedad
+Category: finanzas
 Published: 2026-08-28T20:51:16.875501
 Reading time: 9 min
 

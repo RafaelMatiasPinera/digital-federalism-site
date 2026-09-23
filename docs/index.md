@@ -35,10 +35,10 @@ latest_articles:
   url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
   summary: null
   cover_image: null
-  category: sociedad
-  category_name: sociedad
+  category: finanzas
+  category_name: finanzas
   category_color: '#dc2626'
-  category_url: https://digital-federalism.org/categorias/sociedad/
+  category_url: https://digital-federalism.org/categorias/finanzas/
   published_at: '2026-08-28T20:51:16.875501+00:00'
   reading_minutes: 9
 - title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional

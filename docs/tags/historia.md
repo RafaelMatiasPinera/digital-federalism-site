@@ -4,8 +4,15 @@ title: historia
 code: historia
 lang: es
 url: https://digital-federalism.org/tags/historia
-article_count: 6
+article_count: 7
 articles:
+- slug: todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
+  title: Todo el oro de la historia medido en pelotas de fútbol.
+  summary: null
+  cover_image: null
+  published_at: '2026-08-28T20:51:16.875501+00:00'
+  reading_minutes: 9
 - slug: a
   url: https://digital-federalism.org/articulos/a
   title: ¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing
