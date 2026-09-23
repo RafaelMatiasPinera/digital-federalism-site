@@ -22,13 +22,14 @@ series: null
 reading_minutes: 15
 word_count: 3234
 is_featured: false
-updated_at: '2026-09-23T14:27:16+00:00'
+updated_at: '2026-09-23T14:31:25+00:00'
 url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
 hreflang:
   es: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
 published_at: '2026-09-23T14:27:16.778676+00:00'
 date: '2026-09-23'
 subtitle: Cómo gobiernos, corporaciones y reguladores están cerrando, uno a uno, los espacios donde todavía era posible mover dinero, comunicarse o simplemente existir sin ser observado. Un mapa del cerco — y de quienes lo resisten.
+cover_image: https://digital-federalism.org/media/78/78f52a5edd6ef385295adeefa1ef962994974cfadf0b520fd28b8a577edc095e.medium.png
 canonical: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
 ---
 
