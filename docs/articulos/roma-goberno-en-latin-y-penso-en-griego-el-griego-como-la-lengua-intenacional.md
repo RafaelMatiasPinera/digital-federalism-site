@@ -9,17 +9,21 @@ author_username: rafa
 category: historia
 category_name: historia
 category_url: https://digital-federalism.org/categorias/historia/
-tags: []
+tags:
+- historia
+- politica
+- sociedad
 series: null
 reading_minutes: 8
 word_count: 1765
 is_featured: false
-updated_at: '2026-08-28T18:55:40+00:00'
+updated_at: '2026-09-23T14:29:51+00:00'
 url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
 hreflang:
   es: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
 published_at: '2026-08-28T18:55:40.534309+00:00'
 date: '2026-08-28'
+cover_image: https://digital-federalism.org/media/e7/e71c8070e9fb3b05ba35cebfa8197ea3da11937df35e0655a4db40f789ed98c7.medium.png
 canonical: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
 ---
 

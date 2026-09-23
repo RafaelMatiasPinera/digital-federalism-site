@@ -9,17 +9,22 @@ author_username: rafa
 category: finanzas
 category_name: finanzas
 category_url: https://digital-federalism.org/categorias/finanzas/
-tags: []
+tags:
+- historia
+- politica
+- sociedad
+- transparencia
 series: null
 reading_minutes: 9
 word_count: 2024
 is_featured: false
-updated_at: '2026-08-28T21:19:43+00:00'
+updated_at: '2026-09-23T14:29:11+00:00'
 url: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
 hreflang:
   es: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
 published_at: '2026-08-28T21:15:09.499994+00:00'
 date: '2026-08-28'
+cover_image: https://digital-federalism.org/media/ca/ca908439f9b2d0c584ed573e76124587a820b36791b3196edba728cb24399df3.medium.png
 canonical: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
 ---
 

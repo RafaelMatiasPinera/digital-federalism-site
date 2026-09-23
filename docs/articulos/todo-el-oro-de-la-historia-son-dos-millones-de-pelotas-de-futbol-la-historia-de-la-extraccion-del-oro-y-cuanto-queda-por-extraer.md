@@ -16,12 +16,13 @@ series: null
 reading_minutes: 9
 word_count: 1889
 is_featured: false
-updated_at: '2026-08-28T21:25:02+00:00'
+updated_at: '2026-09-23T14:28:34+00:00'
 url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
 hreflang:
   es: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
 published_at: '2026-08-28T20:51:16.875501+00:00'
 date: '2026-08-28'
+cover_image: https://digital-federalism.org/media/75/75586b3cfca128be7ba0ad2c04c60f125d3fef35e802ccb91f5ace5704b7c9b0.medium.png
 canonical: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
 ---
 

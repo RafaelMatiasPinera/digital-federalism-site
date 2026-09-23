@@ -12,7 +12,7 @@ articles:
   url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
   title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/e7/e71c8070e9fb3b05ba35cebfa8197ea3da11937df35e0655a4db40f789ed98c7.medium.png
   published_at: '2026-08-28T18:55:40.534309+00:00'
   reading_minutes: 8
 - slug: eeuu-francia-uk

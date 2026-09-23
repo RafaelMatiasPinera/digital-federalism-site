@@ -4,7 +4,7 @@ title: sociedad
 code: sociedad
 lang: es
 url: https://digital-federalism.org/tags/sociedad
-article_count: 4
+article_count: 6
 articles:
 - slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
   url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
@@ -13,6 +13,20 @@ articles:
   cover_image: null
   published_at: '2026-09-23T14:27:16.778676+00:00'
   reading_minutes: 15
+- slug: noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+  url: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+  title: El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres
+  summary: null
+  cover_image: https://digital-federalism.org/media/ca/ca908439f9b2d0c584ed573e76124587a820b36791b3196edba728cb24399df3.medium.png
+  published_at: '2026-08-28T21:15:09.499994+00:00'
+  reading_minutes: 9
+- slug: roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional
+  summary: null
+  cover_image: https://digital-federalism.org/media/e7/e71c8070e9fb3b05ba35cebfa8197ea3da11937df35e0655a4db40f789ed98c7.medium.png
+  published_at: '2026-08-28T18:55:40.534309+00:00'
+  reading_minutes: 8
 - slug: los-misticos-y-las-maquinas
   url: https://digital-federalism.org/articulos/los-misticos-y-las-maquinas
   title: Los místicos y las máquinas

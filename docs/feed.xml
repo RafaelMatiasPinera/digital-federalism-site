@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 23 Sep 2026 14:27:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 14:29:54 +0000</lastBuildDate>
     <item>
       <title>La ofensiva contra la privacidad en todos los niveles del stack tecnológico</title>
       <link>https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico</link>
@@ -28,6 +28,10 @@
       <title>El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres</title>
       <link>https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres</link>
       <guid isPermaLink="false">https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres</guid>
+      <category>historia</category>
+      <category>politica</category>
+      <category>sociedad</category>
+      <category>transparencia</category>
       <pubDate>Fri, 28 Aug 2026 21:15:09 +0000</pubDate>
     </item>
     <item>
@@ -42,6 +46,9 @@
       <title>Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional</title>
       <link>https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional</link>
       <guid isPermaLink="false">https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional</guid>
+      <category>historia</category>
+      <category>politica</category>
+      <category>sociedad</category>
       <pubDate>Fri, 28 Aug 2026 18:55:40 +0000</pubDate>
     </item>
     <item>

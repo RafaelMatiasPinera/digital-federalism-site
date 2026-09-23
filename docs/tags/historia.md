@@ -4,15 +4,29 @@ title: historia
 code: historia
 lang: es
 url: https://digital-federalism.org/tags/historia
-article_count: 7
+article_count: 9
 articles:
+- slug: noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+  url: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
+  title: El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres
+  summary: null
+  cover_image: https://digital-federalism.org/media/ca/ca908439f9b2d0c584ed573e76124587a820b36791b3196edba728cb24399df3.medium.png
+  published_at: '2026-08-28T21:15:09.499994+00:00'
+  reading_minutes: 9
 - slug: todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
   url: https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer
   title: Todo el oro de la historia medido en pelotas de fútbol.
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/75/75586b3cfca128be7ba0ad2c04c60f125d3fef35e802ccb91f5ace5704b7c9b0.medium.png
   published_at: '2026-08-28T20:51:16.875501+00:00'
   reading_minutes: 9
+- slug: roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
+  title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional
+  summary: null
+  cover_image: https://digital-federalism.org/media/e7/e71c8070e9fb3b05ba35cebfa8197ea3da11937df35e0655a4db40f789ed98c7.medium.png
+  published_at: '2026-08-28T18:55:40.534309+00:00'
+  reading_minutes: 8
 - slug: a
   url: https://digital-federalism.org/articulos/a
   title: ¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing

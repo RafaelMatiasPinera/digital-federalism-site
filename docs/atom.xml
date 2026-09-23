@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-09-23T14:27:20.884539+00:00</updated>
+  <updated>2026-09-23T14:29:54.191643+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -38,6 +38,10 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres"/>
+    <category term="historia" label="historia"/>
+    <category term="politica" label="politica"/>
+    <category term="sociedad" label="sociedad"/>
+    <category term="transparencia" label="transparencia"/>
     <published>2026-08-28T21:15:09.499994+00:00</published>
   </entry>
   <entry>
@@ -60,6 +64,9 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional"/>
+    <category term="historia" label="historia"/>
+    <category term="politica" label="politica"/>
+    <category term="sociedad" label="sociedad"/>
     <published>2026-08-28T18:55:40.534309+00:00</published>
   </entry>
   <entry>
