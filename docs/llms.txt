@@ -10,6 +10,7 @@ This file is machine-readable for AI crawlers. See https://llmstxt.org for the s
 
 ## Articles
 
+- [La ofensiva contra la privacidad en todos los niveles del stack tecnológico](https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico): Cómo gobiernos, corporaciones y reguladores están cerrando, uno a uno, los espacios donde todavía era posible mover dinero, comunicarse o simplemente existir sin ser observado. Un mapa del cerco — y de quienes lo resisten.
 - [El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres](https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres)
 - [Todo el oro de la historia medido en pelotas de fútbol.](https://digital-federalism.org/articulos/todo-el-oro-de-la-historia-son-dos-millones-de-pelotas-de-futbol-la-historia-de-la-extraccion-del-oro-y-cuanto-queda-por-extraer)
 - [Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional](https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional)

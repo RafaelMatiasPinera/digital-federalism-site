@@ -5,9 +5,16 @@ code: tecnologia
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/tecnologia
-article_count: 3
+article_count: 4
 investigation_count: 0
 articles:
+- slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
+  url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
+  title: La ofensiva contra la privacidad en todos los niveles del stack tecnológico
+  summary: null
+  cover_image: null
+  published_at: '2026-09-23T14:27:16.778676+00:00'
+  reading_minutes: 15
 - slug: a
   url: https://digital-federalism.org/articulos/a
   title: ¿Y si el tiempo también fuera plural? Las grietas en la concepción de la mente de la cadena Kant-Brouwer-Turing

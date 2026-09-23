@@ -19,6 +19,17 @@ featured:
   published_at: '2026-08-18T03:15:38.298162+00:00'
   reading_minutes: 3
 latest_articles:
+- title: La ofensiva contra la privacidad en todos los niveles del stack tecnológico
+  slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
+  url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
+  summary: null
+  cover_image: null
+  category: tecnologia
+  category_name: tecnología
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/tecnologia/
+  published_at: '2026-09-23T14:27:16.778676+00:00'
+  reading_minutes: 15
 - title: El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres
   slug: noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
   url: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres

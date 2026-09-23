@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-09-23T14:07:48.470730+00:00</updated>
+  <updated>2026-09-23T14:27:20.884539+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,26 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico</id>
+    <title>La ofensiva contra la privacidad en todos los niveles del stack tecnológico</title>
+    <updated>2026-09-23T14:27:16.778676+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <content>Cómo gobiernos, corporaciones y reguladores están cerrando, uno a uno, los espacios donde todavía era posible mover dinero, comunicarse o simplemente existir sin ser observado. Un mapa del cerco — y de quienes lo resisten.</content>
+    <link href="https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico"/>
+    <summary>Cómo gobiernos, corporaciones y reguladores están cerrando, uno a uno, los espacios donde todavía era posible mover dinero, comunicarse o simplemente existir sin ser observado. Un mapa del cerco — y de quienes lo resisten.</summary>
+    <category term="blockchain" label="blockchain"/>
+    <category term="codigo-abierto" label="codigo-abierto"/>
+    <category term="cypherpunk" label="cypherpunk"/>
+    <category term="federalismo-digital" label="federalismo-digital"/>
+    <category term="legal" label="legal"/>
+    <category term="politica" label="politica"/>
+    <category term="sociedad" label="sociedad"/>
+    <category term="transparencia" label="transparencia"/>
+    <published>2026-09-23T14:27:16.778676+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres</id>
     <title>El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres</title>
