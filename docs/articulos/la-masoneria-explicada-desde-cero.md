@@ -9,12 +9,15 @@ author_username: rafa
 category: sociedad
 category_name: sociedad
 category_url: https://digital-federalism.org/categorias/sociedad/
-tags: []
+tags:
+- historia
+- sociedad
+- transparencia
 series: null
 reading_minutes: 19
 word_count: 4154
 is_featured: false
-updated_at: '2026-10-19T05:16:14+00:00'
+updated_at: '2026-10-19T05:16:52+00:00'
 url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
 hreflang:
   es: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero

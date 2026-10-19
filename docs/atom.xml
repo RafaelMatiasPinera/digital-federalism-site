@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-10-19T05:16:19.966789+00:00</updated>
+  <updated>2026-10-19T05:16:56.770076+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -18,6 +18,9 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero"/>
+    <category term="historia" label="historia"/>
+    <category term="sociedad" label="sociedad"/>
+    <category term="transparencia" label="transparencia"/>
     <published>2026-10-19T05:16:14.128238+00:00</published>
   </entry>
   <entry>

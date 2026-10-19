@@ -4,8 +4,15 @@ title: historia
 code: historia
 lang: es
 url: https://digital-federalism.org/tags/historia
-article_count: 9
+article_count: 10
 articles:
+- slug: la-masoneria-explicada-desde-cero
+  url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
+  title: LA MASONERÍA EXPLICADA DESDE CERO
+  summary: null
+  cover_image: null
+  published_at: '2026-10-19T05:16:14.128238+00:00'
+  reading_minutes: 19
 - slug: noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
   url: https://digital-federalism.org/articulos/noventa-y-seis-anos-fijando-el-precio-del-oro-en-una-habitacion-de-londres
   title: El fixing del oro. Noventa y seis años fijando el precio del oro en una habitación de Londres
