@@ -19,6 +19,17 @@ featured:
   published_at: '2026-08-18T03:15:38.298162+00:00'
   reading_minutes: 3
 latest_articles:
+- title: LA MASONERÍA EXPLICADA DESDE CERO
+  slug: la-masoneria-explicada-desde-cero
+  url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-10-19T05:16:14.128238+00:00'
+  reading_minutes: 19
 - title: La ofensiva contra la privacidad en todos los niveles del stack tecnológico
   slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
   url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico

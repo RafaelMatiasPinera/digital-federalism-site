@@ -5,9 +5,16 @@ code: sociedad
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/sociedad
-article_count: 3
+article_count: 4
 investigation_count: 0
 articles:
+- slug: la-masoneria-explicada-desde-cero
+  url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
+  title: LA MASONERÍA EXPLICADA DESDE CERO
+  summary: null
+  cover_image: null
+  published_at: '2026-10-19T05:16:14.128238+00:00'
+  reading_minutes: 19
 - slug: sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   url: https://digital-federalism.org/articulos/sin-comisiones-ni-algoritmos-anuncio-libre-la-apuesta-por-los-clasificados-directos-en-argentina
   title: 'Sin comisiones ni algoritmos: Anuncio Libre, la apuesta por los clasificados directos en Argentina'
