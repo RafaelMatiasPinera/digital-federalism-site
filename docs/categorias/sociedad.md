@@ -10,7 +10,7 @@ investigation_count: 0
 articles:
 - slug: la-masoneria-explicada-desde-cero
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
-  title: LA MASONERÍA EXPLICADA DESDE CERO
+  title: La Masonería explicada desde cero
   summary: null
   cover_image: null
   published_at: '2026-10-19T05:16:14.128238+00:00'

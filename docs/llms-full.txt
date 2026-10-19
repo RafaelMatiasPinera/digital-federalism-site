@@ -1,6 +1,6 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-10-19T02:16:56.720869-03:00
+Generated at 2026-10-19T02:17:38.284413-03:00
 
 Total pieces: 18
 
@@ -9,7 +9,7 @@ Total pieces: 18
 
 
 
-## Article: LA MASONERÍA EXPLICADA DESDE CERO
+## Article: La Masonería explicada desde cero
 
 URL: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
 Author: Rafael Piñera

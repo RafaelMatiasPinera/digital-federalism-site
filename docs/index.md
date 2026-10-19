@@ -19,7 +19,7 @@ featured:
   published_at: '2026-08-18T03:15:38.298162+00:00'
   reading_minutes: 3
 latest_articles:
-- title: LA MASONERÍA EXPLICADA DESDE CERO
+- title: La Masonería explicada desde cero
   slug: la-masoneria-explicada-desde-cero
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
   summary: null

@@ -1,7 +1,7 @@
 ---
 type: article
 id: 20
-title: LA MASONERÍA EXPLICADA DESDE CERO
+title: La Masonería explicada desde cero
 slug: la-masoneria-explicada-desde-cero
 lang: es
 author: Rafael Piñera
@@ -17,7 +17,7 @@ series: null
 reading_minutes: 19
 word_count: 4154
 is_featured: false
-updated_at: '2026-10-19T05:16:52+00:00'
+updated_at: '2026-10-19T05:17:32+00:00'
 url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
 hreflang:
   es: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
