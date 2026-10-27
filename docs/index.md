@@ -78,7 +78,7 @@ latest_articles:
   slug: la-masoneria-explicada-desde-cero
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/72/72a6e3de9cd0a886ea3dedfd76491edb290e2d373fb92804a358a0d6f08f6935.medium.png
   category: sociedad
   category_name: sociedad
   category_color: '#dc2626'

@@ -17,7 +17,7 @@ articles:
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
   title: La Masonería explicada desde cero
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/72/72a6e3de9cd0a886ea3dedfd76491edb290e2d373fb92804a358a0d6f08f6935.medium.png
   published_at: '2026-10-19T05:16:14.128238+00:00'
   reading_minutes: 19
 - slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico

@@ -17,12 +17,13 @@ series: null
 reading_minutes: 19
 word_count: 4154
 is_featured: false
-updated_at: '2026-10-19T05:17:32+00:00'
+updated_at: '2026-10-27T19:40:08+00:00'
 url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
 hreflang:
   es: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
 published_at: '2026-10-19T05:16:14.128238+00:00'
 date: '2026-10-19'
+cover_image: https://digital-federalism.org/media/72/72a6e3de9cd0a886ea3dedfd76491edb290e2d373fb92804a358a0d6f08f6935.medium.png
 canonical: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
 ---
 
