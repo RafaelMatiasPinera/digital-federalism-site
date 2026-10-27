@@ -5,9 +5,16 @@ code: sociedad
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/sociedad
-article_count: 4
+article_count: 5
 investigation_count: 0
 articles:
+- slug: como-se-crea-y-vende-un-procer
+  url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
+  title: Cómo se crea y vende un prócer
+  summary: null
+  cover_image: null
+  published_at: '2026-10-27T18:37:19.338120+00:00'
+  reading_minutes: 11
 - slug: la-masoneria-explicada-desde-cero
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
   title: La Masonería explicada desde cero

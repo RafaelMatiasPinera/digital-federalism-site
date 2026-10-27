@@ -5,9 +5,23 @@ code: historia
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/historia
-article_count: 5
+article_count: 7
 investigation_count: 0
 articles:
+- slug: argentina-hijos-del-contrabando
+  url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
+  title: Argentina, hijos del contrabando
+  summary: null
+  cover_image: null
+  published_at: '2026-10-27T18:44:20.838472+00:00'
+  reading_minutes: 17
+- slug: de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
+  url: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
+  title: 'De los Welser a la Revolución Francesa: cómo el dinero cambió de dueño'
+  summary: null
+  cover_image: null
+  published_at: '2026-10-27T18:42:01.938756+00:00'
+  reading_minutes: 12
 - slug: roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
   url: https://digital-federalism.org/articulos/roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
   title: Roma gobernó en latín y pensó en griego. El griego como la lengua intenacional

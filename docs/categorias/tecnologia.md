@@ -5,9 +5,16 @@ code: tecnologia
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/tecnologia
-article_count: 4
+article_count: 5
 investigation_count: 0
 articles:
+- slug: la-vuelta-de-los-dvds
+  url: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
+  title: La vuelta de los DVDs - Almacenamiento local persistente y barato
+  summary: null
+  cover_image: null
+  published_at: '2026-10-27T18:49:59.215458+00:00'
+  reading_minutes: 6
 - slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
   url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
   title: La ofensiva contra la privacidad en todos los niveles del stack tecnológico

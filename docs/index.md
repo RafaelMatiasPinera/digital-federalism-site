@@ -19,6 +19,61 @@ featured:
   published_at: '2026-08-18T03:15:38.298162+00:00'
   reading_minutes: 3
 latest_articles:
+- title: La vuelta de los DVDs - Almacenamiento local persistente y barato
+  slug: la-vuelta-de-los-dvds
+  url: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
+  summary: null
+  cover_image: null
+  category: tecnologia
+  category_name: tecnología
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/tecnologia/
+  published_at: '2026-10-27T18:49:59.215458+00:00'
+  reading_minutes: 6
+- title: Argentina, hijos del contrabando
+  slug: argentina-hijos-del-contrabando
+  url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-10-27T18:44:20.838472+00:00'
+  reading_minutes: 17
+- title: 'De los Welser a la Revolución Francesa: cómo el dinero cambió de dueño'
+  slug: de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
+  url: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
+  summary: null
+  cover_image: null
+  category: historia
+  category_name: historia
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/historia/
+  published_at: '2026-10-27T18:42:01.938756+00:00'
+  reading_minutes: 12
+- title: Gobernar sin política, ¿quién controla al controlador? (Análisis de la tecnocracia)
+  slug: gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+  url: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+  summary: null
+  cover_image: null
+  category: politica
+  category_name: politica
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/politica/
+  published_at: '2026-10-27T18:40:36.353664+00:00'
+  reading_minutes: 16
+- title: Cómo se crea y vende un prócer
+  slug: como-se-crea-y-vende-un-procer
+  url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
+  summary: null
+  cover_image: null
+  category: sociedad
+  category_name: sociedad
+  category_color: '#dc2626'
+  category_url: https://digital-federalism.org/categorias/sociedad/
+  published_at: '2026-10-27T18:37:19.338120+00:00'
+  reading_minutes: 11
 - title: La Masonería explicada desde cero
   slug: la-masoneria-explicada-desde-cero
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
@@ -184,39 +239,6 @@ latest_articles:
   category_url: https://digital-federalism.org/categorias/historia/
   published_at: '2026-08-04T20:47:51.621793+00:00'
   reading_minutes: 11
-- title: Milei no es Hitler. Y aun así..... la conexión con el populismo
-  slug: milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
-  url: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
-  summary: null
-  cover_image: https://digital-federalism.org/media/e2/e2f247ff29deff253b5e7b59417c6f23aa94f5772b977c4b2a2809be8ef00580.medium.jpg
-  category: politica
-  category_name: politica
-  category_color: '#dc2626'
-  category_url: https://digital-federalism.org/categorias/politica/
-  published_at: '2026-08-04T20:43:36.071490+00:00'
-  reading_minutes: 7
-- title: Bélgica y su deseo sobre Argentina a principios de 1900
-  slug: belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
-  url: https://digital-federalism.org/articulos/belgica-y-su-deseo-sobre-argentina-a-principios-de-1900
-  summary: null
-  cover_image: https://digital-federalism.org/media/97/97041b1eb170516cc5cf370f7a44b69d8e573ed4c5b869c5cc92b89623e1a4d7.medium.jpg
-  category: historia
-  category_name: historia
-  category_color: '#dc2626'
-  category_url: https://digital-federalism.org/categorias/historia/
-  published_at: '2026-08-04T20:36:15.470036+00:00'
-  reading_minutes: 6
-- title: La tesis del secuestro atencional (y el abuso del video corto)
-  slug: la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
-  url: https://digital-federalism.org/articulos/la-tesis-del-secuestro-atencional-y-el-abuso-del-video-corto
-  summary: null
-  cover_image: https://digital-federalism.org/media/65/65a7fbec6a6458f6ed85014f9eb04e790a7fddb9947374cd7d350c491b862e59.medium.jpg
-  category: tecnologia
-  category_name: tecnología
-  category_color: '#dc2626'
-  category_url: https://digital-federalism.org/categorias/tecnologia/
-  published_at: '2026-07-29T00:48:21.003940+00:00'
-  reading_minutes: 5
 latest_investigations: []
 ---
 

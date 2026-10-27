@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-10-19T05:17:38.335422+00:00</updated>
+  <updated>2026-10-27T18:51:02.486874+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -10,6 +10,57 @@
   <link href="https://digital-federalism.org/atom.xml" rel="self"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Editorial CMS</subtitle>
+  <entry>
+    <id>https://digital-federalism.org/articulos/la-vuelta-de-los-dvds</id>
+    <title>La vuelta de los DVDs - Almacenamiento local persistente y barato</title>
+    <updated>2026-10-27T18:49:59.215458+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/la-vuelta-de-los-dvds"/>
+    <category term="cypherpunk" label="cypherpunk"/>
+    <published>2026-10-27T18:49:59.215458+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/argentina-hijos-del-contrabando</id>
+    <title>Argentina, hijos del contrabando</title>
+    <updated>2026-10-27T18:44:20.838472+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/argentina-hijos-del-contrabando"/>
+    <published>2026-10-27T18:44:20.838472+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno</id>
+    <title>De los Welser a la Revolución Francesa: cómo el dinero cambió de dueño</title>
+    <updated>2026-10-27T18:42:01.938756+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno"/>
+    <published>2026-10-27T18:42:01.938756+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia</id>
+    <title>Gobernar sin política, ¿quién controla al controlador? (Análisis de la tecnocracia)</title>
+    <updated>2026-10-27T18:40:36.353664+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia"/>
+    <published>2026-10-27T18:40:36.353664+00:00</published>
+  </entry>
+  <entry>
+    <id>https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer</id>
+    <title>Cómo se crea y vende un prócer</title>
+    <updated>2026-10-27T18:37:19.338120+00:00</updated>
+    <author>
+      <name>Rafael Piñera</name>
+    </author>
+    <link href="https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer"/>
+    <published>2026-10-27T18:37:19.338120+00:00</published>
+  </entry>
   <entry>
     <id>https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero</id>
     <title>La Masonería explicada desde cero</title>

@@ -1,9 +1,830 @@
 # Digital Federalism — full corpus
 
-Generated at 2026-10-19T02:17:38.284413-03:00
+Generated at 2026-10-27T15:51:02.442205-03:00
 
-Total pieces: 18
+Total pieces: 23
 
+
+---
+
+
+
+## Article: La vuelta de los DVDs - Almacenamiento local persistente y barato
+
+URL: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
+Author: Rafael Piñera
+Category: tecnologia
+Published: 2026-10-27T18:49:59.215458
+Reading time: 6 min
+
+Un pendrive, una tarjeta SD o un SSD guardan la información como electricidad. Cada bit es una carga diminuta encerrada en una celda.
+
+Esa carga se escapa con el tiempo, aunque el aparato esté desenchufado en un cajón. Más rápido si hace calor o si el chip es barato.
+
+Por eso un pendrive guardado cinco años puede aparecer con archivos corruptos sin que nadie lo haya tocado. No se rompió: se descargó. La norma de la industria (JEDEC JESD218) solo le exige a un SSD de consumo que conserve los datos un año apagado, y eso a 30 °C. A los SSD de servidor, apenas tres meses a 40 °C. El calor es parte del problema.
+
+Un disco óptico no tiene nada que se descargue. El láser quema una marca física y la marca queda. Se guarda en una caja, sin enchufar nada, y un disco de buena calidad se lee igual veinte años después. La aclaración de "buena calidad" importa, y más abajo explicamos por qué.
+
+Como no se puede volver a escribir, tampoco lo cifra un ransomware ni lo borra un clic equivocado.
+
+Y es más barato. Un Blu-ray grabable de 25 GB cuesta alrededor de un dólar: la mitad por gigabyte que un pendrive.
+
+## Qué disco comprar
+
+Hay dos familias de discos grabables:
+
+- **De una sola escritura** (la letra R: CD-R, DVD-R, BD-R). El láser quema una marca y no hay vuelta atrás. Son los que sirven para archivo.
+- **Regrabables** (RW o RE: DVD-RW, BD-RE). Se pueden borrar y volver a grabar unas mil veces. Usan una aleación que cambia de estado, menos estable con los años. Sirven para ir y venir, no para guardar.
+
+Precios aproximados por unidad, en discos de marca, y en memoria flash para comparar:
+
+- CD-R — 700 MB, US$ 0,25 (0,36 por GB)
+- DVD-R — 4,7 GB, US$ 0,40 (0,09 por GB)
+- BD-R (Blu-ray) — 25 GB, US$ 1 (0,04 por GB)
+- BD-R doble capa — 50 GB, US$ 3 (0,06 por GB)
+- M-DISC DVD — 4,7 GB, US$ 3 (0,64 por GB)
+- M-DISC Blu-ray — 25 GB, US$ 5 (0,20 por GB)
+
+Para uso diario:
+
+- DVD-RW — 4,7 GB, US$ 1 (0,21 por GB)
+- BD-RE — 25 GB, US$ 4 (0,16 por GB)
+- Pendrive — 64 GB, US$ 7 (0,11 por GB)
+- Pendrive — 256 GB, US$ 20 (0,08 por GB)
+- Tarjeta SD — 128 GB, US$ 12 (0,09 por GB)
+- SSD externo — 1 TB, US$ 80 (0,08 por GB)
+- Disco duro externo — 2 TB, US$ 65 (0,03 por GB)
+
+Por gigabyte, el BD-R sale la mitad que un pendrive y parecido a un disco duro. La diferencia es que el disco duro se puede sobrescribir, tiene partes mecánicas, y hay que enchufarlo cada tanto.
+
+La contra es el tamaño: 25 GB obliga a repartir. Conviene decidir de entrada cómo se organiza la colección (por año, por proyecto) y grabar dos copias de cada disco, idealmente de lotes de fabricación distintos.
+
+## Por qué fallaron los DVDs de hace veinte años
+
+Dentro de los de una sola escritura, no da lo mismo cuál. Mucha gente grabó DVDs hace veinte años y hoy no los puede leer. Casi siempre la culpa es del disco.
+
+Los CD-R y DVD-R baratos graban sobre un tinte orgánico. El tinte se decolora con la luz y la humedad, como una foto al sol.
+
+Cuando el NIST y la Biblioteca del Congreso de Estados Unidos probaron distintas marcas de CD-R y DVD-R (Slattery y otros, 2004), unas aguantaban décadas y otras fallaban a los tres años con el mismo trato. La diferencia era la marca.
+
+Tres opciones que funcionan:
+
+- **BD-R HTL Verbatim o Panasonic.** Graban sobre una capa inorgánica de metal, no sobre tinte. Es la opción para casi todo. Ojo: existen BD-R "LTH" que sí usan tinte; si la caja dice LTH, no.
+- **M-DISC.** Graba sobre un material inorgánico que el fabricante compara con la piedra. La promesa de mil años no está verificada de forma independiente, pero es lo más estable que se vende. Para lo que no se puede perder.
+- **DVD-R Verbatim de la línea AZO**, si ya tenés lectora de DVD y poco para guardar.
+
+Los packs de cien sin marca, no.
+
+## La grabadora y la caja
+
+Las computadoras ya no traen grabadora. Una externa USB de Blu-ray cuesta 80 o 100 dólares.
+
+Guardala en la misma caja que los discos. Dentro de diez años conseguir una va a ser difícil.
+
+El disco también se degrada si se guarda mal. Cuatro reglas:
+
+- En su caja, parados en vertical, no apilados.
+- Lejos de la luz directa, el calor y la humedad: un placard interior, no el garaje ni el altillo.
+- Sin etiquetas adhesivas: el pegamento ataca la capa de datos. Se escribe con marcador de base de agua en el centro transparente.
+- Se agarra por el borde y el agujero, nunca por la cara de lectura.
+
+## Verificar
+
+El otro error de hace veinte años: grabar y no comprobar.
+
+Antes de grabar, dentro de la carpeta, se genera una huella de cada archivo. En Windows, abrí PowerShell en la carpeta y escribí:
+
+```powershell
+Get-FileHash * -Algorithm SHA256 | Format-Table Hash, Path -AutoSize > SUMAS.txt
+```
+
+En Mac o Linux, en la terminal:
+
+```bash
+shasum -a 256 * > SUMAS.txt
+```
+
+Eso crea un archivo de texto, `SUMAS.txt`, con una cadena de 64 caracteres por cada archivo. Es como una firma: si cambia un solo bit del archivo, cambia la firma entera. Ese archivo se graba en el disco junto con el resto.
+
+Después de grabar, se vuelve a leer el disco y se comparan las firmas. En Mac o Linux, parado en el disco:
+
+```bash
+shasum -a 256 -c SUMAS.txt
+```
+
+Cada archivo tiene que decir `OK`. Si alguno dice `FAILED`, el disco va a la basura y se graba otro. En Windows se corre `Get-FileHash` de nuevo sobre el disco y se comparan las dos listas.
+
+La misma comprobación se repite cada dos o tres años, en diez minutos. Si un disco empieza a fallar, hay tiempo para copiarlo a otro antes de perderlo.
+
+Para ir un paso más allá, la herramienta `par2` genera archivos de paridad: con un 10 % de espacio extra en el disco, se puede reconstruir cualquier archivo dañado. Es más técnica, pero para guardar veinte años vale la pena.
+
+## Lo que no es nuestro
+
+Todo esto parece una nota de hobby. No lo es. Es una nota sobre quién tiene nuestras cosas.
+
+Nos acostumbramos a alquilar la vida digital. La música está en Spotify, las películas en Netflix, las fotos de los chicos en Google, el trabajo en un Drive. Nada de eso es nuestro: pagamos cada mes por el permiso de mirarlo. El permiso se renueva mientras paguemos, mientras la empresa exista y mientras no cambie los términos. Las tres cosas pasan.
+
+Y cuando uno quiere salir de la nube y guardar algo en un cajón, se encuentra con que el hardware tampoco está pensado para durar. Un pendrive se descarga. Un SSD tiene fecha de vencimiento escrita en una norma industrial. El teléfono de hace cuatro años ya no actualiza. El software, acostumbrado a que la memoria y el ancho de banda son gratis, crece sin parar, y los archivos crecen con él, y hacen falta más gigas en la nube, y vuelta a pagar.
+
+El disco óptico es feo, lento y chico. Pero tiene una propiedad que ningún servidor ni ninguna memoria flash ofrece: una vez grabado, nadie lo puede cambiar. Ni un ransomware, ni un empleado con un clic de más, ni una empresa que decide que ese contenido ya no está disponible en tu región. Lo que está quemado en el plástico, queda.
+
+Por eso el que vuelve al DVD no es nostálgico. Es alguien que miró la cuenta y la letra chica y decidió que, al menos para lo que importa, prefiere un soporte que se pueda sostener en la mano. Pasó con el vinilo y pasó con la fotografía en película: un nicho que elige el soporte físico no por mejor, sino por propio.
+
+No se trata de reemplazar la nube para el trabajo de todos los días. Se trata de que, pase lo que pase con los servidores del otro lado del mundo, las fotos de los chicos sigan en una caja en el placard. Frías, intactas y al alcance de la mano.
+
+---
+
+
+
+## Article: Argentina, hijos del contrabando
+
+URL: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
+Author: Rafael Piñera
+Category: historia
+Published: 2026-10-27T18:44:20.838472
+Reading time: 17 min
+
+*Una historia desde el Español Magallanes, el flujo de los metales del Perú y que llegó hasta nuestros tiempos*
+
+Hay una historia que la Argentina se cuenta a sí misma desde hace dos siglos: la de una nación parida por las ideas de la Ilustración, por el anhelo de libertad, por el grito sagrado de Mayo. Es una historia hermosa. También es, en buena medida, una historia incompleta.
+
+Porque debajo de los próceres y las proclamas hay otra corriente, más antigua y más persistente, que corre desde el primer día en que un barco español tocó estas costas: la del comercio clandestino. La del contrabando.
+
+Bartolomé Mitre, el primer gran historiador argentino —y no por casualidad, también presidente— lo vio con una claridad que sus contemporáneos prefirieron matizar. En su *Historia de Belgrano y de la independencia argentina* (1858), Mitre trazó una línea directa entre doscientos años de contrabando y la Revolución de Mayo. No era una metáfora. Era, para él, una constatación económica: Buenos Aires no se rebeló contra España por las ideas de Rousseau. Se rebeló porque España le cortaba el negocio.
+
+Esta es la historia de ese negocio. Empieza en 1519, con un portugués al servicio de Castilla que buscó un paso hacia las especias por el sur del continente. Pasa por una montaña de plata en los Andes que financió imperios y guerras en cuatro continentes. Se ramifica en un circuito de contrabando que hizo de Buenos Aires la ciudad más importante del Cono Sur. Estalla en 1810 cuando los contrabandistas decidieron que ya no necesitaban pedir permiso. Y llega, por caminos que no son casuales, hasta el litio boliviano que hoy disputan las potencias del siglo XXI.
+
+Quinientos años. Una sola historia.
+
+**El Español Magallanes y la puerta del sur**
+
+El 20 de septiembre de 1519, Fernando de Magallanes —portugués de nacimiento, español por contrato— zarpó de Sanlúcar de Barrameda con cinco naves y unos 240 hombres. Su objetivo declarado era llegar a las islas de las especias, las Molucas, navegando hacia el oeste. Su objetivo real era demostrar que esas islas caían del lado español del Tratado de Tordesillas. Es decir: que España podía comerciar especias sin pedir permiso a Portugal.
+
+Desde el primer día, esto fue un negocio.
+
+Magallanes ya conocía el sudeste asiático. Había estado en Malaca con los portugueses. Sabía lo que valía un quintal de clavo de olor o de nuez moscada en los mercados de Amberes y Lisboa. Cuando la Corona portuguesa le negó un ascenso y un aumento de pensión, hizo lo que cualquier emprendedor contrariado haría: fue a venderse a la competencia. Carlos I de España compró.
+
+La expedición bajó por la costa atlántica de Sudamérica buscando un paso. En octubre de 1520 lo encontraron: el estrecho que hoy lleva su nombre, entre la Patagonia continental y Tierra del Fuego. Un laberinto de canales, vientos asesinos y corrientes impredecibles. Les llevó 38 días cruzarlo. Al otro lado, un océano que Magallanes bautizó “Pacífico” porque, después del estrecho, cualquier cosa parecía calma.
+
+Magallanes murió en Filipinas en abril de 1521, en una escaramuza con guerreros locales en la isla de Mactán. De las cinco naves, solo la *Victoria* completó la vuelta al mundo, al mando de Juan Sebastián Elcano, un vasco que había sido uno de los amotinados contra Magallanes en la Patagonia. Llegó a Sanlúcar en septiembre de 1522 con 18 sobrevivientes y una carga de clavo de olor que pagó con creces toda la expedición.
+
+Pero para nuestra historia, lo que importa no es la circunnavegación. Es lo que vieron al pasar: la costa del Río de la Plata, las tierras vastas y aparentemente vacías del sur, y —sobre todo— los rumores que recogieron de indígenas guaraníes sobre una “sierra de la plata” tierra adentro. Esos rumores iban a tardar décadas en confirmarse, pero cuando lo hicieran, iban a cambiar todo.
+
+**Potosí: la montaña que alimentaba imperios**
+
+En 1545, un pastor indígena llamado Diego Huallpa —o eso dice la leyenda— encendió una fogata en la ladera de un cerro en el altiplano andino, a más de 4.000 metros de altura. El fuego derritó la roca y de ella brotó un hilo de plata pura. El Cerro Rico de Potosí acababa de entrar en la historia.
+
+Lo que siguió fue una de las mayores fiebres extractivas que haya conocido la humanidad. En pocas décadas, Potosí se convirtió en una de las ciudades más grandes del mundo: hacia 1610 tenía unos 160.000 habitantes, más que Londres, más que París, más que Madrid. El sistema de trabajo forzado de la *mita* —heredado y amplificado del sistema incaico por el virrey Francisco de Toledo en la década de 1570— enviaba decenas de miles de indígenas cada año a morir en los socavones del cerro.
+
+Las cifras son difíciles de asimilar. Entre 1556 y 1783, Potosí produjo alrededor de 45.000 toneladas de plata pura. Para ponerlo en perspectiva: esa plata financió las guerras de Carlos V y Felipe II en Europa, pagó los ejércitos de Flandes, lubricó el comercio global desde Sevilla hasta Manila. El peso de plata acuniado en Potosí se convirtió en la primera moneda verdaderamente global: circulaba en Europa, en África, en China.
+
+Pero la plata tenía un problema geográfico. Potosí está en el corazón de los Andes, a miles de kilómetros de cualquier puerto. La ruta oficial de la plata bajaba desde el altiplano hasta el Pacífico: Potosí → Arica → Lima → Panamá → Portobelo → Sevilla. Una ruta larga, cara y vigilada por los funcionarios de la Corona, que cobraban el quinto real: el 20% de toda la plata extraída.
+
+Pero había otra ruta. Una ruta más corta, más barata y —sobre todo— sin quinto real. La ruta bajaba por los valles orientales de los Andes hasta el Río de la Plata. Hasta Buenos Aires.
+
+**Buenos Aires: un puerto pensado para contrabandear**
+
+Buenos Aires fue fundada dos veces. La primera, por Pedro de Mendoza en 1536: duró cinco años de hambre, ataques querándíes y canibalismo antes de ser abandonada. La segunda, por Juan de Garay en 1580, con un nombre que era ya todo un programa: “Ciudad de la Santisima Trinidad y Puerto de Santa Maria del Buen Ayre.” Puerto. Desde el día uno, Buenos Aires fue pensada como un puerto.
+
+Pero un puerto sin permiso para comerciar. La Corona española, obsesionada con controlar el flujo de plata, había diseñado su sistema colonial para que todo el comercio pasara por Lima y de ahí a Sevilla. Buenos Aires no estaba en ese circuito. No tenía autorización para importar ni exportar. Era, en términos legales, un pueblo de frontera sin función económica.
+
+En términos reales, era el contrabando hecho ciudad.
+
+La geografía lo pedía a gritos. Desde Buenos Aires, cruzando el Río de la Plata, estaba la costa de la Banda Oriental, tierra portuguesa. Los portugueses de Brasil —y a través de ellos, los holandeses, los ingleses, los franceses— tenían lo que Buenos Aires necesitaba: telas, herramientas, armas, esclavos. Y Buenos Aires tenía lo que todos querían: acceso a la plata de Potosí.
+
+El contrabando se organizó con la naturalidad de quien respira. Los vecinos porteños, los funcionarios locales, los sacerdotes, los capitanes de barco: todos participaban. Ya en 1602, apenas veinte años después de la refundación, la Corona tuvo que crear la Real Audiencia de Buenos Aires específicamente para intentar frenar el comercio ilegal. No funcionó. El gobernador Hernándarias, que entre 1602 y 1609 intentó genuinamente combatir el contrabando, terminó acusado él mismo por los vecinos ante la Corona.
+
+El patrón estaba establecido: la ley decía una cosa y Buenos Aires hacía otra. Y no era por rebeldía romántica. Era porque el contrabando era la única economía que funcionaba.
+
+**El circuito de la plata: Potosí, Colonia y la hipótesis de Mitre**
+
+Para entender cómo funcionaba el contrabando rioplatense hay que seguir la plata. Literalmente.
+
+El circuito tenía tres canales. El primero era el *situado*: la asignación de fondos que la Real Hacienda de Potosí enviaba a Buenos Aires para pagar la guarnición militar y los gastos administrativos. Era dinero legal, pero una vez que llegaba a Buenos Aires, entraba en un mercado donde lo legal y lo ilegal eran indistinguibles.
+
+El segundo canal era el comercio formalmente autorizado, con los “navios de registro” que la Corona permitía esporádicamente. Estos barcos traían mercancía europea y se llevaban cueros y algo de plata quintada. Pero por cada barco legal, pasaban diez lanchas cargadas de noche por el Río de la Plata.
+
+El tercer canal era el contrabando puro: plata sin quintar, sacada directamente de Potosí por arrieros que bajaban por los valles de Salta, Tucumán y Córdoba hasta Buenos Aires, donde se embarcaba hacia la Colonia del Sacramento.
+
+Colonia del Sacramento. Es imposible contar esta historia sin esta ciudad. Fundada por los portugueses en 1680 exactamente enfrente de Buenos Aires, al otro lado del Río de la Plata, Colonia fue durante un siglo el gran depósito del contrabando rioplatense. La plata cruzaba el río de noche. Al día siguiente, estaba en manos portuguesas. De ahí a Lisboa. De ahí a Londres, Ámsterdam o Hamburgo. Y de vuelta venían los esclavos africanos, los textiles ingleses, las herramientas holandesas.
+
+Cuando Mitre escribió sobre esto en 1858, no estaba revelando un secreto. Estaba sistematizando lo que todo porteño sabía desde hacía generaciones. Su tesis era específica: que dos siglos de comercio libre de facto —ilegal pero tolerado, combatido pero imposible de eliminar— habían creado en Buenos Aires una clase mercantil que pensaba en términos de libre comercio mucho antes de que Adam Smith publicara *La riqueza de las naciones* en 1776. Estos comerciantes no necesitaban leer a los ilustrados europeos para saber que el monopolio español era malo para sus negocios. Lo vivían cada día.
+
+“El contrabando era el ejercicio práctico de la libertad de comercio”, escribió Mitre. Y esa libertad de comercio, argumentaba, fue la semilla de la libertad política.
+
+**1776: el Virreinato como legalización del contrabando**
+
+Durante casi doscientos años, Buenos Aires perteneció administrativamente al Virreinato del Perú, con capital en Lima. Era una disposición absurda: Lima estaba a miles de kilómetros, al otro lado de los Andes, y las decisiones que afectaban al Río de la Plata llegaban con meses de retraso cuando llegaban. Pero tenía una lógica: mantener a Buenos Aires lejos de la plata de Potosí, lejos de la tentación, lejos del poder.
+
+En 1776, Carlos III de España creó el Virreinato del Río de la Plata. La decisión, presentada como una reforma administrativa de la Ilustración borbónica, fue en realidad un reconocimiento de la realidad. El contrabando por Buenos Aires era tan masivo que la Corona estaba perdiendo una fortuna. Si no podías frenar el flujo, mejor controlarlo. Y la mejor manera de controlarlo era poner a Potosí, Chuquisaca, y toda la región del Alto Perú bajo la misma jurisdicción que Buenos Aires.
+
+De un día para el otro, la plata que había bajado de contrabando durante dos siglos ahora podía bajar legalmente. Buenos Aires pasó de ser un pueblo de frontera a ser capital de un virreinato que incluía lo que hoy son Argentina, Uruguay, Paraguay, Bolivia y partes de Brasil, Chile y Perú.
+
+El efecto fue inmediato. La Aduana de Buenos Aires, creada en 1778 con el Reglamento de Libre Comercio, comenzó a recaudar cifras que revelaban la magnitud del tráfico anterior. Lo que antes era contrabando ahora era ingreso fiscal. El situado de Potosí, que antes era la asignación para la guarnición militar, se convirtió en la columna vertebral del presupuesto virreinal. Hacia 1800, el Alto Perú aportaba alrededor del 72% de los ingresos fiscales del Virreinato del Río de la Plata.
+
+Setenta y dos por ciento. Ese número es fundamental para entender todo lo que viene después.
+
+**Mayo de 1810: la revolución de los comerciantes**
+
+La versión escolar de la Revolución de Mayo es conocida: Napoleón invadió España, cayó Fernando VII, se formó una Junta en Buenos Aires. El pueblo quería ser libre.
+
+La versión económica es menos poética pero más explicativa.
+
+Desde las invasiones inglesas de 1806 y 1807, Buenos Aires había probado algo nuevo: el comercio directo con Inglaterra. Durante los meses de ocupación británica, los productos ingleses entraron al mercado porteño a precios que los comerciantes jamás habían visto. Cuando los porteños reconquistaron la ciudad, los ingleses se fueron, pero el recuerdo de esos precios se quedó.
+
+Además, las guerras europeas habían cortado las comunicaciones con España. Los barcos no llegaban. Las mercancías escaseaban. Y mientras tanto, los barcos ingleses rondaban el Río de la Plata ofreciendo todo lo que Buenos Aires necesitaba. El contrabando, que nunca había dejado de existir, alcanzó niveles extraordinarios.
+
+Los hombres de Mayo —Mariano Moreno, Manuel Belgrano, Juan José Castelli— eran, entre otras cosas, abogados de comerciantes. Moreno había escrito en 1809 la *Representación de los Hacendados*, un alegato en favor del libre comercio que era, en esencia, la racionalización intelectual de lo que Buenos Aires llevaba haciendo ilegalmente desde 1580. Belgrano, secretario del Consulado de Comercio, llevaba años promoviendo reformas económicas que implicaban abrir Buenos Aires al mundo.
+
+Cuando la Junta de Mayo abrió oficialmente el puerto al comercio con todas las naciones, no estaba innovando. Estaba legalizando lo que ya existía. Como lo había hecho la Corona en 1776 con el Virreinato, como lo venían haciendo los porteños desde 1580. La diferencia es que esta vez no pedían permiso a nadie.
+
+Mitre lo resumió con la precisión de un economista: Buenos Aires se había rebelado no contra la tirania —sino contra el monopolio. Los contrabandistas de dos siglos se habían graduado de revolucionarios. Y tenían, además, algo que antes les faltaba: el apoyo logístico y financiero de Gran Bretaña, la potencia comercial que más tenía para ganar con un Río de la Plata abierto. San Martín, formado en el ejército español pero vinculado a logias masónicas británicas, llegó a Buenos Aires en 1812 con un plan continental que tenía tanto de geopolítica como de economía: liberar Chile y Perú significaba, entre otras cosas, controlar las rutas de la plata.
+
+**La guerra por Potosí, el nacimiento de Bolivia y el fin de la plata**
+
+La Revolución de Mayo desencadenó algo que los porteños no habían anticipado del todo: una guerra larga, costosa y, en última instancia, perdida en el frente que más importaba.
+
+El Alto Perú —las minas, la plata, el 72% del presupuesto— fue el primer objetivo militar de Buenos Aires. Belgrano marchó al norte. Castelli marchó al norte. Se ganaron batallas: Tucumán, Salta. Se perdieron otras: Vilcapugio, Ayohuma. Pero el resultado neto fue que Buenos Aires nunca logró controlar de manera sostenida el Alto Perú. Las campañas se empantanaron. El dinero se acababa.
+
+San Martín entendió antes que nadie que la vía directa al norte era un calejón sin salida. Su plan era flanquear: cruzar los Andes, liberar Chile, subir por mar al Perú y tomar Lima. Era un plan genial y casi funcionó. San Martín liberó Chile en 1818, entró en Lima en 1821, pero se quedó sin recursos y sin apoyo político de Buenos Aires, que estaba ocupada en sus propias guerras civiles.
+
+En julio de 1822, en la célebre entrevista de Guayaquil, San Martín se encontró con Simón Bolívar. Nadie sabe con certeza qué se dijeron. Lo que sí se sabe es que San Martín se retiró poco después, desilusionado. No tanto por Bolívar —aunque las diferencias políticas eran reales— sino por la falta de respaldo desde Buenos Aires: un gobierno fragmentado, provincias en guerra civil, caudillos que se negaban a enviar refuerzos.
+
+Bolívar tenía lo que San Martín no: un ejército consolidado y un camino más corto al Alto Perú. En diciembre de 1824, en la batalla de Ayacucho, el general Antonio José de Sucre —lugarteniente de Bolívar— destrozó al ejército realista. En agosto de 1825, nació Bolivia, nombrada en honor al Libertador. Sucre fue su primer presidente.
+
+Para Argentina, la creación de Bolivia fue un desastre económico disfrazado de acto de justicia histórica. Potosí quedó del otro lado de una frontera internacional. El flujo de plata que había sostenido primero al contrabando, después al virreinato y finalmente a la revolución, se cortó de cuajo. Buenos Aires se quedó sin su principal fuente de ingresos.
+
+**Argentina sin plata: de contrabandistas a ganaderos**
+
+La pérdida de Potosí obligó a la Argentina recién nacida a reinventarse. Y la reinvención no fue pacífica.
+
+El conflicto central de las décadas que siguieron a la independencia —las guerras civiles entre unitarios y federales, entre Buenos Aires y las provincias del interior— tiene muchas lecturas. La más elocuente es la económica.
+
+Buenos Aires, con su puerto abierto al mundo, quería libre comercio. Era lo que siempre había querido, desde 1580. Importar barato, exportar lo que tuviera. Y lo que tenía ahora, sin la plata de Potosí, era el ganado de la pampa: cueros, sebo, tasajo, y más adelante lana y carne.
+
+El interior —Córdoba, Tucumán, Mendoza, las provincias artesanales que habían vivido del circuito de la plata— quería protección. Los textiles ingleses que entraban por Buenos Aires arrasaban con los telares del noroeste. Los vinos cuyanos no podían competir con los importados. El interior pedía aranceles; Buenos Aires se negaba.
+
+Esa tensión, que los manuales cuentan como una disputa sobre la forma de gobierno —federalismo contra centralismo—, era en el fondo una disputa sobre quién pagaba los costos de haber perdido la plata. Buenos Aires resolvió el problema a su manera: se quedó con los ingresos de la aduana portuaria y construyó una nueva economía sobre la pampa.
+
+De los contrabandistas de plata nacieron los estancieros de ganado. De la ruta de la plata nació la ruta del cuero, del trigo y de la carne congelada. La Argentina que hacia 1880 se presentaba al mundo como “el granero del mundo” había sido, apenas cincuenta años antes, un país que vivía de la plata boliviana.
+
+Pero el patrón de fondo no cambió. Argentina siguió siendo una economía que exportaba materias primas e importaba manufacturas. Siguió dependiendo de un recurso natural dominante. Siguió mirando más a Europa que a sus vecinos. Y siguió, cuando le convenía, arreglándoselas por fuera de las reglas.
+
+**Bolivia, la maldición eterna: de la plata al litio**
+
+Si Argentina fue hija del contrabando, Bolivia fue hija del saqueo.
+
+La historia de Bolivia después de la independencia es la historia de un país que nunca dejó de sentarse sobre una fortuna —y nunca logró quedársela. El patrón se repite con una regularidad que sería cómica si no fuera trágica.
+
+Primero fue la plata. Potosí siguió produciendo después de la independencia, pero las minas se agotaban y la tecnología no se renovaba. Bolivia perdió su salida al mar en la Guerra del Pacífico (1879-1884) contra Chile, un conflicto cuyo detonante inmediato fue el salitre del desierto de Atacama. Con la costa se fue otro recurso.
+
+Después vino el estaño. A principios del siglo XX, tres “barones del estaño” controlaban la minería boliviana: Simón Patiño, Carlos Víctor Aramayo y Mauricio Hochschild. Los tres eran figuras fascinantes. Hochschild en particular: un judío alemán nacido en Frankfurt en 1881, parte de la misma elite financiera y minera de la que habían salido, décadas antes, familias como los Rothschild. Hochschild hizo su fortuna en Bolivia pero también salvó entre 9.000 y 20.000 judíos europeos del Holocausto, facilitando visas bolivianas durante los años treinta y cuarenta. Lo llamaron “el Schindler de Bolivia.” Pero su legado en el país fue el mismo que el de los otros barones: riqueza extraída, poco reinvertido, la mayoría indígena sin beneficiarse.
+
+La Revolución Nacional de 1952 nacionalizó las minas. Pero el estaño ya estaba declinando en los mercados mundiales. Vino el gas natural. Bolivia descubrió enormes reservas en los años noventa. Las privatizó bajo Gonzalo Sánchez de Lozada. Las renacionalizó bajo Evo Morales en 2006. El gas financió una década de bonanza, redujo la pobreza y le dio a Bolivia su período de mayor estabilidad económica. Pero las reservas no se reemplazaron, la inversión en exploración fue insuficiente, y cuando los precios cayeron, la bonanza se evaporó.
+
+Y ahora, el litio. Bolivia posee el salar de Uyuni, que contiene una de las mayores reservas de litio del mundo: un mineral esencial para las baterías de vehículos eléctricos, para la transición energética global, para el futuro. El patrón de la maldición de los recursos sugiere que alguien vendrá a llevárselo.
+
+Pero esta vez, quizás, algo es diferente. Bolivia ha aprendido. En 2026, bajo el gobierno de Rodrigo Paz, el país ha presentado más de una decena de propuestas para desarrollar el litio, todas con un requisito común: que la industrialización sea local, que el valor agregado quede en Bolivia. No quieren vender litio crudo como vendieron plata en bruto, estaño en concentrado, gas por gasoducto. Quieren fabricar baterías. Quieren romper el patrón.
+
+El camino no es fácil. Los 36 días de bloqueos de 2025, el estado de emergencia, las tensiones políticas internas —todo sugiere que la pelea por el litio será tan turbulenta como cada pelea anterior por cada recurso anterior. Pero al menos esta vez, Bolivia está peleando por quedárselo.
+
+Quinientos años después de que Magallanes pasara por estas costas buscando especias, el comercio sigue siendo el motor de la historia sudamericana. Las mercancías cambiaron —plata, cueros, estaño, carne, soja, gas, litio— pero la estructura no. Un continente que exporta lo que tiene debajo de la tierra e importa lo que no puede fabricar. Puertos que miran a ultramar mientras las fronteras interiores se desangran.
+
+Argentina nació del contrabando. Es una afirmación provocadora pero verificable: dos siglos de comercio clandestino crearon la clase mercantil, la mentalidad librecambista y la infraestructura portuaria que hicieron posible la revolución. Bolivia nació del recurso. Es una afirmación trágica pero igualmente verificable: cada generación se sentó sobre una riqueza distinta y cada generación la vio partir.
+
+El contrabando de hoy no usa lanchas en el Río de la Plata. Usa empresas offshore, subfacturación de exportaciones, triangulación financiera. Pero el instinto es el mismo: el que aprendieron los vecinos de Buenos Aires en 1580, el que les enseñó la Corona con su monopolio, el que confirmaron los ingleses con su libre comercio. Arreglárselas. Buscar la vuelta. Hacer que el negocio funcione, con o sin permiso.
+
+Somos hijos del contrabando. Y no está claro que hayamos dejado la casa paterna.
+
+---
+
+
+
+## Article: De los Welser a la Revolución Francesa: cómo el dinero cambió de dueño
+
+URL: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
+Author: Rafael Piñera
+Category: historia
+Published: 2026-10-27T18:42:01.938756
+Reading time: 12 min
+
+En el siglo XVI, si un banquero le prestaba dinero al emperador y el emperador decidía no pagar, el banquero quebraba. No había tribunal, ni mercado de bonos, ni opinión pública que lo respaldara. El dinero servía al poder político, no al revés.
+
+Trescientos años después, un Estado que no pagaba sus deudas quedaba excluido de los mercados de crédito internacionales. El poder político necesitaba del dinero tanto o más que el dinero del poder.
+
+Entre esos dos extremos se despliega una de las transformaciones más profundas de la historia moderna. Este artículo la recorre a través de un hilo que conecta a los banqueros alemanes de Augsburgo con la caída de la Bastilla, pasando por Ámsterdam, Londres y Versalles.
+
+**Los Welser: banqueros del emperador**
+
+Los Welser fueron una de las familias de banqueros y comerciantes más poderosas de la Alemania renacentista. Patricios católicos de Augsburgo, operaban una red comercial que se extendía desde Amberes y Lyon hasta Sevilla y Lisboa, comerciando con especias, metales y textiles.
+
+Junto a sus rivales y a veces socios, los Fugger, los Welser controlaron sectores enteros de la economía europea del siglo XVI. Pero su negocio más riesgoso era prestarle dinero a la Corona. En 1528, Carlos V —endeudado con los Welser por los préstamos que habían financiado su elección como emperador del Sacro Imperio— les otorgó una concesión para explorar y colonizar la provincia de Venezuela, la llamada Klein-Venedig o "Pequeña Venecia". Los Welser enviaron expediciones bajo gobernadores como Ambrosius Ehinger y Nikolaus Federmann, buscando oro y El Dorado. La concesión fue revocada en 1546.
+
+El episodio venezolano ilustra la lógica del viejo modelo: el banquero no cobraba intereses seguros respaldados por un mercado institucional, sino que dependía de la voluntad personal del monarca. Si el rey no pagaba en efectivo, compensaba con privilegios, concesiones o títulos. Y si decidía no compensar en absoluto, el banquero simplemente perdía.
+
+**Cuando el rey no paga: Fugger, genoveses y bancarrotas españolas**
+
+Los Welser no fueron los únicos en sufrir esta dinámica. Los Fugger, la otra gran casa bancaria de Augsburgo, habían financiado la candidatura imperial de Carlos V con un préstamo de 300.000 ducados y siguieron prestando durante décadas a Carlos y luego a su hijo Felipe II. Las bancarrotas españolas de 1557, 1575, 1596 y 1607 erosionaron progresivamente su fortuna.
+
+Cuando los banqueros alemanes declinaron, fueron reemplazados por los genoveses. Familias como los Spinola, los Centurione y los Doria financiaron a la Corona española durante gran parte del siglo XVII con el mismo esquema de préstamos directos. El historiador Fernand Braudel situó este período como el "siglo de los genoveses" (aproximadamente 1557–1627), intercalado entre el siglo breve de los Fugger y el ascenso de Ámsterdam. Bartolomé Spinola, por ejemplo, fue uno de los banqueros más importantes del reinado de Felipe IV y llegó a ocupar el cargo de Factor General del Rey.
+
+Pero los genoveses sufrieron las mismas consecuencias. A finales del reinado de Felipe II, los pagos de intereses consumían alrededor del 40% de los ingresos del Estado español. Cada bancarrota encontraba nuevos prestamistas dispuestos a arriesgarse, pero a tasas de interés cada vez más altas. El modelo era estructuralmente insostenible: el banquero, por más rico que fuera, estaba subordinado al soberano. Podía ser indispensable, pero al final del día el rey tenía la espada y él no.
+
+**Ámsterdam: el nacimiento de otro modelo**
+
+Mientras los banqueros familiares agonizaban al ritmo de las bancarrotas reales, en los Países Bajos emergía un modelo financiero radicalmente distinto. Tras la caída de Amberes en 1585, cuando los españoles tomaron esa ciudad y muchos comerciantes emigraron al norte, Ámsterdam se convirtió en el nuevo centro financiero de Europa.
+
+En 1602 se fundó la VOC (Compañía Holandesa de las Indias Orientales), la primera gran sociedad por acciones de la historia. En 1609 se creó el Wisselbank, el Banco de Cambio de Ámsterdam, una institución cívica —no privada— diseñada para estabilizar la moneda y facilitar el comercio exterior. El Wisselbank ofrecía cuentas no directamente convertibles en monedas, protegiendo a los depositantes de la degradación monetaria. Su modelo fue tan exitoso que se lo ha descrito como el primer prototipo de banco central.
+
+La innovación fundamental no era técnica sino conceptual: en vez de que una familia pusiera toda su fortuna al servicio de un rey, miles de inversores ponían un poco cada uno en una compañía por acciones. El riesgo se diluía, el sistema era más resiliente, y el capital ya no dependía de la buena voluntad de un monarca. Este principio —la institucionalización del crédito— terminó ganando a largo plazo y es la base del capitalismo financiero moderno.
+
+**Inglaterra después de 1688: el compromiso creíble**
+
+La Revolución Gloriosa de 1688 transformó la relación entre el poder político y el dinero en Inglaterra. Tras deponer a Jacobo II, el Parlamento asumió el control efectivo de las finanzas públicas. El rey ya no podía endeudarse por capricho ni dejar de pagar sin consecuencias.
+
+En 1694 se fundó el Banco de Inglaterra, una institución respaldada por el Parlamento que gestionaba la deuda soberana a través de bonos con reglas predecibles. Los economistas Douglass North y Barry Weingast argumentaron en un trabajo seminal de 1989 que este "compromiso creíble" —la garantía parlamentaria de que el gobierno pagaría sus deudas— fue el cimiento institucional sobre el que se construyeron las finanzas públicas modernas.
+
+El efecto fue concreto: los rendimientos de la deuda soberana británica bajaron después de los cambios constitucionales de 1689, convergiendo con las tasas de inversiones alternativas. Inglaterra podía endeudarse más barato porque sus instituciones generaban más confianza. El Parlamento podía votar impuestos nuevos con legitimidad, la recaudación era más directa, y la deuda se estructuraba en bonos negociables en un mercado secundario.
+
+Esto no significaba que el modelo fuera perfecto desde el primer día. Investigaciones posteriores han matizado la tesis de North y Weingast, señalando que las guerras siguieron afectando el costo de la deuda británica durante más de un siglo después de la Revolución Gloriosa, y que la consolidación financiera real llegó recién hacia 1715, con la supremacía del partido Whig. Pero la dirección del cambio era clara: el crédito institucional reemplazaba gradualmente al préstamo personal.
+
+**Francia: rica pero mal financiada**
+
+Francia era, por lejos, el país más rico y poblado de Europa en el siglo XVIII. Su comercio exterior era robusto, sus productos de lujo dominaban los mercados continentales, y su economía agrícola alimentaba a la población más grande de Europa occidental. Pero la riqueza del país y la riqueza de la Corona eran dos cosas distintas.
+
+El rey no podía capturar esa riqueza eficientemente. La nobleza y el clero estaban exentos de la mayoría de los impuestos. La recaudación estaba tercerizada en los fermiers généraux, intermediarios privados que se quedaban con una tajada enorme. Cada provincia tenía reglas fiscales distintas. No había un sistema impositivo unificado.
+
+El resultado era una ecuación simple pero letal: gastos enormes —ejército, marina, la corte de Versalles, y sobre todo guerras— con una recaudación mediocre. La diferencia se cubría con deuda cara. Hacia finales de la década de 1780, Francia destinaba casi la mitad de sus ingresos anuales al pago de intereses.
+
+Mientras tanto, del otro lado del Canal, Inglaterra resolvía el mismo problema de otra manera. Gastaba tanto como Francia en guerras, pero lo financiaba mejor y más barato. La paradoja era brutal: Francia no perdía frente a Inglaterra por pobre, sino por absolutista. El modelo viejo no colapsó solo; colapsó porque al lado existía una alternativa que funcionaba mejor, y en un mundo donde el capital se movía cada vez más libremente, esa desventaja se volvió insostenible.
+
+**El falso absolutismo**
+
+Pero decir que Francia perdió "por absolutista" encierra una contradicción. Si el rey hubiera sido verdaderamente absoluto, habría podido reformar el sistema fiscal por la fuerza, como Pedro el Grande hizo en Rusia.
+
+La realidad es que el absolutismo francés era más fachada que sustancia. El rey era todopoderoso en teoría, pero en la práctica dependía de la nobleza para gobernar. No contaba con una burocracia estatal moderna que llegara a cada rincón del país. Necesitaba a los nobles como intermediarios, como oficiales militares, como administradores locales.
+
+Esto lo dejaba atrapado en una trampa institucional. No podía crear un parlamento con poder fiscal real porque eso significaba ceder poder formalmente. Pero tampoco podía imponer reformas por la fuerza porque no tenía el aparato para hacerlo sin la cooperación de los mismos privilegiados que se resistían a pagar impuestos. Cada vez que un ministro reformista —Turgot en 1776, Calonne en 1787, Necker en varios intentos— proponía que la nobleza pagara impuestos, los privilegiados lo volteaban.
+
+Francia estaba atrapada: ni lo suficientemente absolutista para reformar por la fuerza, ni lo suficientemente parlamentaria para reformar por consenso.
+
+**Versalles: ¿exceso real o relato posterior?**
+
+Si el absolutismo francés era menos absoluto de lo que parece, ¿por qué la imagen dominante es la del Rey Sol derrochador rodeado de lujo obsceno?
+
+Luis XIV sí fue poderoso y sí gastó muchísimo. Versalles fue real y la corte era fastuosa. Pero Versalles no era solo exceso: era una herramienta política. Luis XIV concentró a la nobleza en el palacio para controlarla, hacerla dependiente de su favor y evitar que conspiraran en sus provincias. Funcionó como mecanismo de poder, aunque costaba una fortuna mantenerlo.
+
+Lo que realmente arruinaba las finanzas no era el champagne en Versalles sino las guerras. Las guerras de Luis XIV fueron enormemente costosas, y ni siquiera en su momento de máximo poder pudo reformar el sistema fiscal de fondo. Forzó algunos cambios, creó impuestos nuevos, vendió cargos públicos, pero nunca tocó la exención fiscal de la nobleza de manera estructural.
+
+El relato de "puro exceso frívolo" fue amplificado en distintos momentos y por distintos actores: primero por los filósofos ilustrados franceses, que necesitaban contrastar la razón con el despotismo; después por los revolucionarios, que necesitaban justificar la Revolución; y también por los ingleses y los protestantes en general, a quienes les convenía mostrar al absolutismo católico como corrupto y decadente.
+
+La realidad es más gris. El rey era poderoso pero no omnipotente, gastaba mucho pero sobre todo en guerras, y la narrativa de frivolidad pura es en buena medida una construcción posterior.
+
+**1789: cuando se abrió la puerta que llevaba siglos cerrada**
+
+La crisis final estalló cuando Luis XVI, desesperado por dinero e incapaz de seguir endeudándose, convocó los Estados Generales en mayo de 1789. Era una asamblea que reunía representantes de los tres estamentos de Francia: el clero (Primer Estado), la nobleza (Segundo Estado) y todos los demás (Tercer Estado). No se había reunido desde 1614 —175 años de silencio.
+
+La ironía es que quienes inicialmente forzaron la crisis fueron los nobles, no el pueblo. Cuando el rey quiso reformar los impuestos para que la nobleza pagara, ellos bloquearon todo y exigieron la convocatoria de los Estados Generales, pensando que podrían usar esa asamblea para defender sus privilegios.
+
+Pero el mecanismo de votación reveló la fisura. Tradicionalmente se votaba por estamento: un voto el clero, un voto la nobleza, un voto el Tercer Estado. Dos contra uno, siempre perdía el tercero, pese a representar al 95% de la población. El Tercer Estado exigió que se votara por cabeza. El rey y los otros dos estamentos se negaron.
+
+El 17 de junio de 1789, los diputados del Tercer Estado, junto con algunos aliados del clero y la nobleza, se declararon Asamblea Nacional: un cuerpo político independiente que representaba a la nación. Cuando el rey mandó cerrar su sala de reuniones, se trasladaron a una cancha de pelota cercana y prestaron el Juramento del Juego de Pelota, comprometiéndose a no disolverse hasta darle a Francia una constitución. Según la Encyclopædia Britannica, Luis XVI terminó cediendo y el 27 de junio ordenó al clero y la nobleza unirse al Tercer Estado.
+
+Ese fue el acto revolucionario fundacional. La toma de la Bastilla el 14 de julio vino después, cuando el pueblo de París, asustado por las tropas que el rey había concentrado alrededor de la ciudad, asaltó la fortaleza buscando armas. Pero la revolución real ya había ocurrido: un grupo de burgueses había dicho "el poder no viene del rey, viene de nosotros".
+
+Y su intuición de fondo era correcta. En un mundo donde el capital se movía de manera autónoma, donde había mercados, comercio internacional y profesiones liberales, el rey como organizador central de la economía ya no era imprescindible. Era un costo, no un servicio.
+
+**El arco completo: del dinero que sirve al poder al poder que necesita del dinero**
+
+Si se mira la historia como un arco, los Welser están en un extremo y la Revolución Francesa en el otro.
+
+En el extremo de los Welser, el dinero sirve al poder político. El banquero es un súbdito útil que le presta al emperador y espera que le paguen. Si no le pagan, negocia una concesión —como Venezuela— o quiebra. No tiene recurso institucional, no tiene mercado de bonos, no tiene opinión pública financiera que lo respalde.
+
+En el otro extremo, el poder político necesita del dinero. Un Estado que no paga queda excluido de los mercados de crédito. El banquero ya no ruega: condiciona. Si no le gustan las políticas fiscales, simplemente no compra los bonos. Los Rothschild en el siglo XIX, con sus cinco hermanos en cinco ciudades europeas financiando guerras y ferrocarriles, representan este nuevo equilibrio.
+
+El punto de inflexión está en algún lugar entre Ámsterdam y la Revolución Industrial. Ámsterdam demostró que se podía institucionalizar el crédito. Inglaterra demostró que un Estado con instituciones predecibles podía endeudarse más barato que un absolutista. Francia demostró —por el camino más doloroso— que no adaptarse al nuevo modelo tenía consecuencias terminales.
+
+La Revolución Francesa no fue solo una revuelta por pan o por igualdad. Fue, en su dimensión financiera, el colapso de la última gran potencia europea que intentó gobernar sin las instituciones que el capital exigía. El viejo mundo de los Welser —donde el rey mandaba y el banquero obedecía— había terminado.
+
+**Fuentes**
+
+- ["Welser family"](https://en.wikipedia.org/wiki/Welser_family), Wikipedia. Familia bancaria de Augsburgo, concesión venezolana 1528–1546.
+- ["Bartholomeus Welser V"](https://en.wikipedia.org/wiki/Bartholomeus_Welser_V), Wikipedia. Acuerdo con Carlos V y Klein-Venedig.
+- ["Fugger family"](https://www.britannica.com/topic/Fugger-family), Encyclopædia Britannica. Ascenso y declive de la otra gran casa bancaria de Augsburgo.
+- ["The Sustainable Debts of Philip II"](https://www.economics.uci.edu/files/docs/colloqpapers/s07/Drelichman.pdf), Drelichman & Voth, UC Irvine. Bancarrotas españolas y préstamos de Fugger y Welser.
+- ["Poor Fuggers — is Spain bust again?"](https://www.globalcapital.com/article/28mvg1xj5svoztfks4rgg/comment/poor-fuggers-is-spain-bust-again), GlobalCapital. Bancarrotas de Felipe II y reemplazo por banqueros genoveses.
+- ["La rete finanziaria della famiglia Spinola"](https://iris.unige.it/handle/11567/228761), Alvarez Nogal, Lo Basso & Marsilio, Università di Genova. Red financiera de los Spinola y la Corona española, 1610–1656.
+- Braudel, Fernand, *El Mediterráneo y el mundo mediterráneo en la época de Felipe II* (1949). Periodización del "siglo de los genoveses" (1557–1627).
+- ["Amsterdamsche Wisselbank"](https://newnetherlandinstitute.org/?p=5927), New Netherland Institute. Fundación en 1609, rol como banco cívico.
+- ["Bank of Amsterdam"](https://en.wikipedia.org/wiki/Bank_of_Amsterdam), Wikipedia. Primer banco público con cuentas no directamente convertibles en moneda.
+- [*Questioning Credible Commitment*](https://www.cambridge.org/core/product/identifier/9781139856034/type/book), Coffman, Leonard & Neal (eds.), Cambridge University Press, 2013. Tesis de North y Weingast sobre la Revolución Gloriosa y el compromiso creíble.
+- ["Partisan politics and public debt"](https://ideas.repec.org/a/cup/ereveh/v11y2007i01p123-153_00.html), Stasavage, *European Review of Economic History*, 2007. Consolidación financiera británica hacia 1715.
+- Sussman & Yafeh, ["Institutions, Deficits or Wars"](https://webapp.prod.talks.gcp.uis.cam.ac.uk/talk/index/27117/), Hebrew University of Jerusalem. Guerras como determinante del costo de deuda post-1688.
+- ["Financial strain and economic pressures"](https://www.tutorchase.com/notes/aqa-a-level/history/17-2-2-financial-strain-and-economic-pressures), TutorChase / AQA. Crisis fiscal francesa, deuda pública y comparación con el modelo británico.
+- ["Why Was France In Debt During The French Revolution"](https://mail.infosecinstitute.com/why-was-france-in-debt-during-the-french-revolution-3206534465.html). Guerras, sistema impositivo regresivo y crisis de 1789.
+- White, Eugene N., ["Was There a Solution to the Ancien Régime's Financial Dilemma?"](https://www.cambridge.org/core/product/25161C969A15A029DB6834EAF9CBB3D7), *Journal of Economic History*. Logros y fracasos fiscales del Antiguo Régimen.
+- ["Tennis Court Oath"](https://www.britannica.com/print/article/587409), Encyclopædia Britannica. El Tercer Estado, la Asamblea Nacional y el juramento del 20 de junio de 1789.
+- ["Tennis Court Oath"](https://en.wikipedia.org/wiki/Tennis_Court_Oath), Wikipedia. Contexto, votación por estamento y formación de la Asamblea Nacional.
+- ["The founder of Rothschild's dies in Frankfurt"](https://www.historytoday.com/archive/founder-rothschild%25E2%2580%2599s-dies-frankfurt), History Today. Mayer Amschel Rothschild, financiamiento de las guerras napoleónicas, vínculos con los Habsburgo.
+
+---
+
+
+
+## Article: Gobernar sin política, ¿quién controla al controlador? (Análisis de la tecnocracia)
+
+URL: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+Author: Rafael Piñera
+Category: politica
+Published: 2026-10-27T18:40:36.353664
+Reading time: 16 min
+
+En 1921, el economista heterodoxo Thorstein Veblen publicó *The Engineers and the Price System* y propuso algo que en su momento sonó a ciencia ficción: que un "soviet de ingenieros" reemplazara a los empresarios y a los políticos en la conducción de la economía. Los financistas, argumentaba Veblen, arruinaban la producción con la especulación. Los políticos la ahogaban con la demagogia. Solo los técnicos — los que sabían cómo funcionaban las cosas — podían administrar la abundancia que la industria moderna hacía posible.
+
+Cien años después, Peter Thiel, cofundador de PayPal y primer inversor externo de Facebook, escribió una frase que no habría desentonado en el manifiesto de Veblen: "Ya no creo que la libertad y la democracia sean compatibles."
+
+Entre una declaración y la otra corre un siglo entero, pero la idea de fondo es la misma: **que la política — el debate, el voto, la negociación entre intereses — es un estorbo.** Que las decisiones no deberían votarse sino calcularse. Que hay una élite técnica — ayer los ingenieros, hoy los programadores, los fundadores de startups y los dueños de plataformas — que sabe mejor que el resto qué le conviene a la humanidad.
+
+Esta historia tiene ramificaciones insospechadas. Nace en la Gran Depresión norteamericana, se bifurca en la Guerra Fría entre una cibernética soviética centralizada y una cibernética socialista libertaria, muta en Silicon Valley de utopía contracultural a oligarquía tecnológica, y aterriza — con motosierra y todo — en la Argentina de Javier Milei.
+
+Es la historia de los que quieren gobernar sin política. Y de por qué, invariablemente, terminan haciendo una política más peligrosa que no se presenta como tal.
+
+**Los ingenieros con uniforme gris**
+
+La Gran Depresión de 1929 destruyó la confianza en el capitalismo financiero norteamericano con una eficiencia que ningún teórico marxista había logrado. 
+
+En ese clima de catástrofe apareció Howard Scott, un ingeniero autodidacta con ideas grandiosas y un talento extraordinario para la propaganda.
+
+Scott fundó Technocracy Inc. a principios de los años treinta con una propuesta radical: abolir la política, abolir el dinero, abolir las elecciones. En su lugar, un cuerpo de ingenieros y científicos — el *Tecnato* — administraría la producción y la distribución mediante cálculos termodinámicos. 
+
+Las decisiones económicas no se votarían: se resolverían con ecuaciones. 
+
+El flujo de calorías, de energía, de toneladas de acero, no necesitaba asambleas; necesitaba fórmulas.
+
+La estética del movimiento era reveladora. Los miembros usaban uniformes grises militares, autoasignados por número de secuencia. Se saludaban con un saludo corporativo propio. Proponían reemplazar el dólar por *certificados de energía*: créditos de consumo no acumulables ni transferibles que expiraban periódicamente, medidos en unidades energéticas. 
+
+Nadie podía ahorrrar, nadie podía especular, nadie podía acumular. Una igualdad distributiva perfecta — impuesta desde arriba por una jerarquía funcional vertical que no respondía ante nadie.
+
+Scott rechazaba por igual la democracia liberal burguesa y el socialismo soviético. Ambos dependían de la política, de los partidos, de lo que él llamaba "cháchara ineficiente". El único socialismo que admitía era un *socialismo de las cosas*: distribución igualitaria de bienes, pero sin participación, sin debate, sin el desorden que implica que la gente opine.
+
+La izquierda norteamericana y los partidos comunistas de los años treinta odiaban a Scott. 
+
+Lo acusaban de promover un "fascismo de ingenieros": un capitalismo de Estado ultra-eficiente disfrazado de igualdad, que despojaba a la clase trabajadora de todo poder de decisión y cancelaba la política humana en favor de una dictadura de los técnicos.
+
+Y tenían razón. El Tecnato no era socialismo ni capitalismo: era la sustitución de la élite de los dueños del capital por una élite de los dueños del conocimiento técnico. 
+
+Y como veremos, esa sustitución nunca es neutral.
+
+**La cibernética aplicada a la política se puede dividir en dos**
+
+Después de la Segunda Guerra Mundial, una nueva disciplina prometió resolver el viejo sueño de la gobernanza técnica: la cibernética. 
+
+Nacida de los trabajos de Norbert Wiener sobre control, retroalimentación y flujo de información, la cibernética se presentaba como la ciencia capaz de gobernar cualquier sistema complejo — una fábrica, una economía, una sociedad entera — mediante el procesamiento de datos en tiempo real.
+
+Pero la cibernética nació con dos almas. 
+
+Y cada una se convirtió en un proyecto político radicalmente distinto.
+
+**El OGAS: la supercomputadora del Kremlin**
+
+Víktor Mijáilovich Glushkov fue un matemático soviético que en 1962 propuso algo colosal: reemplazar toda la burocracia de la planificación central soviética por una red nacional de computadoras, el OGAS (*Sistema Automatizado Nacional de Gestión de la Economía*). Tres niveles: un centro en Moscú, doscientos nodos regionales, veinte mil terminales locales. Toda la información económica del país fluyendo en tiempo real hacia un cerebro central que optimizaría la producción, la distribución y hasta los pagos, avanzando hacia una economía sin dinero.
+
+Glushkov era un tecnócrata en el sentido más puro: creía que las computadoras podían reemplazar no solo la burocracia, sino la política misma. 
+
+Autor de más de ochocientas publicaciones, su visión era que la planificación científica desde el Estado debía sustituir toda mediación humana subjetiva.
+
+Pero el OGAS nunca se construyó. 
+
+El 1 de octubre de 1970, su solicitud de financiamiento — unos cien mil millones de rublos — fue rechazada. 
+
+El ministro de Finanzas, Vasili Garbuzov, vio la red como una amenaza a su propio poder. La burocracia soviética, esa misma burocracia que Glushkov quería reemplazar, lo mató. El aparato tenía sus propios intereses, y el principal era sobrevivir.
+
+La paradoja era perfecta: la máquina diseñada para eliminar la política fue destruida por la política.
+
+**Cybersyn: la cibernética de los trabajadores**
+
+Al otro lado del mundo, otro cibernético proponía lo contrario. Stafford Beer, británico, filósofo, poeta, pintor y practicante de tantra, era en todo lo opuesto al perfil frío del ingeniero-tecnócrata. 
+
+Donde Glushkov quería centralizar, Beer quería descentralizar. 
+
+Donde el soviético veía una supercomputadora, el británico veía una red de autonomías.
+
+Su gran obra teórica, el *Modelo del Sistema Viable* (1979), proponía que cualquier organización — una empresa, un gobierno, una sociedad — necesitaba cinco sistemas funcionales para sobrevivir. 
+
+Pero la clave no era el control desde arriba: era la autonomía de las partes, coordinadas por retroalimentación en tiempo real. No un cerebro central, sino un sistema nervioso distribuido.
+
+En julio de 1971, Fernando Flores, director de CORFO bajo el gobierno de Salvador Allende, contactó a Beer. El resultado fue el Proyecto Cybersyn: una red de télex que conectaba las fábricas nacionalizadas de Chile con una sala de operaciones futurista en Santiago. 
+
+La idea no era que el gobierno controlara las fábricas, sino que los trabajadores de cada fábrica recibieran información en tiempo real para autogestionarse, mientras el sistema agregaba datos para detectar cuellos de botella y emergencias.
+
+En octubre de 1972, durante la huelga patronal de camioneros que buscó estrangular la economía chilena, Cybersyn demostró su potencial: permitió coordinar unos doscientos camiones leales al gobierno para mantener la distribución de bienes esenciales. 
+
+La información, como herramienta de los trabajadores, no del Estado.
+
+El 11 de septiembre de 1973, el golpe militar orquestado desde USA, destruyó la sala de operaciones. 
+
+Los Chicago Boys — la otra tecnocracia, la del mercado — reemplazaron la cibernética de Beer por la economía neoliberal de Milton Friedman.
+
+Beer nunca se consideró un tecnócrata. En *Diseñando la libertad* (1974), argumentó que la cibernética no debía someter a las personas al control del Estado ni de las corporaciones, sino "reestructurar las instituciones para amplificar la libertad individual". 
+
+Su último libro, *Más allá de la disputa* (1994), proponía métodos de decisión colectiva inspirados en la geometría de Buckminster Fuller: sin jerarquías, sin relaciones de poder, sin jefes.
+
+Dos cibernéticas, dos políticas. Glushkov soñaba con reemplazar a los burócratas por una máquina. Beer soñaba con reemplazar a los jefes por una red. Los dos fracasaron — pero por razones muy distintas. Al soviético lo derrumbó la burocracia. Al británico, un golpe de Estado.
+
+**De la contracultura al trono**
+
+El 8 de febrero de 1996, en Davos, durante el Foro Económico Mundial, un letrista del Grateful Dead subió al estrado y declaró la independencia del ciberespacio.
+
+John Perry Barlow, poeta, ranchero, activista y cofundador de la Electronic Frontier Foundation, redactó una de las proclamas más citadas de la era digital: "Gobiernos del mundo industrial, ustedes, cansados gigantes de carne y acero, yo vengo del ciberespacio, el nuevo hogar de la Mente. En nombre del futuro, les pido a ustedes, del pasado, que nos dejen en paz."
+
+La *Declaración de independencia del ciberespacio* era puro espíritu de los noventa: internet como una frontera sin Estado, sin ley, sin impuestos, sin fronteras. Un lugar donde la información fluiría libre, donde las jerarquías del mundo físico se disolverían en la horizontalidad de la red. 
+
+Era la utopía libertaria anarquista aplicada a la tecnología: antiestatal, antiautoritaria, anticorporativa.
+
+Treinta años después, internet está dominada por cinco corporaciones cuya capitalización combinada supera el PBI de la mayoría de los países del mundo. 
+
+La frontera sin Estado se convirtió en un feudo privado. 
+
+Y los herederos espirituales de Barlow no quieren liberarse del poder: quieren *ser* el poder.
+
+¿Cómo se llegó de la contracultura al trono?
+
+La mutación fue gradual. En los años noventa, la cultura tech de Silicon Valley mantenía un equilibrio incómodo entre el idealismo hippie de la Bahía de San Francisco y la voracidad del capital de riesgo. (similar a o que ocurre con las criptomonedas hoy).
+
+La burbuja de las punto-com (1995-2001) fue el primer filtro: separó a los soñadores de los sobrevivientes. 
+
+Y los sobrevivientes — los que se quedaron después del crash — resultaron ser, casi todos, gente cuyo instinto primario era el poder, no la emancipación.
+
+Google nació con el lema "Don't be evil"; hoy es Alphabet, un conglomerado que factura más que el presupuesto de naciones enteras. 
+
+Facebook prometió conectar a la humanidad; hoy es Meta, una máquina de extracción de datos y atención que ha sido señalada como catalizadora de genocidios en Myanmar. 
+
+La utopía se transformó en su reverso exacto.
+
+Pero lo más importante no fue la concentración de poder económico. 
+
+Fue la concentración de poder *ideológico*. 
+
+La élite tech no solo acumuló dinero: desarrolló una filosofía política propia, una visión del mundo coherente, articulada y profundamente antidemocrática.
+
+**Los filósofos del CEO-rey**
+
+La nueva filosofía de Silicon Valley tiene nombres propios, textos fundantes y una genealogía intelectual que conviene conocer, porque sus ideas ya no son teorías académicas: son programas de gobierno.
+
+**Peter Thiel** es el patriarca. Cofundador de PayPal, cofundador de Palantir (la empresa de vigilancia masiva que trabaja con la CIA y el Pentágono), primer inversor externo de Facebook. En 2009 publicó un ensayo en *Cato Unbound* donde dijo lo que muchos en Silicon Valley pensaban pero nadie decía en voz alta: "Ya no creo que la libertad y la democracia sean compatibles." 
+
+Su solución: crear "escapes" del control estatal — criptomonedas, colonias marítimas (*seasteading*), exploración espacial. No reformar el Estado: huir de él, y construir por fuera, pero con sus reglas.
+
+**Curtis Yarvin**, que escribe bajo el seudónimo Mencius Moldbug, es el teórico de cabecera del movimiento este, llamado "neorreaccionario". 
+
+Su tesis: la democracia es un sistema decadente, corrupto e ineficiente que Yarvin llama "La Catedral" — una máquina de fabricar consenso que impide el verdadero progreso. 
+
+Su propuesta es el *neocameralismo*: que los países se gestionen como startups, bajo el mando absoluto de un CEO-monarca elegido por los accionistas. Yarvin es lectura obligada para figuras como Thiel y JD Vance.
+
+**Nick Land**, filósofo británico, llevó el argumento a su extremo lógico. 
+
+En *The Dark Enlightenment* (2012), sintetizó la filosofía antidemocrática de la derecha tecnológica: el capitalismo y la inteligencia artificial son procesos cibernéticos autónomos que deben acelerarse sin importar las consecuencias éticas o sociales. 
+
+Las democracias parlamentarias son un lastre que hay que desmantelar para dar paso a la integración total entre máquina, capital y mercado. No es una metáfora: Land sostiene que la inteligencia artificial *debe* reemplazar la deliberación humana.
+
+**Marc Andreessen**, creador de Netscape (el primer navegador web masivo) y cofundador del fondo de capital de riesgo Andreessen Horowitz, publicó en 2023 su *Techno-Optimist Manifesto*: un himno al crecimiento sin límites, al mercado libre como única fuerza de progreso, y un ataque frontal contra cualquier regulación estatal de la inteligencia artificial, la biotecnología o la energía. Para Andreessen, regular la tecnología no es solo ineficiente: es inmoral.
+
+**Balaji Srinivasan**, ex-CTO de Coinbase y exsocio de Andreessen Horowitz, dio el paso que faltaba. En *The Network State* (2022), propuso directamente la sustitución de los Estados-nación por comunidades digitales organizadas alrededor de la criptografía y los contratos inteligentes. Primero la comunidad digital, después la compra de territorio físico, finalmente la fundación de estados soberanos privatizados. Una secesión en cámara lenta financiada por capital de riesgo.
+
+El patrón es consistente: cada uno de estos pensadores parte de la misma premisa — la democracia es un obstáculo — y llega a la misma conclusión — el poder debe concentrarse en quienes tienen el conocimiento técnico (o el capital, que en su visión es lo mismo).
+
+**El nieto del tecnócrata**
+
+Hay un detalle biográfico que parece inventado pero no lo es: el abuelo materno de Elon Musk, Joshua Norman Haldeman, fue uno de los miembros más activos de Technocracy Inc. en Canadá durante la década de 1930.
+
+Haldeman — quiropráctico, piloto y político — militó en el movimiento tecnocrático entre 1936 y 1941. No era un afiliado cualquiera: el 8 de octubre de 1940, la policía montada canadiense (RCMP) lo arrestó por distribuir panfletos del movimiento, que para entonces había sido declarado ilegal bajo las Regulaciones de Defensa de Canadá en tiempo de guerra. Fue multado con doscientos dólares y renunció al movimiento recién en 1941. Después militó en el Partido del Crédito Social, y en 1950 emigró a Sudáfrica.
+
+Tres generaciones después, su nieto, la persona más rica del mundo, dirige Tesla, SpaceX y la plataforma X (ex-Twitter), y encabezó el *Departamento de Eficiencia Gubernamental* (DOGE) del gobierno de Donald Trump: una oficina dedicada a recortar la burocracia federal norteamericana con métodos que el propio Howard Scott habría reconocido:
+
+ Eliminar ministerios, despedir funcionarios en masa, reemplazar procesos administrativos por algoritmos. 
+
+Musk no se presenta como tecnócrata, desde luego. Se presenta como un emprendedor visionario que quiere salvar a la especie. 
+
+Pero su aproximación a todos los problemas — infraestructura, libertad de expresión, regulación espacial, inteligencia artificial — es puramente cuantitativa e ingenieril. 
+
+La burocracia estatal es un bug a corregir. La regulación es un freno. La complejidad política de una sociedad de trescientos millones de personas se reduce a un problema material, no espiritual, y de optimización.
+
+**David Sacks**, otro exintegrante de la "Mafia de PayPal", completa el circuito como puente entre Silicon Valley y la política conservadora norteamericana. 
+
+Sacks actúa como intermediario financiero y mediático: canaliza el dinero tech hacia el Partido Republicano y promueve la desregulación de la inteligencia artificial y las criptomonedas desde posiciones de influencia directa.
+
+Lo que estos hombres construyen no es una tecnocracia de laboratorio como la de Glushkov. Es una tecnocracia de mercado: la convicción de que ni la política representativa ni la burocracia deben entrometerse en la eficiencia de los algoritmos, la libre circulación de capitales y las leyes cuantitativas del libre mercado.
+
+**Argentina en el espejo**
+
+Argentina no es ajena a esta historia. La ha vivido en todas sus variantes.
+
+**Los ingenieros del petróleo**
+
+La primera tecnocracia argentina fue el desarrollismo de Arturo Frondizi y Rogelio Frigerio en los años cincuenta y sesenta. Su premisa era explícita: los problemas de Argentina no eran ideológicos sino *estructurales*. Faltaban acero, petróleo, electricidad, rutas. La política debía subordinarse a la planificación técnica.
+
+En agosto de 1961, Frondizi creó por decreto el CONADE (Consejo Nacional de Desarrollo): un cuerpo de estadísticos, ingenieros y economistas que diseñaría planes económicos y sociales centralizados, imitando los modelos de planificación europeos y los lineamientos de la CEPAL. Era la versión argentina del sueño tecnocrático: reemplazar la "cháchara política" por planes quinquenales trazados por expertos.
+
+El desarrollismo tuvo una virtud que las tecnocracias posteriores olvidaron: era una tecnocracia *productiva*. Su objetivo era construir: fábricas, caminos, refinerías. Equivocada o no en sus métodos, intentaba ampliar la base material del país. No destruir el Estado, sino usarlo.
+
+**El gobierno de los CEOs**
+
+Cincuenta años después, la presidencia de Mauricio Macri (2015-2019) importó una tecnocracia distinta: la gerencial. La premisa era que la gestión pública debía funcionar como una empresa. Y para eso, había que poner empresarios al mando.
+
+La lista de nombramientos fue elocuente: Juan José Aranguren, ex-CEO de Shell Argentina, como ministro de Energía. Luis Caputo, ex-CEO de Deutsche Bank Argentina, como secretario de Finanzas. Alfonso Prat Gay, ex-JP Morgan, como ministro de Economía. Isela Costantini, ex-CEO de General Motors Argentina, como presidenta de Aerolíneas Argentinas. Gustavo Lopetegui, ex-CEO de LAN Chile, como secretario de Coordinación de Políticas Públicas. Guillermo Dietrich, dueño de Dietrich Automotores, como ministro de Transporte. Miguel Ángel Gutiérrez, veintiún años en JP Morgan, como presidente de YPF.
+
+"El Ingeniero Macri" no era ingeniero de planificación estatal como los del CONADE. Era un gerente. 
+
+**La motosierra y la ecuación**
+
+Javier Milei llevó esta lógica a su consecuencia final. Su proyecto contiene una contradicción tecnocrática muy particular: un discurso ferozmente *antipolítico* — contra la "casta", contra el Estado planificador, contra la burocracia — sostenido por una aplicación rigurísima de modelos teóricos de la Escuela Austríaca de economía tratados como si fueran leyes físicas. 
+
+Las ecuaciones de Mises, Hayek y Rothbard no se discuten: se aplican. El déficit cero no es una opción entre otras: es una ley natural. El mercado no es un mecanismo que puede funcionar mejor o peor: es un sistema perfecto que solo falla cuando lo intervienen.
+
+El encuentro entre Milei y Silicon Valley no fue casual. 
+
+El 20 de febrero de 2025, Milei se reunió con Elon Musk durante cuarenta y cinco minutos y le regaló una motosierra grabada con "Viva la Libertad, carajo!". Musk la exhibió en la CPAC llamándola "la motosierra para la burocracia". En mayo de 2024, Peter Thiel visitó la Casa Rosada; volvió en abril de 2026 para una segunda reunión y luego se compró una mansión en el Barrio de Recoleta, CABA, para operar e instalarse.
+
+No es una coincidencia de agenda: es una convergencia ideológica profunda. 
+
+El libertarismo de Milei y la derecha tecno-capitalista de Silicon Valley comparten la misma convicción: que ni la política representativa ni la burocracia gubernamental deben entrometerse en la eficiencia de los algoritmos, la libre circulación de capitales y las leyes cuantitativas del libre mercado.
+
+La diferencia entre Frondizi, Macri y Milei es reveladora. 
+
+\-El desarrollista quería usar el Estado para construir. 
+
+\-El gerente quería administrar el Estado como una empresa. 
+
+\-El "libertario" quiere demoler el Estado porque lo considera un error de diseño. 
+
+**La libertad obligatoria**
+
+Cuando uno pone en línea la historia completa — de Veblen a Scott, de Glushkov a Beer, de Barlow a Thiel, de Frondizi a Milei — aparece un patrón que debería inquietarnos.
+
+Todas estas figuras, de izquierda y de derecha, parten de un diagnóstico real: la política funciona mal. Las burocracias son lentas, los parlamentos ineficientes, los políticos corruptos o mediocres. 
+
+Y frente a eso, todas proponen la misma solución: reemplazar la política por el cálculo. 
+
+Que las decisiones no se voten sino que se computen. Que los ingenieros, los programadores, los economistas o los algoritmos decidan en lugar de la asamblea.
+
+Pero hay una trampa en esa lógica que merece atención y que Beer anticipó. 
+
+Cuando la política se elimina, las decisiones no dejan de ser políticas: solo dejan de ser *visibles*. 
+
+Alguien decide qué se produce u optimiza y qué no. 
+
+Alguien decide qué variables entran en el modelo y cuáles se descartan. 
+
+Alguien decide si el sistema máximo al que se apunta es la eficiencia, la libertad, la igualdad o la ganancia. 
+
+Esas son decisiones políticas. 
+
+Y cuando se disfrazan de cálculos técnicos, se vuelven invisibles — y por lo tanto, indiscutibles.
+
+La "libertad" que proclama el tecno-optimismo de Silicon Valley es curiosamente rígida y no libre. 
+
+Te dice que el crecimiento económico, la automatización, la inteligencia artificial desregulada y la lógica del mercado son "leyes físicas inevitables" a las que la sociedad debe adaptarse, guste o no. 
+
+Y cuando la política y la sociedad pierden la capacidad de decidir colectivamente qué tipo de vida o de futuro quieren construir — y te reprimen diciendo que "eso frena la eficiencia" — la tecnología deja de ser una herramienta de emancipación y camino hacia el progreso para convertirse en autoritarismo.
+
+Y ahí está la ironía final. La tecnocracia, que promete liberarnos de la política, termina confundiendo la libertad individual de las personas con la libertad del capital y de las corporaciones. 
+
+Para un libertario de esta línea, el único ente capaz de coartar la libertad es el Estado. 
+
+Sin embargo, al abolir o vaciar de poder al Estado en favor del mercado y la tecnología privada, la libertad no se distribuye: se concentra en los dueños de las plataformas y del capital.
+
+Stafford Beer, que dedicó su vida a pensar estas cosas, lo entendió antes que nadie. La cibernética podía servir para amplificar la libertad o para aniquilarla. La diferencia no estaba en la tecnología. Estaba en la política. En quién la diseñaba, para quién funcionaba y quién podía cambiarla.
+
+La pregunta que queda es la más vieja de la filosofía política: ¿quién controla al controlador?
+
+---
+
+
+
+## Article: Cómo se crea y vende un prócer
+
+URL: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
+Author: Rafael Piñera
+Category: sociedad
+Published: 2026-10-27T18:37:19.338120
+Reading time: 11 min
+
+Alrededor de 1900, el Estado argentino tenía un problema concreto. Había logrado lo que quería: millones de inmigrantes desembarcando en Buenos Aires para trabajar los campos, levantar los edificios, mover el puerto. Pero esos millones traían hijos. Y esos hijos no tenían ninguna razón para sentirse argentinos.
+
+No compartían apellido entre sí. No compartían muertos. No compartían memoria. Un chico hijo de napolitanos y una chica hija de gallegos se sentaban en el mismo banco de escuela sin un solo antepasado en común. ¿Qué los hacía compatriotas?
+
+La respuesta del Estado fue: fabricar esa memoria. Inventar los antepasados. Y hacerlo con la precisión de un ingeniero.
+
+Esta es la historia de esa fabricación. No es una denuncia ni una teoría conspirativa. Es algo más incómodo: un mecanismo perfectamente documentado, bastante exitoso y aún en funcionamiento. El historiador británico Eric Hobsbawm lo llamó “tradición inventada”. Argentina es un caso de manual.
+
+**Ramos Mejía y la máquina de fabricar argentinos**
+
+José María Ramos Mejía no era un burócrata menor. Médico, psiquiatra, autor de *Las multitudes argentinas* (1899), creía con fervor positivista que el inmigrante era una masa amorfa que había que moldear o el país se disolvería. No lo pensaba con cinismo: lo pensaba con la convicción científica de su época, que no distinguiía bien entre higiene social y eugenesia.
+
+Entre 1908 y 1912, como presidente del Consejo Nacional de Educación, Ramos Mejía montó el aparato patriótico completo. No innovó cada pieza —algunas ya existían— pero las ensambló en un sistema y las hizo obligatorias. La lista:
+
+- Fiestas patrias con acto escolar obligatorio: 25 de Mayo, 9 de Julio, 20 de Junio, 17 de Agosto.
+- Jura de la bandera.
+- Canto del Himno Nacional en cada acto.
+- Retratos de próceres en cada aula.
+- Relatos estandarizados de la gesta independentista en los libros de lectura.
+- El guardapolvo blanco como uniforme igualador.
+
+El formato del acto escolar —que cualquier argentino reconoce: la formación en el patio, la bandera, el discurso de la maestra, el alumno que recita, los padres que miran— no es una herencia colonial ni algo inmemorial. Es una invención específica, bastante reciente y perfectamente datable. Tiene autor, tiene fecha, tiene objetivo declarado.
+
+El objetivo era darles a esos chicos sin memoria común un conjunto de antepasados compartidos. Un prócer es exactamente eso: un antepasado para gente que no tiene antepasados en común. San Martín no es el abuelo de nadie, pero la escuela lo convierte en el abuelo de todos. Y el formato del acto —solemne, ritual, con guardapolvo blanco y estatua— funciona precisamente porque no admite preguntas. Es una liturgia cívica, y las liturgias no se discuten: se practican.
+
+**San Martín, la fragata inglesa y lo que no se deja significar**
+
+El 19 de enero de 1812, José de San Martín se embarcó en la fragata inglesa *George Canning*, que zarpó desde Londres. Lo acompañaban Carlos María de Alvear, José Matías Zapiola, Francisco Chilavert, Francisco Vera, Eduardo Kailitz de Holmberg, entre otros. El barco era comercial: traía manufacturas inglesas y volvió cargado de cueros y materias primas. Cincuenta días después llegó a Buenos Aires. La *Gaceta de Buenos Aires* del 13 de marzo de 1812 anunció la llegada.
+
+Nada de esto es secreto. La página de efemérides para docentes de la Dirección de Cultura y Educación bonaerense lo dice. Figura en las fuentes. El dato está ahí.
+
+Lo que pasa es que no se lo deja significar nada.
+
+Se cuenta como logística de viaje: San Martín necesitaba un barco, había uno, se subió. Punto. Pero la pregunta que el acto escolar no puede hacerse es: ¿por qué un oficial del ejército español que peleó en Bailén contra los franceses está viajando desde Londres, en un barco inglés, con un grupo de americanos vinculados a logias masónicas, hacia un puerto que acaba de declararse independiente de España?
+
+Las piezas son conocidas, pero se mantienen sueltas. La Logia Lautaro, fundada en Buenos Aires por San Martín y Alvear a su llegada, era una derivación de la Gran Reunión Americana que Francisco de Miranda había organizado en Londres. El historiador Rodolfo Terragno encontró documentos sobre el escocés Thomas Maitland, que entre 1800 y 1803 elaboró un plan para tomar Buenos Aires, cruzar los Andes, liberar Chile y subir a Perú por mar. Es decir: el mismo plan continental que San Martín ejecutaría después. Terragno sostiene que San Martín lo conoció.
+
+De ahí a “San Martín era agente inglés” hay un salto que la mayoría de los historiadores serios no da, y con razón: Gran Bretaña estaba aliada a España contra Napoleón en 1812, y usar el transporte disponible no prueba subordinación. La historiografía académica discute grados de convergencia entre el interés británico en abrir mercados y el interés criollo en independizarse. Esa discusión es fascinante.
+
+Y es exactamente lo que no llega al aula.
+
+El acto escolar necesita un santo, no un oficial de treinta y cuatro años con contactos masónicos en Londres y un plan de origen probablemente escocés. El formato —con guardapolvo blanco y estatua— es estructuralmente incompatible con la pregunta “¿a quién le convenía esto?” No le mienten al chico por maldad. Le mienten porque el ritual necesita una versión que un chico “pueda” recibir. Y ahí se decide de antemano que no puede.
+
+**El Centenario: la fiesta adentro, la cacería afuera**
+
+Mayo de 1910. Argentina cumple cien años. Buenos Aires se ha reconstruido a la francesa: avenidas, palacios, marmol. La economía está entre las más grandes del mundo per cápita. Viene la Infanta Isabel de Borbón, representando a la Corona española. El hijo próspero invita a la madre pobre a ver cómo le fue.
+
+Pero el mismo gobierno que organiza la fiesta del Centenario ha declarado el estado de sitio. Policías y grupos de jóvenes de la elite recorren los barrios obreros. Se asaltan imprentas. Se destruyen bibliotecas. Se golpea a quien lleve un periódico en italiano o en ídish. Una bomba estalla en el Teatro Colón. Y semanas después se sanciona la Ley de Defensa Social.
+
+La misma semana: fiesta con la Infanta adentro, cacería de inmigrantes politizados afuera.
+
+Para entender esta escena hay que retroceder apenas unos años.
+
+En 1902, la Ley de Residencia había dado al Estado el poder de deportar extranjeros “peligrosos” sin juicio. Miles fueron expulsados. El 1º de mayo de 1909, la policía del coronel Ramón Falcón disparó contra un acto obrero de la FORA en Plaza Lorea. Varios muertos. Siguió una huelga general de una semana: la Semana Roja. En noviembre de ese año, Simón Radowitzky, un pibe ucraniano de dieciocho años, mató a Falcón con una bomba. Terminó en el penal de Ushuaia.
+
+Y entonces entendió el hispanismo del Centenario. No era amor a España. Era buscar una tradición —católica, jerárquica, hispánica— con la cual oponerse al anarquismo y al socialismo que traían los barcos. España servía de antídoto contra los propios inmigrantes. Para 1910, España ya no era una amenaza: había perdido Cuba, Puerto Rico y Filipinas en el Desastre del 98 y quedaba como una potencia acabada. Un país que ya no puede reconquistarte se vuelve inofensivo, y entonces se puede convertir en abuelo.
+
+Pero el inmigrante politizado era otra cosa. Ese sí era peligroso.
+
+**La FORA y el anarquismo obrero: lo que la escuela quería borrar**
+
+Conviene frenar aquí para dimensionar lo que el Estado enfrentaba, porque la imagen del “anarquista con bomba” —útil entonces, persistente ahora— borra el cuadro real.
+
+Los anarquistas eran, en ese momento, el movimiento obrero argentino. No un grupito marginal. La Federación Obrera Regional Argentina (FORA) adoptó en su congreso de 1905 el comunismo anárquico como objetivo. Tenían un diario propio, *La Protesta*, que salía todos los días. Organizaban panaderos, portuarios, carreros, inquilinos. La huelga de inquilinos de 1907 en los conventillos la lideraron mujeres y chicos. Y eran, en su enorme mayoría, italianos y españoles: exactamente los inmigrantes que la escuela de Ramos Mejía debía “argentinizar.”
+
+Errico Malatesta, uno de los teóricos anarquistas más importantes del mundo, vivió en Buenos Aires entre 1885 y 1889, organizando sindicatos. No vino de vacaciones.
+
+El atentado de Radowitzky fue real, pero fue minoritario y polémico dentro del propio anarquismo. La discusión era explícita. Malatesta pasó buena parte de su vida argumentando contra la “propaganda por el hecho”: era organizador, no bombista, y sostenía que el atentado individual no construía nada y regalaba pretextos a la represión. Kropotkin, que al principio había defendido la violencia directa, terminó admitiendo que un edificio no se derriba con explosivos sino con organización.
+
+En la práctica, la enorme mayoría del anarquismo argentino se dedicaba a fundar sindicatos, imprimir periódicos, montar escuelas racionalistas y bibliotecas obreras. Ese era el trabajo real. El período de los atentados fue además acotado —aproximadamente 1880-1914— y tenía una lógica específica: canales políticos cerrados, represión sin juicio, sufragio inexistente o fraudulento. La Ley de Residencia deportaba sin proceso. No lo justifica, pero explica por qué aparece ahí y no en cualquier lado.
+
+Y hay algo más: el “anarquista con bomba” fue en buena medida una construcción de la prensa y de la policía de la época, muy útil para criminalizar a todo el movimiento obrero de una. Que es exactamente lo que pasó en 1910.
+
+**La Ley de Defensa Social: criminalizar una idea**
+
+La Ley 7.029, sancionada en junio de 1910, apenas semanas después del Centenario, fue la segunda pata de la máquina. Si la Ley de Residencia de 1902 permitía deportar extranjeros, esta apuntaba a quienes ya no se podía expulsar.
+
+Lo que prohibía:
+
+- La entrada al país de anarquistas y de quien profesara o hubiera profesado esas ideas.
+- Asociaciones, reuniones y actos públicos que tuvieran por objeto propagar el anarquismo.
+- La propaganda: impresos, símbolos, la bandera roja o negra en manifestaciones, la apología de hechos o de sus autores.
+- Penaba con dureza el uso de explosivos y contemplaba la pena de muerte para el homicidio con explosivos contra funcionarios.
+- Castigaba la instigación, incluso sin resultado.
+
+El punto clave es que criminalizaba la idea, no el acto. No hacía falta poner una bomba: alcanzaba con difundir una doctrina o llevar una bandera. Es lo que en derecho se llama un delito de opinión, y es lo que después permitió clausurar imprentas, disolver sindicatos y encarcelar militantes que no habían hecho nada más que organizar obreros.
+
+La ley estuvo vigente hasta 1921, y sirvió de andamiaje para la represión de la Semana Trágica de 1919 y de la Patagonia rebelde en 1921-1922.
+
+Vale detenerse en la fecha: Argentina festejaba cien años de una revolución independentista mientras sancionaba una ley que castigaba tener ideas.
+
+¿Cómo se aplicaba? La vaguedad era el mecanismo. Pero había herramientas concretas. Se exigía certificado de buena conducta en el país de salida, con visación consular —era fácil de falsificar, y muchos entraban por Montevideo para esquivarlo. Después del asesinato de la emperatriz Isabel de Austria en 1898, hubo una conferencia antianarquista en Roma y un protocolo en San Petersburgo en 1904 para intercambiar listas de anarquistas entre policías europeas. Argentina se enganchanchó a esas listas. Y sobre todo: la sospecha por perfil. Ruso, judío, catalán, obrero, joven, con libros en casa. Después del atentado de Radowitzky el estereotipo se cristalizó, y en la Semana Trágica de 1919 hubo directamente pogromos en Once, con turbas cazando judíos por presuntos “maximalistas.”
+
+**La huella digital, la ficha y el archivo: la vigilancia como ciencia nacional**
+
+Hay un dato que suele contarse con orgullo patrio: Argentina fue pionera mundial en identificación por huellas dactilares. Juan Vucetich, croata radicado en La Plata, desarrolló su sistema dactiloscópico hacia 1891. El caso de Francisca Rojas en 1892 fue el primer crimen resuelto por huellas en el mundo. Para 1910, la policía argentina tenía un archivo de identificación que Europa venía a estudiar.
+
+Lo que no se cuenta con el mismo orgullo es para qué se usó.
+
+Ese aparato, que se vendía como ciencia moderna, se usó para fichar militantes obreros. La ficha, la huella y el archivo nacieron pegados al control del disenso político, no al delito común. La policía tenía agentes infiltrados dentro de los gremios. Y además leía *La Protesta*, que publicaba nombres de oradores, secretarios y colectas. El movimiento se autodenunciaba sin querer, porque era público por convicción: el anarquismo creía en la transparencia de la acción directa, y eso lo hacía legible para la policía.
+
+El resultado fue un aparato de vigilancia que combinaba la tecnología más avanzada de su época con el método más viejo del mundo: la sospecha por origen. Ruso, judío, catalán. Joven. Obrero. Con libros en casa. El perfil del sospechoso se construía por nacionalidad y clase antes que por conducta.
+
+Es revelador que el mismo Estado que en 1908 montaba las fiestas patrias escolares estuviera en 1910 deportando por decreto a los padres de los chicos que asistían a esos actos. No eran dos políticas distintas. Era la misma, por dos vías: la escuela convertía al hijo en argentino mientras la policía expulsaba al padre por extranjero.
+
+El prócer es una tecnología. No un hecho histórico: una herramienta.
+
+Funciona así: se toma a un personaje real, se lo despoja de sus contradicciones, sus intereses económicos, sus conexiones incómodas, y se lo convierte en una estatua. La estatua se instala en la escuela. La escuela la convierte en antepasado común de chicos que no tienen antepasados en común. Y esos chicos, ya convertidos en argentinos, pueden ser movilizados por el Estado que los fabricó.
+
+El mecanismo es elegante y eficaz. Pero tiene un costo: para que funcione, hay que decidir de antemano qué preguntas el chico “no puede” recibir. Y esas preguntas resultan ser, casualmente, las más interesantes. ¿En qué barco llegó San Martín? ¿Quién lo pagó? ¿Por qué el Estado que inventaba fiestas patrias para los hijos estaba deportando a los padres?
+
+El aparato de Ramos Mejía cumplió más de un siglo. El guardapolvo blanco sigue en las escuelas. Los actos de mayo siguen siendo obligatorios. Las preguntas siguen sin hacerse en el aula.
+
+Pero se hacen afuera. Cada vez que alguien mira la estatua y pregunta: “¿Y esto quién lo pagó?”, el prócer se agrieta un poco. No se derrumba —probablemente no deba—, pero deja ver lo que hay detrás: no un héroe ni un villano, sino un hombre en un sistema de intereses.
+
+Que es, después de todo, la única historia que vale la pena contar.
 
 ---
 

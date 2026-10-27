@@ -5,9 +5,16 @@ code: politica
 lang: es
 color: '#dc2626'
 url: https://digital-federalism.org/categorias/politica
-article_count: 1
+article_count: 2
 investigation_count: 0
 articles:
+- slug: gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+  url: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+  title: Gobernar sin política, ¿quién controla al controlador? (Análisis de la tecnocracia)
+  summary: null
+  cover_image: null
+  published_at: '2026-10-27T18:40:36.353664+00:00'
+  reading_minutes: 16
 - slug: milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
   url: https://digital-federalism.org/articulos/milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo
   title: Milei no es Hitler. Y aun así..... la conexión con el populismo
