@@ -12,7 +12,7 @@ articles:
   url: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
   title: La vuelta de los DVDs - Almacenamiento local persistente y barato
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/2e/2eece0d570a3b99c235871109ed8bf9d0eb471c291b12ff622ee29dfc4fede9a.medium.png
   published_at: '2026-10-27T18:49:59.215458+00:00'
   reading_minutes: 6
 - slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico

@@ -9,17 +9,22 @@ author_username: rafa
 category: politica
 category_name: politica
 category_url: https://digital-federalism.org/categorias/politica/
-tags: []
+tags:
+- cypherpunk
+- politica
+- sociedad
+- transparencia
 series: null
 reading_minutes: 16
 word_count: 3578
 is_featured: false
-updated_at: '2026-10-27T18:40:36+00:00'
+updated_at: '2026-10-27T19:04:22+00:00'
 url: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
 hreflang:
   es: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
 published_at: '2026-10-27T18:40:36.353664+00:00'
 date: '2026-10-27'
+cover_image: https://digital-federalism.org/media/6b/6bb941d91f8b7753c9b683e495a4b27194ac060805588deac728280565df7e07.medium.png
 canonical: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
 ---
 

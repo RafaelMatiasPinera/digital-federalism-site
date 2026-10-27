@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
   <id>https://digital-federalism.org/atom.xml</id>
   <title>Digital Federalism</title>
-  <updated>2026-10-27T18:51:02.486874+00:00</updated>
+  <updated>2026-10-27T19:13:11.968181+00:00</updated>
   <author>
     <name>Digital Federalism</name>
   </author>
@@ -29,6 +29,8 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/argentina-hijos-del-contrabando"/>
+    <category term="historia" label="historia"/>
+    <category term="politica" label="politica"/>
     <published>2026-10-27T18:44:20.838472+00:00</published>
   </entry>
   <entry>
@@ -49,6 +51,10 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia"/>
+    <category term="cypherpunk" label="cypherpunk"/>
+    <category term="politica" label="politica"/>
+    <category term="sociedad" label="sociedad"/>
+    <category term="transparencia" label="transparencia"/>
     <published>2026-10-27T18:40:36.353664+00:00</published>
   </entry>
   <entry>
@@ -59,6 +65,8 @@
       <name>Rafael Piñera</name>
     </author>
     <link href="https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer"/>
+    <category term="historia" label="historia"/>
+    <category term="politica" label="politica"/>
     <published>2026-10-27T18:37:19.338120+00:00</published>
   </entry>
   <entry>

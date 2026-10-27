@@ -9,17 +9,20 @@ author_username: rafa
 category: sociedad
 category_name: sociedad
 category_url: https://digital-federalism.org/categorias/sociedad/
-tags: []
+tags:
+- historia
+- politica
 series: null
 reading_minutes: 11
 word_count: 2390
 is_featured: false
-updated_at: '2026-10-27T18:37:19+00:00'
+updated_at: '2026-10-27T19:12:44+00:00'
 url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
 hreflang:
   es: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
 published_at: '2026-10-27T18:37:19.338120+00:00'
 date: '2026-10-27'
+cover_image: https://digital-federalism.org/media/06/067e309e1297fcfe215391c0338786753516abc77604f978b7c71c4a3cbe9941.medium.png
 canonical: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
 ---
 

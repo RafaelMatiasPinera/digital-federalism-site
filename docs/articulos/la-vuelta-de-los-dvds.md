@@ -15,12 +15,13 @@ series: null
 reading_minutes: 6
 word_count: 1391
 is_featured: false
-updated_at: '2026-10-27T18:50:42+00:00'
+updated_at: '2026-10-27T19:03:16+00:00'
 url: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
 hreflang:
   es: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
 published_at: '2026-10-27T18:49:59.215458+00:00'
 date: '2026-10-27'
+cover_image: https://digital-federalism.org/media/2e/2eece0d570a3b99c235871109ed8bf9d0eb471c291b12ff622ee29dfc4fede9a.medium.png
 canonical: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
 ---
 

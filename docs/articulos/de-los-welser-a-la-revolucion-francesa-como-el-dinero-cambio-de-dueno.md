@@ -14,12 +14,13 @@ series: null
 reading_minutes: 12
 word_count: 2669
 is_featured: false
-updated_at: '2026-10-27T18:42:01+00:00'
+updated_at: '2026-10-27T19:03:50+00:00'
 url: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
 hreflang:
   es: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
 published_at: '2026-10-27T18:42:01.938756+00:00'
 date: '2026-10-27'
+cover_image: https://digital-federalism.org/media/e9/e92b1e19d1df9c40429f5a984fd126cd40cebeb5d128bdb1d89ef53aef87471a.medium.png
 canonical: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
 ---
 

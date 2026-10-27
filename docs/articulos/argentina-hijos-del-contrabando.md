@@ -9,17 +9,20 @@ author_username: rafa
 category: historia
 category_name: historia
 category_url: https://digital-federalism.org/categorias/historia/
-tags: []
+tags:
+- historia
+- politica
 series: null
 reading_minutes: 17
 word_count: 3714
 is_featured: false
-updated_at: '2026-10-27T18:44:20+00:00'
+updated_at: '2026-10-27T19:08:10+00:00'
 url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
 hreflang:
   es: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
 published_at: '2026-10-27T18:44:20.838472+00:00'
 date: '2026-10-27'
+cover_image: https://digital-federalism.org/media/da/da77a6d805bf3fc37ab19cfff4bf054e53e8a389f99297435f28d40777177e7a.medium.png
 canonical: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
 ---
 

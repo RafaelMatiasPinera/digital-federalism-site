@@ -4,8 +4,29 @@ title: politica
 code: politica
 lang: es
 url: https://digital-federalism.org/tags/politica
-article_count: 8
+article_count: 11
 articles:
+- slug: argentina-hijos-del-contrabando
+  url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
+  title: Argentina, hijos del contrabando
+  summary: null
+  cover_image: https://digital-federalism.org/media/da/da77a6d805bf3fc37ab19cfff4bf054e53e8a389f99297435f28d40777177e7a.medium.png
+  published_at: '2026-10-27T18:44:20.838472+00:00'
+  reading_minutes: 17
+- slug: gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+  url: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
+  title: Gobernar sin política, ¿quién controla al controlador? (Análisis de la tecnocracia)
+  summary: null
+  cover_image: https://digital-federalism.org/media/6b/6bb941d91f8b7753c9b683e495a4b27194ac060805588deac728280565df7e07.medium.png
+  published_at: '2026-10-27T18:40:36.353664+00:00'
+  reading_minutes: 16
+- slug: como-se-crea-y-vende-un-procer
+  url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
+  title: Cómo se crea y vende un prócer
+  summary: null
+  cover_image: https://digital-federalism.org/media/06/067e309e1297fcfe215391c0338786753516abc77604f978b7c71c4a3cbe9941.medium.png
+  published_at: '2026-10-27T18:37:19.338120+00:00'
+  reading_minutes: 11
 - slug: la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
   url: https://digital-federalism.org/articulos/la-ofensiva-contra-la-privacidad-en-todos-los-niveles-del-stack-tecnologico
   title: La ofensiva contra la privacidad en todos los niveles del stack tecnológico

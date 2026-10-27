@@ -12,7 +12,7 @@ articles:
   url: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
   title: Gobernar sin política, ¿quién controla al controlador? (Análisis de la tecnocracia)
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/6b/6bb941d91f8b7753c9b683e495a4b27194ac060805588deac728280565df7e07.medium.png
   published_at: '2026-10-27T18:40:36.353664+00:00'
   reading_minutes: 16
 - slug: milei-no-es-hitler-y-aun-asi-la-conexion-con-el-populismo

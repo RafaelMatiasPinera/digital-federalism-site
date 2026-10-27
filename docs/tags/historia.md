@@ -4,8 +4,22 @@ title: historia
 code: historia
 lang: es
 url: https://digital-federalism.org/tags/historia
-article_count: 10
+article_count: 12
 articles:
+- slug: argentina-hijos-del-contrabando
+  url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
+  title: Argentina, hijos del contrabando
+  summary: null
+  cover_image: https://digital-federalism.org/media/da/da77a6d805bf3fc37ab19cfff4bf054e53e8a389f99297435f28d40777177e7a.medium.png
+  published_at: '2026-10-27T18:44:20.838472+00:00'
+  reading_minutes: 17
+- slug: como-se-crea-y-vende-un-procer
+  url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
+  title: Cómo se crea y vende un prócer
+  summary: null
+  cover_image: https://digital-federalism.org/media/06/067e309e1297fcfe215391c0338786753516abc77604f978b7c71c4a3cbe9941.medium.png
+  published_at: '2026-10-27T18:37:19.338120+00:00'
+  reading_minutes: 11
 - slug: la-masoneria-explicada-desde-cero
   url: https://digital-federalism.org/articulos/la-masoneria-explicada-desde-cero
   title: La Masonería explicada desde cero

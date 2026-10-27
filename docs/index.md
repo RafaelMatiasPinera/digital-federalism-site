@@ -23,7 +23,7 @@ latest_articles:
   slug: la-vuelta-de-los-dvds
   url: https://digital-federalism.org/articulos/la-vuelta-de-los-dvds
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/2e/2eece0d570a3b99c235871109ed8bf9d0eb471c291b12ff622ee29dfc4fede9a.medium.png
   category: tecnologia
   category_name: tecnología
   category_color: '#dc2626'
@@ -34,7 +34,7 @@ latest_articles:
   slug: argentina-hijos-del-contrabando
   url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/da/da77a6d805bf3fc37ab19cfff4bf054e53e8a389f99297435f28d40777177e7a.medium.png
   category: historia
   category_name: historia
   category_color: '#dc2626'
@@ -45,7 +45,7 @@ latest_articles:
   slug: de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
   url: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/e9/e92b1e19d1df9c40429f5a984fd126cd40cebeb5d128bdb1d89ef53aef87471a.medium.png
   category: historia
   category_name: historia
   category_color: '#dc2626'
@@ -56,7 +56,7 @@ latest_articles:
   slug: gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
   url: https://digital-federalism.org/articulos/gobernar-sin-politica-quien-controla-al-controlador-analisis-de-la-tecnocracia
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/6b/6bb941d91f8b7753c9b683e495a4b27194ac060805588deac728280565df7e07.medium.png
   category: politica
   category_name: politica
   category_color: '#dc2626'
@@ -67,7 +67,7 @@ latest_articles:
   slug: como-se-crea-y-vende-un-procer
   url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/06/067e309e1297fcfe215391c0338786753516abc77604f978b7c71c4a3cbe9941.medium.png
   category: sociedad
   category_name: sociedad
   category_color: '#dc2626'

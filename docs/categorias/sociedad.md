@@ -12,7 +12,7 @@ articles:
   url: https://digital-federalism.org/articulos/como-se-crea-y-vende-un-procer
   title: Cómo se crea y vende un prócer
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/06/067e309e1297fcfe215391c0338786753516abc77604f978b7c71c4a3cbe9941.medium.png
   published_at: '2026-10-27T18:37:19.338120+00:00'
   reading_minutes: 11
 - slug: la-masoneria-explicada-desde-cero

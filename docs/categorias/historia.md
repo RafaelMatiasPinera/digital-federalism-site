@@ -12,14 +12,14 @@ articles:
   url: https://digital-federalism.org/articulos/argentina-hijos-del-contrabando
   title: Argentina, hijos del contrabando
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/da/da77a6d805bf3fc37ab19cfff4bf054e53e8a389f99297435f28d40777177e7a.medium.png
   published_at: '2026-10-27T18:44:20.838472+00:00'
   reading_minutes: 17
 - slug: de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
   url: https://digital-federalism.org/articulos/de-los-welser-a-la-revolucion-francesa-como-el-dinero-cambio-de-dueno
   title: 'De los Welser a la Revolución Francesa: cómo el dinero cambió de dueño'
   summary: null
-  cover_image: null
+  cover_image: https://digital-federalism.org/media/e9/e92b1e19d1df9c40429f5a984fd126cd40cebeb5d128bdb1d89ef53aef87471a.medium.png
   published_at: '2026-10-27T18:42:01.938756+00:00'
   reading_minutes: 12
 - slug: roma-goberno-en-latin-y-penso-en-griego-el-griego-como-la-lengua-intenacional
